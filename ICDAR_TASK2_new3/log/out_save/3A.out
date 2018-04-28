@@ -1,0 +1,58 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 1101121
+len is 0 1067138
+len is 0 1085492
+len is 0 1080026
+len is 0 1148610
+len is 0 1161134
+len is 0 1091637
+len is 0 1234345
+len is 0 1157057
+len is 0 1078701
+len is 0 1199831
+len is 0 1124130
+get image:  42606
+loading validation data, please wait--------------------- end= 
+len is 0 1101121
+get image:  1047
+2018-04-27 12:49:09.804235: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-27 12:49:09.804270: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-27 12:49:09.804278: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-27 12:49:09.896437: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-04-27 12:49:09.896789: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.08GiB
+2018-04-27 12:49:09.896811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-04-27 12:49:09.896830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-04-27 12:49:09.896842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint../checkpoint/ocr-model-4000
+=============================begin training=============================
+2018-04-27 12:49:16.187179: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4562 get requests, put_count=3098 evicted_count=1000 eviction_rate=0.322789 and unsatisfied allocation rate=0.562034
+2018-04-27 12:49:16.187239: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-04-27 12:49:26.288783: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 643 get requests, put_count=1658 evicted_count=1000 eviction_rate=0.603136 and unsatisfied allocation rate=0.00155521
+2018-04-27 12:49:31.840811: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 644 get requests, put_count=1672 evicted_count=1000 eviction_rate=0.598086 and unsatisfied allocation rate=0
+2018-04-27 12:49:38.679194: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5029 get requests, put_count=3986 evicted_count=1000 eviction_rate=0.250878 and unsatisfied allocation rate=0.414993
+2018-04-27 12:49:38.679247: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 493 to 542
+2018-04-27 12:49:46.936762: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4800 get requests, put_count=4279 evicted_count=1000 eviction_rate=0.233699 and unsatisfied allocation rate=0.335
+2018-04-27 12:49:46.936846: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 958 to 1053
+2018-04-27 12:50:03.908506: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10647 get requests, put_count=10799 evicted_count=1000 eviction_rate=0.0926012 and unsatisfied allocation rate=0.0971166
+2018-04-27 12:50:03.908574: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 2049 to 2253
+batch 99 : time 2.7625527381896973
+save checkpoint 4100
+save checkpoint 4200
+batch 99 : time 2.764437437057495
+save checkpoint 4300
+save checkpoint 4400
+batch 99 : time 2.765209197998047
+save checkpoint 4500

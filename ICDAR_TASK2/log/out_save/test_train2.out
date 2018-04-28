@@ -1,0 +1,69 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+2018-04-26 01:24:38.921623: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-26 01:24:38.921672: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-26 01:24:38.921679: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-26 01:24:38.932192: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-04-26 01:24:38.932274: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (syn): /proc/driver/nvidia/version does not exist
+restore from ckpt../checkpoint/ocr-model-62200
+seq   0: origin: [78, 65, 84, 73, 85, 78, 65, 76] decoded:[78, 65, 84, 73, 85, 78, 65, 76]
+seq   1: origin: [89, 70, 82, 69] decoded:[89, 70, 82, 69]
+seq   2: origin: [41, 48, 47, 37, 34] decoded:[41, 48, 47, 37, 34]
+seq   3: origin: [19, 17, 18, 17] decoded:[19, 17, 18, 17]
+seq   4: origin: [55, 42, 42, 42] decoded:[55, 42, 42, 42]
+seq   5: origin: [49, 54, 51, 49, 45, 38] decoded:[49, 54, 51, 49, 45, 38]
+seq   6: origin: [84, 72, 82, 79, 85] decoded:[84, 72, 82, 79, 85]
+seq   7: origin: [68, 65, 86, 69] decoded:[68, 65, 86, 69]
+seq   8: origin: [52, 67, 72, 65, 78, 68, 69, 76] decoded:[52, 67, 72, 65, 78, 68, 69, 76]
+seq   9: origin: [52, 54, 49, 48, 34, 53, 38] decoded:[52, 54, 49, 48, 34, 53, 38]
+seq  10: origin: [82, 69, 77, 79, 84, 79] decoded:[82, 69, 77, 79, 84, 79]
+seq  11: origin: [66, 79, 67, 75, 83, 67, 65, 82] decoded:[66, 79, 67, 75, 83, 67, 65, 82]
+seq  12: origin: [49, 51, 48, 36, 53, 48, 51] decoded:[49, 51, 48, 36, 53, 48, 51]
+seq  13: origin: [80, 82, 79, 70] decoded:[80, 82, 79, 70]
+seq  14: origin: [69, 77, 73, 82, 65, 84, 69, 83] decoded:[69, 77, 73, 82, 65, 84, 69, 83]
+seq  15: origin: [49, 45, 38, 34, 52, 38] decoded:[49, 45, 38, 34, 52, 38]
+seq  16: origin: [74, 80, 77, 79, 82, 71, 65, 78] decoded:[74, 80, 77, 79, 82, 71, 65, 78]
+seq  17: origin: [77, 79, 85, 76, 73, 78, 14, 65, 14, 86, 69, 78, 84] decoded:[77, 79, 85, 76, 73, 78, 14, 65, 14, 86, 69, 78, 84]
+seq   0: origin: [73, 41, 38, 51, 38, 1] decoded:[73, 41, 38, 51, 38, 1]
+seq   1: origin: [51, 73, 66, 66, 76, 69] decoded:[51, 73, 66, 66, 76, 69]
+seq   2: origin: [49, 51, 48, 54, 37] decoded:[49, 51, 48, 54, 37]
+seq   3: origin: [35, 51, 38, 55, 38, 47, 53] decoded:[35, 51, 38, 55, 38, 47, 53]
+seq   4: origin: [78, 65, 71, 65, 83, 65, 75, 73] decoded:[78, 65, 71, 65, 83, 65, 75, 73]
+seq   5: origin: [37, 82, 73, 86, 69, 82] decoded:[37, 82, 73, 86, 69, 82]
+seq   6: origin: [36, 53, 51, 45] decoded:[36, 53, 51, 45]
+seq   7: origin: [35, 45, 48, 36, 44, 35, 54, 52, 53, 38, 51] decoded:[35, 45, 48, 36, 44, 35, 54, 52, 53, 38, 51]
+seq   8: origin: [82, 79, 65, 68] decoded:[82, 79, 65, 68]
+seq   9: origin: [80, 72, 79, 84, 79, 71, 82, 65, 80, 72, 89] decoded:[80, 72, 79, 84, 79, 71, 82, 65, 80, 72, 89]
+seq  10: origin: [89, 79, 85, 82] decoded:[89, 79, 85, 82]
+seq  11: origin: [38, 57, 42, 53] decoded:[38, 57, 42, 53]
+seq  12: origin: [69, 78, 69, 82, 71, 89] decoded:[69, 78, 69, 82, 71, 89]
+seq  13: origin: [86, 69, 71, 65, 78] decoded:[86, 69, 71, 65, 78]
+seq  14: origin: [52, 38, 51, 55, 34, 53, 42, 55, 38, 52] decoded:[52, 38, 51, 55, 34, 53, 42, 55, 38, 52]
+seq  15: origin: [65, 83, 83, 79, 67, 73, 65, 84, 69, 68] decoded:[65, 83, 83, 79, 67, 73, 65, 84, 69, 68]
+seq  16: origin: [84, 69, 76, 69, 77, 65, 82, 75, 69, 84, 69, 82, 83, 1] decoded:[84, 69, 76, 69, 77, 65, 82, 75, 69, 84, 69, 82, 83, 1]
+seq  17: origin: [36, 41, 34, 46, 48, 47, 42, 57] decoded:[36, 41, 34, 46, 48, 47, 42, 57]
+seq   0: origin: [68, 65, 87, 71, 1] decoded:[68, 65, 87, 71, 1]
+seq   1: origin: [69, 65, 67, 72] decoded:[69, 65, 67, 72]
+seq   2: origin: [72, 79, 85, 82] decoded:[72, 79, 85, 82]
+seq   3: origin: [79, 84, 84, 65, 87, 65] decoded:[79, 84, 84, 65, 87, 65]
+seq   4: origin: [83, 79, 77, 69] decoded:[83, 79, 77, 69]
+seq   5: origin: [77, 79, 66, 83] decoded:[77, 79, 66, 83]
+seq   6: origin: [36, 73, 78, 68, 89] decoded:[36, 73, 78, 68, 89]
+seq   7: origin: [38, 35, 34, 47, 48, 47] decoded:[38, 35, 34, 47, 48, 47]
+seq   8: origin: [68, 79, 71, 83] decoded:[68, 79, 71, 83]
+seq   9: origin: [67, 72, 73, 80] decoded:[67, 72, 73, 80]
+seq  10: origin: [49, 38, 46, 40, 51, 48, 54, 49] decoded:[49, 38, 46, 40, 51, 48, 54, 49]
+seq  11: origin: [73, 78, 83, 69, 82, 84] decoded:[73, 78, 83, 69, 82, 84]
+seq  12: origin: [70, 85, 82, 78, 73, 84, 85, 82, 69] decoded:[70, 85, 82, 78, 73, 84, 85, 82, 69]
+seq  13: origin: [78, 75, 69, 82] decoded:[78, 75, 69, 82]
+seq  14: origin: [41, 48, 51, 52, 38] decoded:[41, 48, 51, 52, 38]
+seq  15: origin: [49, 76, 69, 78, 84, 89] decoded:[49, 76, 69, 78, 84, 89]
+seq  16: origin: [35, 73, 84, 67, 72, 13] decoded:[35, 73, 84, 67, 72, 13]
+seq  17: origin: [87, 73, 76, 76] decoded:[87, 73, 76, 76]
+$$$$$$$$$$$$$$$$$ ACC is : [0.99609375, 1.0, 1.0] $$$$$$$$$$$$$$$$$
+avg_acc: 0.9986979166666666

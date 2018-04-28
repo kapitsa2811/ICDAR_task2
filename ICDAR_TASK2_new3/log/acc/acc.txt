@@ -1,0 +1,4 @@
+4/27 10:27:38  step===1000, Epoch 7/1000, accuracy = 0.000,avg_train_cost = 25.426, lastbatch_err = 0.997, time = 32.749,lr=0.00990000
+4/27 11:13:37  step===2000, Epoch 13/1000, accuracy = 0.000,avg_train_cost = 24.566, lastbatch_err = 0.972, time = 30.389,lr=0.00980100
+4/27 11:59:32  step===3000, Epoch 19/1000, accuracy = 0.000,avg_train_cost = 24.034, lastbatch_err = 0.923, time = 41.492,lr=0.00970299
+4/27 12:45:24  step===4000, Epoch 25/1000, accuracy = 0.000,avg_train_cost = 23.584, lastbatch_err = 0.915, time = 52.370,lr=0.00960596

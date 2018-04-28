@@ -1,0 +1,21 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+2018-04-26 01:21:39.683719: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-26 01:21:39.683793: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-26 01:21:39.683801: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-26 01:21:39.998892: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-04-26 01:21:39.999025: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (syn): /proc/driver/nvidia/version does not exist
+restore from ckpt../checkpoint/ocr-model-62200
+Traceback (most recent call last):
+  File "test.py", line 45, in <module>
+    acc()
+  File "test.py", line 25, in acc
+    test_feeder=utils.DataIterator2(data_dir=data_dir,text_dir=text_dir)
+  File "/home/sjhbxs/code/ICDAR_TASK2/code_py/utils.py", line 190, in __init__
+    f = open(text_dir,"r")
+FileNotFoundError: [Errno 2] No such file or directory: '../test_data/test_words_gt.txt'
