@@ -70,7 +70,7 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
                 #calculate the cost
                 train_cost+=batch_cost*FLAGS.batch_size
                 train_writer.add_summary(summary_str,step)
-
+                print("batch_cosr", batch_cost, "step", step)
                 # save the checkpoint
                 if step%FLAGS.save_steps == 0:
                     print("save checkpoint", step)
@@ -98,7 +98,7 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
 if __name__ == '__main__':
     #train(train_dir='train',val_dir='val')
     if Flag_Isserver:
-        train(train_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words', val_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/val_words_small', train_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words_gt.txt',val_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/val_words_gt.txt')
+        train(train_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_argu', val_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_argu_small', train_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_gt.txt',val_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_gt.txt')
     else:
         train(train_dir='C:/Users/jieyang/Documents/GitHub/STN_CNN_LSTM_CTC_TensorFlow/train/svt/train1', val_dir='C:/Users/jieyang/Documents/GitHub/STN_CNN_LSTM_CTC_TensorFlow/train/svt/test')
     #

@@ -1,0 +1,36 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 1080026
+len is 0 1148610
+len is 0 1124130
+len is 0 1101121
+len is 0 1085492
+len is 0 1124130
+len is 0 1101121
+len is 0 1124130
+len is 0 1199831
+len is 0 1124130
+len is 0 1157057
+len is 0 1124130
+len is 0 1157057
+len is 0 1199831
+len is 0 1148610
+len is 0 1234345
+len is 0 1157057
+len is 0 1091637
+len is 0 1078701
+len is 0 1161134
+len is 0 1148610
+len is 0 1124130
+len is 0 1078701
+len is 0 1161134
+len is 0 1101121
+len is 0 1234345
+len is 0 1124130
+len is 0 1091637

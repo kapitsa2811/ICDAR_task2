@@ -5,7 +5,7 @@ import utils
 import model
 FLAGS = utils.FLAGS
 
-data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words'
+data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/test_data/val_words'
 save_dir = '../log/text_save/val_predict.txt'
 
 def predict_func_tem():

@@ -3,9 +3,10 @@ import tensorflow as tf
 import numpy as np
 import utils
 import model
-FLAGS = utils.FLAGS
+LAGS = utils.FLAGS
 
-data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words'
+pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
+data_dir = pre_data_dir + '/test_data/val_words'
 save_dir = '../log/text_save/val_predict.txt'
 
 def predict_func_tem():

@@ -1,0 +1,16 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+Traceback (most recent call last):
+  File "train.py", line 101, in <module>
+    train(train_dir='../train_data/train_words', val_dir='../train_data/test_train_words', train_text_dir='../train_data/train_words_gt.txt',val_text_dir='../train_data/train_words_gt.txt')
+  File "train.py", line 18, in train
+    train_feeder=utils.DataIterator2(data_dir=train_dir, text_dir=train_text_dir)
+  File "/home/sjhbxs/code/ICDAR_task2/ICDAR_TASK2_new3/code_py/utils.py", line 190, in __init__
+    f = open(text_dir,"r")
+FileNotFoundError: [Errno 2] No such file or directory: '../train_data/train_words_gt.txt'

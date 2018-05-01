@@ -1,0 +1,1132 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+0
+shear1+rotation1+randomColor1_1014762.jpg
+1000
+shear1+rotation0+randomColor0_1032432.jpg
+2000
+shear0+rotation1+randomColor0_1025344.jpg
+len is 0 or too long 1080026
+3000
+shear1+rotation0+randomColor1_1213098.jpg
+4000
+shear0+rotation1+heightshift_1136775.jpg
+5000
+shear0+rotation0+heightshift_1224024.jpg
+6000
+shear1+rotation0+widthshift_1018295.jpg
+len is 0 or too long 1148610
+7000
+shear1+rotation1+randomColor2_1039810.jpg
+8000
+shear0+rotation1+randomColor1_1222377.jpg
+9000
+shear0+rotation0+PAC Jittering0_1076844.jpg
+10000
+shear0+rotation1+heightshift_1017194.jpg
+len is 0 or too long 1124130
+11000
+shear0+rotation0+heightshift_1236849.jpg
+len is 0 or too long 1101121
+len is 0 or too long 1085492
+12000
+shear1+rotation1_1000715.jpg
+13000
+shear0+rotation0+randomColor2_1217296.jpg
+14000
+shear0+rotation1+heightshift_1110571.jpg
+15000
+shear0+rotation0+randomColor2_1010742.jpg
+16000
+shear0+rotation1+randomColor2_1237055.jpg
+17000
+shear1+rotation0+PAC Jittering0_1197752.jpg
+18000
+shear0+rotation0+PAC Jittering0_1013323.jpg
+19000
+shear0+rotation1+heightshift_1213087.jpg
+20000
+shear0+rotation1+widthshift_1198003.jpg
+21000
+shear1+rotation0+randomColor1_1221503.jpg
+22000
+shear1+rotation0+randomColor1_1012930.jpg
+len is 0 or too long 1124130
+len is 0 or too long 1101121
+23000
+shear0+rotation0+randomColor0_1042471.jpg
+24000
+shear0+rotation1+randomColor0_1222041.jpg
+25000
+shear1+rotation1+heightshift_1018892.jpg
+26000
+shear0+rotation0+randomColor2_1210698.jpg
+27000
+shear1+rotation0+randomColor1_1092525.jpg
+28000
+shear0+rotation0+PAC Jittering0_1032902.jpg
+29000
+shear1+rotation0+randomColor2_1022218.jpg
+len is 0 or too long 1124130
+30000
+shear1+rotation1_1211508.jpg
+31000
+shear1+rotation1_1136078.jpg
+len is 0 or too long 1199831
+32000
+shear1+rotation1+randomColor2_1229936.jpg
+33000
+shear0+rotation1+randomColor0_1148216.jpg
+34000
+shear1+rotation0+randomColor1_1159421.jpg
+35000
+shear0+rotation0+PAC Jittering1_1068311.jpg
+len is 0 or too long 1124130
+36000
+shear0+rotation1+PAC Jittering1_1222920.jpg
+37000
+shear1+rotation0+randomColor2_1186854.jpg
+38000
+shear0+rotation1_1236684.jpg
+len is 0 or too long 1157057
+39000
+shear1+rotation0+randomColor0_1041419.jpg
+40000
+shear1+rotation0+heightshift_1200723.jpg
+len is 0 or too long 1124130
+41000
+shear1+rotation0+randomColor1_1114486.jpg
+42000
+shear1+rotation0+heightshift_1059753.jpg
+43000
+shear1+rotation1+randomColor1_1238623.jpg
+44000
+shear1+rotation1+widthshift_1029576.jpg
+45000
+shear1+rotation0+PAC Jittering0_1225982.jpg
+len is 0 or too long 1157057
+46000
+shear1+rotation1+heightshift_1087467.jpg
+47000
+shear1+rotation1+heightshift_1022302.jpg
+48000
+shear1+rotation1+heightshift_1187347.jpg
+49000
+shear0+rotation1_1028967.jpg
+50000
+shear0+rotation1+randomColor0_1215142.jpg
+51000
+shear0+rotation1+PAC Jittering0_1233970.jpg
+len is 0 or too long 1199831
+52000
+shear0+rotation1+PAC Jittering1_1226526.jpg
+53000
+shear1+rotation0+heightshift_1038454.jpg
+54000
+shear0+rotation0+heightshift_1229967.jpg
+55000
+shear0+rotation1+randomColor0_1020803.jpg
+56000
+shear0+rotation0+heightshift_1015293.jpg
+57000
+shear1+rotation1+randomColor1_1041572.jpg
+58000
+shear1+rotation1+randomColor2_1147146.jpg
+59000
+shear0+rotation1_1238792.jpg
+60000
+shear0+rotation0+widthshift_1078771.jpg
+61000
+shear1+rotation1+randomColor2_1121102.jpg
+62000
+shear1+rotation1+heightshift_1226400.jpg
+len is 0 or too long 1148610
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+63000
+shear1+rotation1+randomColor0_1202046.jpg
+64000
+shear0+rotation1+heightshift_1211838.jpg
+65000
+shear1+rotation0_1221569.jpg
+66000
+shear0+rotation0+heightshift_1217259.jpg
+len is 0 or too long 1091637
+67000
+shear1+rotation0+randomColor2_1219849.jpg
+68000
+shear0+rotation1+PAC Jittering0_1026914.jpg
+len is 0 or too long 1078701
+69000
+shear1+rotation1_1235512.jpg
+70000
+shear0+rotation1+PAC Jittering1_1223154.jpg
+71000
+shear1+rotation0+PAC Jittering1_1224027.jpg
+72000
+shear1+rotation1_1033052.jpg
+73000
+shear0+rotation1_1235630.jpg
+len is 0 or too long 1161134
+74000
+shear1+rotation1+heightshift_1237589.jpg
+75000
+shear0+rotation0+widthshift_1021522.jpg
+len is 0 or too long 1148610
+76000
+shear0+rotation1_1146597.jpg
+len is 0 or too long 1124130
+77000
+shear1+rotation0+PAC Jittering1_1009043.jpg
+78000
+shear1+rotation1+randomColor1_1152371.jpg
+79000
+shear0+rotation1_1042872.jpg
+len is 0 or too long 1078701
+80000
+shear0+rotation1+heightshift_1025607.jpg
+len is 0 or too long 1161134
+len is 0 or too long 1101121
+81000
+shear1+rotation1+widthshift_1005250.jpg
+82000
+shear1+rotation0+PAC Jittering0_1081993.jpg
+83000
+shear0+rotation1+randomColor2_1082949.jpg
+84000
+shear0+rotation1+heightshift_1197068.jpg
+85000
+shear1+rotation1+heightshift_1214534.jpg
+86000
+shear0+rotation0+randomColor1_1212345.jpg
+87000
+shear0+rotation0+heightshift_1151667.jpg
+88000
+shear1+rotation0+heightshift_1187939.jpg
+len is 0 or too long 1234345
+89000
+shear1+rotation0_1217463.jpg
+90000
+shear0+rotation0+widthshift_1015246.jpg
+91000
+shear1+rotation0+PAC Jittering0_1007806.jpg
+92000
+shear0+rotation1+widthshift_1026199.jpg
+93000
+shear1+rotation0_1022484.jpg
+94000
+shear0+rotation1+PAC Jittering0_1033394.jpg
+95000
+shear0+rotation0+randomColor0_1209783.jpg
+96000
+shear1+rotation1+PAC Jittering1_1212440.jpg
+97000
+shear0+rotation0+heightshift_1218456.jpg
+98000
+shear1+rotation0+PAC Jittering0_1012121.jpg
+99000
+shear1+rotation0+PAC Jittering1_1003540.jpg
+100000
+shear1+rotation1+PAC Jittering0_1003751.jpg
+101000
+shear0+rotation0+PAC Jittering0_1038824.jpg
+102000
+shear0+rotation0+widthshift_1027772.jpg
+103000
+shear0+rotation0+randomColor0_1105487.jpg
+104000
+shear0+rotation1_1232557.jpg
+105000
+shear1+rotation1+randomColor1_1022678.jpg
+len is 0 or too long 1124130
+len is 0 or too long 1091637
+106000
+shear1+rotation0+PAC Jittering1_1030157.jpg
+107000
+shear1+rotation1+randomColor2_1228280.jpg
+108000
+shear1+rotation0+widthshift_1014577.jpg
+109000
+shear1+rotation0+randomColor1_1014003.jpg
+110000
+shear1+rotation0_1217461.jpg
+111000
+shear0+rotation0+randomColor1_1038159.jpg
+112000
+shear1+rotation0+PAC Jittering1_1197026.jpg
+113000
+shear0+rotation0+randomColor1_1199880.jpg
+114000
+shear1+rotation1_1005359.jpg
+len is 0 or too long 1101121
+115000
+shear1+rotation0+PAC Jittering1_1189323.jpg
+116000
+shear1+rotation1_1016906.jpg
+len is 0 or too long 1124130
+117000
+shear0+rotation1+randomColor0_1164783.jpg
+118000
+shear0+rotation1_1013590.jpg
+119000
+shear0+rotation0+randomColor0_1064229.jpg
+120000
+shear1+rotation0+widthshift_1120387.jpg
+len is 0 or too long 1157057
+121000
+shear1+rotation1+widthshift_1148371.jpg
+122000
+shear1+rotation1+PAC Jittering0_1139786.jpg
+len is 0 or too long 1101121
+123000
+shear1+rotation1+PAC Jittering0_1007532.jpg
+124000
+shear0+rotation0+PAC Jittering0_1087283.jpg
+125000
+shear0+rotation0+randomColor2_1027423.jpg
+126000
+shear0+rotation0+PAC Jittering1_1196669.jpg
+127000
+shear0+rotation0+heightshift_1014376.jpg
+128000
+shear1+rotation1_1163371.jpg
+129000
+shear0+rotation0_1062729.jpg
+130000
+shear0+rotation0+widthshift_1116091.jpg
+131000
+shear1+rotation1+widthshift_1228378.jpg
+132000
+shear1+rotation0+widthshift_1008921.jpg
+133000
+shear0+rotation0+randomColor0_1218444.jpg
+134000
+shear0+rotation1+randomColor1_1066496.jpg
+135000
+shear0+rotation0+heightshift_1007376.jpg
+136000
+shear1+rotation0_1142325.jpg
+137000
+shear0+rotation1+PAC Jittering0_1022244.jpg
+138000
+shear1+rotation0+randomColor0_1224463.jpg
+139000
+shear1+rotation1+PAC Jittering1_1037312.jpg
+140000
+shear1+rotation1+randomColor0_1218163.jpg
+141000
+shear0+rotation1+heightshift_1233771.jpg
+len is 0 or too long 1101121
+142000
+shear0+rotation1_1144158.jpg
+len is 0 or too long 1067138
+143000
+shear0+rotation1+randomColor2_1039604.jpg
+len is 0 or too long 1199831
+144000
+shear0+rotation0+randomColor2_1036893.jpg
+145000
+shear0+rotation0+widthshift_1240508.jpg
+len is 0 or too long 1199831
+146000
+shear1+rotation0+randomColor2_1210771.jpg
+147000
+shear1+rotation0+PAC Jittering1_1226428.jpg
+148000
+shear0+rotation1+PAC Jittering1_1205793.jpg
+149000
+shear1+rotation0+PAC Jittering0_1187528.jpg
+len is 0 or too long 1101121
+150000
+shear1+rotation0+heightshift_1002750.jpg
+len is 0 or too long 1078701
+151000
+shear0+rotation1+randomColor1_1062967.jpg
+152000
+shear0+rotation1+randomColor1_1089702.jpg
+len is 0 or too long 1067138
+153000
+shear0+rotation0_1230719.jpg
+154000
+shear1+rotation1+randomColor1_1039915.jpg
+155000
+shear0+rotation0+randomColor1_1041992.jpg
+len is 0 or too long 1067138
+156000
+shear0+rotation1+PAC Jittering1_1233142.jpg
+len is 0 or too long 1199831
+157000
+shear0+rotation1+heightshift_1125606.jpg
+158000
+shear1+rotation0+randomColor2_1014608.jpg
+159000
+shear0+rotation0_1218551.jpg
+len is 0 or too long 1085492
+160000
+shear0+rotation1+randomColor1_1128317.jpg
+161000
+shear1+rotation1+PAC Jittering0_1235872.jpg
+162000
+shear1+rotation0+widthshift_1015886.jpg
+len is 0 or too long 1085492
+163000
+shear1+rotation1+PAC Jittering1_1001900.jpg
+164000
+shear0+rotation1_1104474.jpg
+len is 0 or too long 1101121
+165000
+shear1+rotation1+widthshift_1229936.jpg
+len is 0 or too long 1124130
+166000
+shear0+rotation1+randomColor0_1031946.jpg
+len is 0 or too long 1078701
+167000
+shear1+rotation1+randomColor0_1090627.jpg
+len is 0 or too long 1067138
+168000
+shear0+rotation0+PAC Jittering0_1028899.jpg
+len is 0 or too long 1101121
+169000
+shear1+rotation0+randomColor0_1139244.jpg
+170000
+shear0+rotation1+randomColor2_1027352.jpg
+len is 0 or too long 1199831
+171000
+shear0+rotation0+PAC Jittering0_1126765.jpg
+172000
+shear0+rotation1+widthshift_1217614.jpg
+173000
+shear0+rotation0+randomColor0_1040704.jpg
+174000
+shear1+rotation1+widthshift_1215478.jpg
+175000
+shear1+rotation1+PAC Jittering0_1042055.jpg
+len is 0 or too long 1078701
+176000
+shear1+rotation1+heightshift_1016566.jpg
+177000
+shear0+rotation1_1234464.jpg
+178000
+shear1+rotation1+widthshift_1001418.jpg
+179000
+shear1+rotation0+randomColor0_1026132.jpg
+180000
+shear1+rotation0+PAC Jittering1_1239520.jpg
+len is 0 or too long 1067138
+181000
+shear1+rotation1+randomColor0_1037892.jpg
+182000
+shear0+rotation1+PAC Jittering0_1011224.jpg
+len is 0 or too long 1091637
+183000
+shear0+rotation0_1153576.jpg
+184000
+shear0+rotation1+randomColor2_1222254.jpg
+len is 0 or too long 1161134
+185000
+shear1+rotation0+PAC Jittering0_1222940.jpg
+len is 0 or too long 1101121
+186000
+shear1+rotation0+PAC Jittering1_1212437.jpg
+187000
+shear1+rotation0+randomColor2_1201520.jpg
+188000
+shear0+rotation1_1234773.jpg
+189000
+shear0+rotation1_1173532.jpg
+len is 0 or too long 1067138
+190000
+shear0+rotation0_1231479.jpg
+len is 0 or too long 1080026
+191000
+shear0+rotation1_1100986.jpg
+len is 0 or too long 1078701
+192000
+shear1+rotation1+randomColor1_1232788.jpg
+193000
+shear1+rotation1+randomColor1_1017207.jpg
+194000
+shear1+rotation1_1122385.jpg
+len is 0 or too long 1234345
+195000
+shear1+rotation1+randomColor0_1010916.jpg
+196000
+shear1+rotation0+widthshift_1156123.jpg
+197000
+shear1+rotation0+randomColor0_1074603.jpg
+198000
+shear0+rotation0+PAC Jittering0_1120459.jpg
+199000
+shear0+rotation0+heightshift_1188587.jpg
+200000
+shear0+rotation1+heightshift_1235981.jpg
+len is 0 or too long 1161134
+201000
+shear0+rotation1+randomColor2_1009778.jpg
+202000
+shear1+rotation1+PAC Jittering0_1009234.jpg
+203000
+shear1+rotation0+widthshift_1215961.jpg
+204000
+shear0+rotation1+randomColor2_1012298.jpg
+205000
+shear1+rotation0+PAC Jittering1_1031648.jpg
+206000
+shear0+rotation0+randomColor2_1010581.jpg
+207000
+shear0+rotation1+widthshift_1238164.jpg
+len is 0 or too long 1078701
+208000
+shear1+rotation1+heightshift_1100810.jpg
+209000
+shear1+rotation0+randomColor2_1228816.jpg
+len is 0 or too long 1148610
+len is 0 or too long 1078701
+210000
+shear0+rotation1+heightshift_1232099.jpg
+211000
+shear1+rotation0+widthshift_1227139.jpg
+212000
+shear1+rotation0+PAC Jittering0_1127291.jpg
+213000
+shear0+rotation0+heightshift_1228765.jpg
+214000
+shear0+rotation0+widthshift_1119115.jpg
+len is 0 or too long 1078701
+215000
+shear0+rotation0+widthshift_1016183.jpg
+216000
+shear1+rotation1+randomColor0_1039491.jpg
+217000
+shear0+rotation1+PAC Jittering0_1216721.jpg
+218000
+shear0+rotation0_1100484.jpg
+219000
+shear0+rotation0+heightshift_1029891.jpg
+220000
+shear0+rotation1+PAC Jittering0_1207828.jpg
+221000
+shear0+rotation0+randomColor0_1221020.jpg
+222000
+shear1+rotation0+widthshift_1124261.jpg
+get image:  221938
+loading validation data, please wait--------------------- end= 
+0
+shear0+rotation1+PAC Jittering0_1210490.jpg
+get image:  822
+2018-05-01 07:18:03.892211: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-01 07:18:03.892262: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-01 07:18:03.892271: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-01 07:18:04.004987: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-01 07:18:04.005314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 4.71GiB
+2018-05-01 07:18:04.005373: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-01 07:18:04.005389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-01 07:18:04.005407: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new4/checkpoint/ocr-model-2000
+=============================begin training=============================
+2018-05-01 07:18:11.003503: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.20GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-01 07:18:12.224915: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.19GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-01 07:18:13.118893: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4565 get requests, put_count=3101 evicted_count=1000 eviction_rate=0.322477 and unsatisfied allocation rate=0.561665
+2018-05-01 07:18:13.118967: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-01 07:18:13.751934: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.19GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-01 07:18:14.307706: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.20GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-01 07:18:19.472232: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.09GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-01 07:18:19.954550: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.17GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+batch_cosr 25.124289 step 2001
+batch_cosr 24.199894 step 2002
+batch_cosr 24.66976 step 2003
+batch_cosr 24.959263 step 2004
+2018-05-01 07:18:30.492590: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 643 get requests, put_count=1658 evicted_count=1000 eviction_rate=0.603136 and unsatisfied allocation rate=0.00155521
+batch_cosr 24.63377 step 2005
+batch_cosr 24.20518 step 2006
+batch_cosr 25.446665 step 2007
+batch_cosr 23.986706 step 2008
+2018-05-01 07:18:41.710264: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 642 get requests, put_count=1670 evicted_count=1000 eviction_rate=0.598802 and unsatisfied allocation rate=0
+batch_cosr 24.440683 step 2009
+batch_cosr 25.200603 step 2010
+batch_cosr 24.484562 step 2011
+batch_cosr 24.884407 step 2012
+batch_cosr 25.353067 step 2013
+2018-05-01 07:18:55.307423: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5028 get requests, put_count=3983 evicted_count=1000 eviction_rate=0.251067 and unsatisfied allocation rate=0.415473
+2018-05-01 07:18:55.307482: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 493 to 542
+batch_cosr 25.51255 step 2014
+batch_cosr 23.948147 step 2015
+batch_cosr 24.788849 step 2016
+batch_cosr 24.88116 step 2017
+batch_cosr 25.364443 step 2018
+batch_cosr 24.812355 step 2019
+2018-05-01 07:19:11.725303: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4801 get requests, put_count=4281 evicted_count=1000 eviction_rate=0.23359 and unsatisfied allocation rate=0.334722
+2018-05-01 07:19:11.725402: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 958 to 1053
+batch_cosr 25.919945 step 2020
+batch_cosr 24.813747 step 2021
+batch_cosr 25.12915 step 2022
+batch_cosr 24.26563 step 2023
+batch_cosr 24.273647 step 2024
+batch_cosr 24.956295 step 2025
+batch_cosr 24.326408 step 2026
+batch_cosr 23.549923 step 2027
+batch_cosr 26.142216 step 2028
+batch_cosr 25.193233 step 2029
+2018-05-01 07:19:39.602886: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10645 get requests, put_count=10797 evicted_count=1000 eviction_rate=0.0926183 and unsatisfied allocation rate=0.0971348
+2018-05-01 07:19:39.602968: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 2049 to 2253
+batch_cosr 24.922998 step 2030
+batch_cosr 25.1091 step 2031
+batch_cosr 26.243967 step 2032
+batch_cosr 24.311493 step 2033
+batch_cosr 24.756462 step 2034
+batch_cosr 25.557796 step 2035
+batch_cosr 24.997023 step 2036
+batch_cosr 24.962563 step 2037
+batch_cosr 24.427185 step 2038
+batch_cosr 24.70239 step 2039
+batch_cosr 25.474766 step 2040
+batch_cosr 24.99454 step 2041
+batch_cosr 24.426964 step 2042
+batch_cosr 25.730402 step 2043
+batch_cosr 25.759953 step 2044
+batch_cosr 24.522224 step 2045
+batch_cosr 24.436762 step 2046
+batch_cosr 25.798235 step 2047
+batch_cosr 24.899239 step 2048
+batch_cosr 25.332905 step 2049
+batch_cosr 25.457611 step 2050
+batch_cosr 26.470734 step 2051
+batch_cosr 24.20072 step 2052
+batch_cosr 25.120777 step 2053
+batch_cosr 25.721891 step 2054
+batch_cosr 26.010496 step 2055
+batch_cosr 25.8098 step 2056
+batch_cosr 25.618698 step 2057
+batch_cosr 24.606258 step 2058
+batch_cosr 24.031485 step 2059
+batch_cosr 25.682076 step 2060
+batch_cosr 26.014137 step 2061
+batch_cosr 24.365894 step 2062
+batch_cosr 24.263899 step 2063
+batch_cosr 24.954752 step 2064
+batch_cosr 23.374767 step 2065
+batch_cosr 24.445889 step 2066
+batch_cosr 25.921406 step 2067
+batch_cosr 24.778746 step 2068
+batch_cosr 25.354862 step 2069
+batch_cosr 24.276001 step 2070
+batch_cosr 24.298721 step 2071
+batch_cosr 24.899502 step 2072
+batch_cosr 24.430914 step 2073
+batch_cosr 23.938238 step 2074
+batch_cosr 25.379131 step 2075
+batch_cosr 24.83288 step 2076
+batch_cosr 25.250843 step 2077
+batch_cosr 24.133242 step 2078
+batch_cosr 24.907785 step 2079
+batch_cosr 24.011448 step 2080
+batch_cosr 23.99545 step 2081
+batch_cosr 24.229427 step 2082
+batch_cosr 25.066515 step 2083
+batch_cosr 24.369219 step 2084
+batch_cosr 24.560696 step 2085
+batch_cosr 25.205944 step 2086
+batch_cosr 24.140585 step 2087
+batch_cosr 24.45396 step 2088
+batch_cosr 24.235613 step 2089
+batch_cosr 24.279045 step 2090
+batch_cosr 24.742287 step 2091
+batch_cosr 24.556423 step 2092
+batch_cosr 25.493809 step 2093
+batch_cosr 25.926964 step 2094
+batch_cosr 25.428104 step 2095
+batch_cosr 25.108011 step 2096
+batch_cosr 26.044928 step 2097
+batch_cosr 24.987202 step 2098
+batch_cosr 25.21847 step 2099
+batch 99 : time 2.7648637294769287
+batch_cosr 24.213123 step 2100
+save checkpoint 2100
+batch_cosr 25.007551 step 2101
+batch_cosr 24.778112 step 2102
+batch_cosr 25.376514 step 2103
+batch_cosr 24.116116 step 2104
+batch_cosr 24.35508 step 2105
+batch_cosr 24.238613 step 2106
+batch_cosr 24.9196 step 2107
+batch_cosr 24.497787 step 2108
+batch_cosr 24.937763 step 2109
+batch_cosr 25.171951 step 2110
+batch_cosr 25.862005 step 2111
+batch_cosr 25.278511 step 2112
+batch_cosr 25.172056 step 2113
+batch_cosr 24.70803 step 2114
+batch_cosr 24.228329 step 2115
+batch_cosr 24.753689 step 2116
+batch_cosr 24.882013 step 2117
+batch_cosr 25.318708 step 2118
+batch_cosr 25.186434 step 2119
+batch_cosr 24.761114 step 2120
+batch_cosr 24.652348 step 2121
+batch_cosr 26.304039 step 2122
+batch_cosr 25.29341 step 2123
+batch_cosr 24.897306 step 2124
+batch_cosr 24.546392 step 2125
+batch_cosr 25.395048 step 2126
+batch_cosr 24.47121 step 2127
+batch_cosr 24.217402 step 2128
+batch_cosr 25.874405 step 2129
+batch_cosr 24.184933 step 2130
+batch_cosr 25.037157 step 2131
+batch_cosr 25.158901 step 2132
+batch_cosr 24.18142 step 2133
+batch_cosr 24.397167 step 2134
+batch_cosr 24.311424 step 2135
+batch_cosr 24.879295 step 2136
+batch_cosr 25.770384 step 2137
+batch_cosr 26.116592 step 2138
+batch_cosr 25.507277 step 2139
+batch_cosr 23.904758 step 2140
+batch_cosr 24.678698 step 2141
+batch_cosr 25.151396 step 2142
+batch_cosr 25.631065 step 2143
+batch_cosr 25.568289 step 2144
+batch_cosr 25.492006 step 2145
+batch_cosr 25.719847 step 2146
+batch_cosr 24.71778 step 2147
+batch_cosr 24.180994 step 2148
+batch_cosr 24.736721 step 2149
+batch_cosr 24.71904 step 2150
+batch_cosr 25.292223 step 2151
+batch_cosr 24.026377 step 2152
+batch_cosr 25.210045 step 2153
+batch_cosr 25.115265 step 2154
+batch_cosr 24.52877 step 2155
+batch_cosr 24.451351 step 2156
+batch_cosr 24.422932 step 2157
+batch_cosr 23.924227 step 2158
+batch_cosr 24.111605 step 2159
+batch_cosr 25.085934 step 2160
+batch_cosr 24.96721 step 2161
+batch_cosr 24.665503 step 2162
+batch_cosr 25.2842 step 2163
+batch_cosr 24.31206 step 2164
+batch_cosr 25.318611 step 2165
+batch_cosr 24.552172 step 2166
+batch_cosr 24.642372 step 2167
+batch_cosr 24.497236 step 2168
+batch_cosr 24.942833 step 2169
+batch_cosr 24.44443 step 2170
+batch_cosr 25.174526 step 2171
+batch_cosr 25.83939 step 2172
+batch_cosr 24.830908 step 2173
+batch_cosr 23.99245 step 2174
+batch_cosr 23.631237 step 2175
+batch_cosr 25.730528 step 2176
+batch_cosr 24.465012 step 2177
+batch_cosr 24.674639 step 2178
+batch_cosr 23.804054 step 2179
+batch_cosr 25.52001 step 2180
+batch_cosr 25.091259 step 2181
+batch_cosr 25.565123 step 2182
+batch_cosr 24.304924 step 2183
+batch_cosr 25.54618 step 2184
+batch_cosr 24.463919 step 2185
+batch_cosr 25.954247 step 2186
+batch_cosr 24.932974 step 2187
+batch_cosr 25.00356 step 2188
+batch_cosr 25.18609 step 2189
+batch_cosr 24.270023 step 2190
+batch_cosr 25.756413 step 2191
+batch_cosr 24.08983 step 2192
+batch_cosr 26.209436 step 2193
+batch_cosr 25.432354 step 2194
+batch_cosr 26.13998 step 2195
+batch_cosr 25.504469 step 2196
+batch_cosr 25.47034 step 2197
+batch_cosr 24.417545 step 2198
+batch_cosr 26.034267 step 2199
+batch 199 : time 2.7470812797546387
+batch_cosr 23.792662 step 2200
+save checkpoint 2200
+batch_cosr 25.060398 step 2201
+batch_cosr 24.638138 step 2202
+batch_cosr 24.076765 step 2203
+batch_cosr 24.096766 step 2204
+batch_cosr 24.756893 step 2205
+batch_cosr 24.274944 step 2206
+batch_cosr 23.974308 step 2207
+batch_cosr 26.080843 step 2208
+batch_cosr 23.809547 step 2209
+batch_cosr 25.244713 step 2210
+batch_cosr 25.170033 step 2211
+batch_cosr 23.77707 step 2212
+batch_cosr 24.885937 step 2213
+batch_cosr 24.77382 step 2214
+batch_cosr 24.440302 step 2215
+batch_cosr 24.79724 step 2216
+batch_cosr 24.803978 step 2217
+batch_cosr 24.508818 step 2218
+batch_cosr 25.333225 step 2219
+batch_cosr 25.185171 step 2220
+batch_cosr 25.86788 step 2221
+batch_cosr 24.475437 step 2222
+batch_cosr 24.58173 step 2223
+batch_cosr 25.22337 step 2224
+batch_cosr 24.613567 step 2225
+batch_cosr 24.59895 step 2226
+batch_cosr 24.35761 step 2227
+batch_cosr 25.34514 step 2228
+batch_cosr 24.694801 step 2229
+batch_cosr 24.665585 step 2230
+batch_cosr 24.851213 step 2231
+batch_cosr 24.609253 step 2232
+batch_cosr 25.29583 step 2233
+batch_cosr 24.670387 step 2234
+batch_cosr 25.515139 step 2235
+batch_cosr 24.814383 step 2236
+batch_cosr 25.539593 step 2237
+batch_cosr 24.108284 step 2238
+batch_cosr 24.684689 step 2239
+batch_cosr 24.381834 step 2240
+batch_cosr 24.440422 step 2241
+batch_cosr 25.011475 step 2242
+batch_cosr 24.667645 step 2243
+batch_cosr 24.852358 step 2244
+batch_cosr 24.88553 step 2245
+batch_cosr 24.44921 step 2246
+batch_cosr 25.52912 step 2247
+batch_cosr 25.325705 step 2248
+batch_cosr 25.251335 step 2249
+batch_cosr 25.267988 step 2250
+batch_cosr 24.670853 step 2251
+batch_cosr 23.798656 step 2252
+batch_cosr 24.109123 step 2253
+batch_cosr 24.722435 step 2254
+batch_cosr 25.155296 step 2255
+batch_cosr 26.321598 step 2256
+batch_cosr 25.264599 step 2257
+batch_cosr 25.897217 step 2258
+batch_cosr 24.095848 step 2259
+batch_cosr 24.370867 step 2260
+batch_cosr 25.03222 step 2261
+batch_cosr 24.754467 step 2262
+batch_cosr 24.538832 step 2263
+batch_cosr 24.707912 step 2264
+batch_cosr 26.230804 step 2265
+batch_cosr 24.983053 step 2266
+batch_cosr 25.592405 step 2267
+batch_cosr 24.558084 step 2268
+batch_cosr 24.772757 step 2269
+batch_cosr 25.066767 step 2270
+batch_cosr 26.315105 step 2271
+batch_cosr 24.591461 step 2272
+batch_cosr 23.759676 step 2273
+batch_cosr 24.925684 step 2274
+batch_cosr 25.45205 step 2275
+batch_cosr 25.553093 step 2276
+batch_cosr 24.705915 step 2277
+batch_cosr 24.316818 step 2278
+batch_cosr 26.01437 step 2279
+batch_cosr 24.153814 step 2280
+batch_cosr 24.252531 step 2281
+batch_cosr 23.890821 step 2282
+batch_cosr 24.612785 step 2283
+batch_cosr 24.42316 step 2284
+batch_cosr 24.538776 step 2285
+batch_cosr 24.240742 step 2286
+batch_cosr 24.214653 step 2287
+batch_cosr 25.122461 step 2288
+batch_cosr 23.99933 step 2289
+batch_cosr 25.141243 step 2290
+batch_cosr 24.61794 step 2291
+batch_cosr 25.355934 step 2292
+batch_cosr 25.208435 step 2293
+batch_cosr 24.629688 step 2294
+batch_cosr 24.625784 step 2295
+batch_cosr 24.787918 step 2296
+batch_cosr 23.86822 step 2297
+batch_cosr 23.958275 step 2298
+batch_cosr 24.93585 step 2299
+batch 299 : time 2.744089365005493
+batch_cosr 25.638208 step 2300
+save checkpoint 2300
+batch_cosr 24.361618 step 2301
+batch_cosr 24.28075 step 2302
+batch_cosr 25.07091 step 2303
+batch_cosr 25.467989 step 2304
+batch_cosr 24.340508 step 2305
+batch_cosr 25.291376 step 2306
+batch_cosr 23.836014 step 2307
+batch_cosr 25.102283 step 2308
+batch_cosr 24.284092 step 2309
+batch_cosr 24.479729 step 2310
+batch_cosr 23.905663 step 2311
+batch_cosr 25.123854 step 2312
+batch_cosr 25.922363 step 2313
+batch_cosr 24.548405 step 2314
+batch_cosr 25.813925 step 2315
+batch_cosr 24.462872 step 2316
+batch_cosr 25.521183 step 2317
+batch_cosr 24.148205 step 2318
+batch_cosr 23.938738 step 2319
+batch_cosr 24.20545 step 2320
+batch_cosr 24.77742 step 2321
+batch_cosr 25.341806 step 2322
+batch_cosr 24.165337 step 2323
+batch_cosr 24.48328 step 2324
+batch_cosr 24.628868 step 2325
+batch_cosr 23.80075 step 2326
+batch_cosr 24.549906 step 2327
+batch_cosr 24.467775 step 2328
+batch_cosr 25.886425 step 2329
+batch_cosr 24.386452 step 2330
+batch_cosr 24.127136 step 2331
+batch_cosr 24.962671 step 2332
+batch_cosr 25.148712 step 2333
+batch_cosr 24.05704 step 2334
+batch_cosr 24.644817 step 2335
+batch_cosr 24.422394 step 2336
+batch_cosr 23.519855 step 2337
+batch_cosr 24.32164 step 2338
+batch_cosr 24.361996 step 2339
+batch_cosr 24.416903 step 2340
+batch_cosr 24.796932 step 2341
+batch_cosr 24.088533 step 2342
+batch_cosr 26.16061 step 2343
+batch_cosr 25.602335 step 2344
+batch_cosr 25.465626 step 2345
+batch_cosr 24.996433 step 2346
+batch_cosr 25.210054 step 2347
+batch_cosr 25.145908 step 2348
+batch_cosr 24.341099 step 2349
+batch_cosr 24.640953 step 2350
+batch_cosr 24.812283 step 2351
+batch_cosr 25.193851 step 2352
+batch_cosr 24.628332 step 2353
+batch_cosr 24.470407 step 2354
+batch_cosr 24.918999 step 2355
+batch_cosr 25.408989 step 2356
+batch_cosr 24.888826 step 2357
+batch_cosr 24.032776 step 2358
+batch_cosr 24.05756 step 2359
+batch_cosr 24.858732 step 2360
+batch_cosr 25.258696 step 2361
+batch_cosr 24.199665 step 2362
+batch_cosr 24.771667 step 2363
+batch_cosr 25.936996 step 2364
+batch_cosr 24.739021 step 2365
+batch_cosr 25.31934 step 2366
+batch_cosr 24.117378 step 2367
+batch_cosr 24.709015 step 2368
+batch_cosr 24.55413 step 2369
+batch_cosr 25.35413 step 2370
+batch_cosr 24.83887 step 2371
+batch_cosr 25.12344 step 2372
+batch_cosr 25.226913 step 2373
+batch_cosr 24.706821 step 2374
+batch_cosr 24.726631 step 2375
+batch_cosr 24.552649 step 2376
+batch_cosr 25.120253 step 2377
+batch_cosr 25.854483 step 2378
+batch_cosr 24.215464 step 2379
+batch_cosr 24.848364 step 2380
+batch_cosr 24.49017 step 2381
+batch_cosr 23.782455 step 2382
+batch_cosr 24.443203 step 2383
+batch_cosr 25.303356 step 2384
+batch_cosr 25.198475 step 2385
+batch_cosr 27.067448 step 2386
+batch_cosr 24.975397 step 2387
+batch_cosr 24.874523 step 2388
+batch_cosr 24.226456 step 2389
+batch_cosr 24.862947 step 2390
+batch_cosr 25.556051 step 2391
+batch_cosr 24.848885 step 2392
+batch_cosr 25.32136 step 2393
+batch_cosr 24.64793 step 2394
+batch_cosr 25.258965 step 2395
+batch_cosr 23.977789 step 2396
+batch_cosr 25.628036 step 2397
+batch_cosr 24.69688 step 2398
+batch_cosr 24.868137 step 2399
+batch 399 : time 2.742128610610962
+batch_cosr 23.239244 step 2400
+save checkpoint 2400
+batch_cosr 25.026937 step 2401
+batch_cosr 25.660072 step 2402
+batch_cosr 24.512218 step 2403
+batch_cosr 25.003372 step 2404
+batch_cosr 25.070139 step 2405
+batch_cosr 25.218056 step 2406
+batch_cosr 24.290594 step 2407
+batch_cosr 23.80404 step 2408
+batch_cosr 26.186346 step 2409
+batch_cosr 24.88533 step 2410
+batch_cosr 24.853249 step 2411
+batch_cosr 26.028925 step 2412
+batch_cosr 24.56994 step 2413
+batch_cosr 24.780674 step 2414
+batch_cosr 24.232927 step 2415
+batch_cosr 25.020554 step 2416
+batch_cosr 26.441631 step 2417
+batch_cosr 24.695993 step 2418
+batch_cosr 25.179792 step 2419
+batch_cosr 25.061447 step 2420
+batch_cosr 25.010357 step 2421
+batch_cosr 24.35469 step 2422
+batch_cosr 24.72456 step 2423
+batch_cosr 24.87369 step 2424
+batch_cosr 25.151283 step 2425
+batch_cosr 24.498203 step 2426
+batch_cosr 24.184273 step 2427
+batch_cosr 24.827274 step 2428
+batch_cosr 24.450624 step 2429
+batch_cosr 25.44772 step 2430
+batch_cosr 26.555069 step 2431
+batch_cosr 24.922005 step 2432
+batch_cosr 25.414824 step 2433
+batch_cosr 25.204744 step 2434
+batch_cosr 24.302402 step 2435
+batch_cosr 24.935266 step 2436
+batch_cosr 25.082424 step 2437
+batch_cosr 25.162464 step 2438
+batch_cosr 24.144726 step 2439
+batch_cosr 24.302902 step 2440
+batch_cosr 24.209291 step 2441
+batch_cosr 25.096863 step 2442
+batch_cosr 25.715584 step 2443
+batch_cosr 25.040958 step 2444
+batch_cosr 25.371038 step 2445
+batch_cosr 25.2871 step 2446
+batch_cosr 23.346703 step 2447
+batch_cosr 24.885502 step 2448
+batch_cosr 24.441986 step 2449
+batch_cosr 24.958221 step 2450
+batch_cosr 24.368559 step 2451
+batch_cosr 24.57371 step 2452
+batch_cosr 25.102148 step 2453
+batch_cosr 25.928162 step 2454
+batch_cosr 25.809711 step 2455
+batch_cosr 23.894234 step 2456
+batch_cosr 25.25282 step 2457
+batch_cosr 25.68507 step 2458
+batch_cosr 25.31316 step 2459
+batch_cosr 24.762207 step 2460
+batch_cosr 24.353848 step 2461
+batch_cosr 25.25884 step 2462
+batch_cosr 25.063969 step 2463
+batch_cosr 23.326376 step 2464
+batch_cosr 25.838886 step 2465
+batch_cosr 25.017183 step 2466
+batch_cosr 24.722624 step 2467
+batch_cosr 24.260126 step 2468
+batch_cosr 24.471226 step 2469
+batch_cosr 24.487852 step 2470
+batch_cosr 24.280209 step 2471
+batch_cosr 24.54876 step 2472
+batch_cosr 24.336002 step 2473
+batch_cosr 26.019564 step 2474
+batch_cosr 25.475746 step 2475
+batch_cosr 26.01901 step 2476
+batch_cosr 24.74871 step 2477
+batch_cosr 24.97687 step 2478
+batch_cosr 24.888058 step 2479
+batch_cosr 24.436493 step 2480
+batch_cosr 24.16645 step 2481
+batch_cosr 24.270739 step 2482
+batch_cosr 26.231407 step 2483
+batch_cosr 24.542244 step 2484
+batch_cosr 23.196692 step 2485
+batch_cosr 25.8444 step 2486
+batch_cosr 25.050182 step 2487
+batch_cosr 24.503466 step 2488
+batch_cosr 23.822287 step 2489
+batch_cosr 25.959843 step 2490
+batch_cosr 24.181625 step 2491
+batch_cosr 24.270851 step 2492
+batch_cosr 24.553055 step 2493
+batch_cosr 25.244715 step 2494
+batch_cosr 24.731682 step 2495
+batch_cosr 25.69005 step 2496
+batch_cosr 24.88663 step 2497
+batch_cosr 24.344648 step 2498
+batch_cosr 24.261978 step 2499
+batch 499 : time 2.761000156402588
+batch_cosr 24.40237 step 2500
+save checkpoint 2500
+batch_cosr 25.84617 step 2501
+batch_cosr 25.348326 step 2502
+batch_cosr 24.267029 step 2503
+batch_cosr 24.317806 step 2504
+batch_cosr 24.884909 step 2505
+batch_cosr 25.185635 step 2506
+batch_cosr 24.820004 step 2507
+batch_cosr 24.949936 step 2508
+batch_cosr 25.292812 step 2509
+batch_cosr 23.677307 step 2510
+batch_cosr 24.382273 step 2511
+batch_cosr 25.752296 step 2512
+batch_cosr 25.918564 step 2513
+batch_cosr 25.356598 step 2514
+batch_cosr 24.123705 step 2515
+batch_cosr 25.912058 step 2516
+batch_cosr 25.153513 step 2517
+batch_cosr 24.445272 step 2518
+batch_cosr 24.846087 step 2519
+batch_cosr 24.150045 step 2520
+batch_cosr 25.92423 step 2521
+batch_cosr 25.01996 step 2522
+batch_cosr 23.544207 step 2523
+batch_cosr 23.879797 step 2524
+batch_cosr 25.482727 step 2525
+batch_cosr 24.403032 step 2526
+batch_cosr 24.376024 step 2527
+batch_cosr 24.32817 step 2528
+batch_cosr 24.649624 step 2529
+batch_cosr 24.439678 step 2530
+batch_cosr 24.966164 step 2531
+batch_cosr 24.214592 step 2532
+batch_cosr 23.896973 step 2533
+batch_cosr 25.682682 step 2534
+batch_cosr 25.823643 step 2535
+batch_cosr 23.98204 step 2536
+batch_cosr 24.768452 step 2537
+batch_cosr 24.560183 step 2538
+batch_cosr 24.787626 step 2539
+batch_cosr 25.462034 step 2540
+batch_cosr 24.563093 step 2541
+batch_cosr 24.31747 step 2542
+batch_cosr 24.295742 step 2543
+batch_cosr 23.267553 step 2544
+batch_cosr 23.671719 step 2545
+batch_cosr 25.198423 step 2546
+batch_cosr 24.239483 step 2547
+batch_cosr 24.516747 step 2548
+batch_cosr 24.61694 step 2549
+batch_cosr 25.922604 step 2550
+batch_cosr 24.802427 step 2551
+batch_cosr 24.690563 step 2552
+batch_cosr 24.210663 step 2553
+batch_cosr 24.511618 step 2554
+batch_cosr 25.834093 step 2555
+batch_cosr 26.163317 step 2556
+batch_cosr 25.032959 step 2557
+batch_cosr 24.497705 step 2558
+batch_cosr 24.365685 step 2559
+batch_cosr 24.212626 step 2560
+batch_cosr 24.826784 step 2561
+batch_cosr 25.064812 step 2562
+batch_cosr 24.706263 step 2563
+batch_cosr 24.916288 step 2564
+batch_cosr 24.352713 step 2565
+batch_cosr 25.774647 step 2566
+batch_cosr 25.569485 step 2567
+batch_cosr 24.277527 step 2568

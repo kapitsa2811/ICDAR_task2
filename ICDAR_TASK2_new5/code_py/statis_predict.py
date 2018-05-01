@@ -10,9 +10,9 @@ class character_statis:
             self.map_to_every_character_num[e] = 0
  
            
+pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
 f_pred = open(r'../log/text_save/val_predict_sort.txt',"r")
-#f_real = open(r'../log/text_save/val_predict_sort.txt',"r")
-f_real = open(r'/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words_gt_sort.txt',"r")
+f_real = open(pre_data_dir + '/test_data/val_words_gt_sort.txt',"r")
 charset='! "#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]_`abcdefghijklmnopqrstuvwxyz~¡¢£©°É•€★'
 pred_line = f_pred.readline()
 real_line = f_real.readline()

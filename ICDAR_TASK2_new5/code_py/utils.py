@@ -7,26 +7,23 @@ from skimage.util import random_noise
 from skimage import transform
 from tensorflow.python.client import device_lib
 import re
-#10 digit + blank + space
-
-#num_train_samples = 128000
 
 channel = 1
 image_width=160
 image_height=32
-num_features=image_height*channel
+num_features = image_height*channel
 SPACE_INDEX=0
 SPACE_TOKEN=''
 aug_rate=100
 maxPrintLen = 18
+pre_dir = '/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new5' 
 tf.app.flags.DEFINE_boolean('isSavePrediction',True, 'save test prediction')
 tf.app.flags.DEFINE_boolean('Use_CRNN',True, 'use Densenet or CRNN')
 tf.app.flags.DEFINE_boolean('restore',True, 'whether to restore from the latest checkpoint')
-tf.app.flags.DEFINE_string('checkpoint_dir', '/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new2/checkpoint/', 'the checkpoint dir')
+tf.app.flags.DEFINE_string('checkpoint_dir', pre_dir + '/checkpoint/', 'the checkpoint dir')
 tf.app.flags.DEFINE_float('initial_learning_rate', 1e-2, 'inital lr')
 tf.app.flags.DEFINE_integer('num_layers', 2, 'number of layer')
 tf.app.flags.DEFINE_integer('num_hidden', 256, 'number of hidden')
-#change_yj
 tf.app.flags.DEFINE_integer('num_epochs', 1000, 'maximum epochs')
 tf.app.flags.DEFINE_integer('batch_size', 256, 'the batch_size')
 tf.app.flags.DEFINE_integer('save_steps', 100, 'the step to save checkpoint')
@@ -39,12 +36,7 @@ tf.app.flags.DEFINE_float('momentum', 0.9, 'the momentum')
 tf.app.flags.DEFINE_string('log_dir', './log', 'the logging dir')
 FLAGS=tf.app.flags.FLAGS
 
-#num_batches_per_epoch = int(num_train_samples/FLAGS.batch_size)
-
-#charset = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()&./\'-:!\\?><,|@[]'
-#charset='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 charset='! "#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]_`abcdefghijklmnopqrstuvwxyz~¡¢£©°É•€★'
-#charset='0123456789ABCDEFGHJKLMNPQRSTUVWXYZ'
 num_classes=len(charset)+2
 
 encode_maps={}
@@ -55,27 +47,6 @@ for i,char in enumerate(charset,1):
 encode_maps[SPACE_TOKEN]=SPACE_INDEX
 decode_maps[SPACE_INDEX]=SPACE_TOKEN
 
-def preprocess(im,angle=5,lr_crop=0.05,ud_crop=0.02):
-    angle=np.random.random_sample()*angle#0-30
-    '''lr_crop=np.random.random_sample()*lr_crop
-    ud_crop=np.random.random_sample()*ud_crop
-    seed=np.random.randint(0,4)
-    if seed==0:
-        im=im[0:int(im.shape[0]*(1-ud_crop)),int(im.shape[1]*lr_crop):]
-    if seed==1:
-        im=im[0:int(im.shape[0]*(1-ud_crop)),0:int(im.shape[1]*(1-lr_crop))]
-    if seed==2:
-        im = im[int(im.shape[0]*ud_crop):, 0:int(im.shape[1] * (1 - lr_crop))]
-    if seed==3:
-        im = im[int(im.shape[0] * ud_crop):,int(im.shape[1]*lr_crop):]
-   # im=np.fliplr(im)#左右翻转
-    #im=np.flipud(im)#上下翻转'''
-    #im=transform.rotate(im,angle)
-    seed=1
-    #seed=np.random.randint(0,2)
-    if seed==1:
-        im=random_noise(im,'gaussian')#add noise
-    return  im*255
 
 class DataIterator:
     def __init__(self, data_dir):
@@ -83,69 +54,19 @@ class DataIterator:
         self.image = []
         self.labels=[]
         for root, sub_folder, file_list in os.walk(data_dir):
-            #print("!!!!!!!!",root)
             for file_path in file_list:
-                #print("!!!!!!!!!!!!!!!!!!!!!",root,"----",file_path) 
                 try:
                     image_name = os.path.join(root,file_path)
-                    flag_a = 1
                     im = cv2.imread(image_name,0)#/255.#read the gray image
-                    flag_a = 2
                     img = cv2.resize(im, (image_width, image_height))
-                    flag_a = 3
                     img = img.swapaxes(0, 1)
-                    flag_a = 4
                     code = file_path.split('_')[1]
-                    flag_a = 5
                     code = [SPACE_INDEX if code == SPACE_TOKEN else encode_maps[c] for c in list(code)]   
-                    flag_a = 6
-                    print("code:",code)
-                    print("image_name",image_name)
                     self.labels.append(code)
                     self.image.append(np.array(img[:,:,np.newaxis]))
                     self.image_names.append(file_path)
                 except:
                     print("!!!!!!!!!!!",root,"---",file_path,"=====",flag_a)
-
-    '''def __init__(self, data_dir):
-        fp = open(data_dir+'/gt.txt', 'r')
-        temp='()&./\'-:!\\?><,|@[]'
-        origin_name = []
-        target_name = []
-        self.image = []
-        self.labels = []
-        origin_image=[]
-        origin_label=[]
-        lines = fp.readline()
-        while lines!='':
-
-            is_contain = False
-            for i in range(len(temp)):
-                if temp[i] in lines.split('"')[1]:
-
-                    is_contain=True
-                    break
-
-
-                #print(ss)
-            if is_contain==False:
-                origin_name.append(lines.split(',')[0])
-                target_name.append(lines.split('"')[1])
-                lines = fp.readline()
-            else:
-                lines=fp.readline()
-
-        fp.close()
-
-        for i in range(len(origin_name)):
-            im = cv2.imread(data_dir + '/' + origin_name[i],0).astype('float')/255
-            im = cv2.resize(im, (image_width, image_height))
-            im = im.swapaxes(0, 1)
-            self.image.append(np.array(im[:, :, np.newaxis]))
-            code = target_name[i]
-            code = [SPACE_INDEX if code == SPACE_TOKEN else encode_maps[c] for c in list(code)]
-            self.labels.append(code)'''
-
 
     @property
     def size(self):
@@ -156,16 +77,6 @@ class DataIterator:
         for i in indexs:
             labels.append(self.labels[i])
         return labels
-
-    #@staticmethod
-    #def data_augmentation(images):
-    #    if FLAGS.random_flip_up_down:
-    #        images = tf.image.random_flip_up_down(images)
-    #    if FLAGS.random_brightness:
-    #        images = tf.image.random_brightness(images, max_delta=0.3)
-    #    if FLAGS.random_contrast:
-    #        images = tf.image.random_contrast(images, 0.8, 1.2)
-    #    return images
 
     def input_index_generate_batch(self,index=None):
         if index:
@@ -180,7 +91,6 @@ class DataIterator:
             lengths = np.asarray([len(s) for s in sequences], dtype=np.int64)
             return sequences,lengths
         batch_inputs,batch_seq_len = get_input_lens(np.array(image_batch))
-        #batch_inputs,batch_seq_len = pad_input_sequences(np.array(image_batch))
         batch_labels = sparse_tuple_from_label(label_batch)
         return batch_inputs,batch_seq_len,batch_labels
 
@@ -188,7 +98,6 @@ class DataIterator2:
     def __init__(self, data_dir,text_dir):
         num_string = {}
         f = open(text_dir,"r")
-        #f = open(r'../test_data/val_words_gt.txt',"r")  
         line = f.readline()  
         while line:  
             contant_line = str(line)
@@ -202,41 +111,27 @@ class DataIterator2:
                 string_line = contant_line.split('|')[1]
             string_line = re.sub('[\r\n\t]', '', string_line)
             num_string[num] = str(string_line)
-            #print(num,": ",num_string[num],":---len",len(num_string[num]))
             line = f.readline()  
         self.image_names = []
         self.image = []
         self.labels=[]
         self.total_pic_read = 0
         for root, sub_folder, file_list in os.walk(data_dir):
-            #print("!!!!!!!!",root)
             for file_path in file_list:
-                if self.total_pic_read % 1000 == 0:
-                    print("!!!!!!!!!!!!!!!!!!!!!",root,"----",file_path) 
                 try:
                     self.total_pic_read += 1
                     image_name = os.path.join(root,file_path)
-                    flag_a = 1
-                    im = cv2.imread(image_name,1)#/255.#read the gray image
-                    #im = cv2.imread(image_name,0)#/255.#read the gray image
-                    flag_a = 2
+                    im = cv2.imread(image_name,0)#/255.#read the gray image
                     img = cv2.resize(im, (image_width, image_height))
-                    flag_a = 3
                     img = img.swapaxes(0, 1)
-                    flag_a = 4
-                    flag_a = 5
-                    #gain image string
                     num_from_file_path = file_path.split('.')[0]
                     code = num_string[str(num_from_file_path)]
-                    flag_a = 5
                     code = [SPACE_INDEX if code == SPACE_TOKEN else encode_maps[c] for c in list(code)]   
-                    flag_a = 6
                     if len(code) == 0 or len(code) > 35:
-                        print("len is 0",num_from_file_path)
+                        print("len is 0 or too long",num_from_file_path)
                         continue
                     self.labels.append(code)
-                    self.image.append(np.array(img))
-                    #self.image.append(np.array(img[:,:,np.newaxis]))
+                    self.image.append(np.array(img[:,:,np.newaxis]))
                     self.image_names.append(image_name)
                 except:
                     print("!!!!!!!!!!!",root,"---",file_path,"=====",flag_a)
@@ -250,16 +145,6 @@ class DataIterator2:
         for i in indexs:
             labels.append(self.labels[i])
         return labels
-    # 
-    #@staticmethod
-    #def data_augmentation(images):
-    #    if FLAGS.random_flip_up_down:
-    #        images = tf.image.random_flip_up_down(images)
-    #    if FLAGS.random_brightness:
-    #        images = tf.image.random_brightness(images, max_delta=0.3)
-    #    if FLAGS.random_contrast:
-    #        images = tf.image.random_contrast(images, 0.8, 1.2)
-    #    return images
 
     def input_index_generate_batch(self,index=None):
         if index:
@@ -274,7 +159,6 @@ class DataIterator2:
             lengths = np.asarray([len(s) for s in sequences], dtype=np.int64)
             return sequences,lengths
         batch_inputs,batch_seq_len = get_input_lens(np.array(image_batch))
-        #batch_inputs,batch_seq_len = pad_input_sequences(np.array(image_batch))
         batch_labels = sparse_tuple_from_label(label_batch)
         return batch_inputs,batch_seq_len,batch_labels
 
@@ -288,15 +172,10 @@ class DataIterator3:
                 try:
                     self.total_pic_read += 1
                     image_name = os.path.join(root,file_path)
-                    flag_a = 1
                     im = cv2.imread(image_name,0)#/255.#read the gray image
-                    flag_a = 2
                     img = cv2.resize(im, (image_width, image_height))
-                    flag_a = 3
                     img = img.swapaxes(0, 1)
-                    flag_a = 4
                     num_from_file_path = file_path.split('.')[0]
-                    flag_a = 5
                     self.image.append(np.array(img[:,:,np.newaxis]))
                     self.image_num.append(num_from_file_path)
                 except:

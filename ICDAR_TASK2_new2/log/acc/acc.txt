@@ -7,3 +7,9 @@
 4/27 11:10:33  step===7000, Epoch 41/1000, accuracy = 0.212,avg_train_cost = 12.588, lastbatch_err = 0.435, time = 448.840,lr=0.00932065
 4/27 11:56:47  step===8000, Epoch 47/1000, accuracy = 0.333,avg_train_cost = 9.038, lastbatch_err = 0.367, time = 459.647,lr=0.00922745
 4/27 12:43:1  step===9000, Epoch 54/1000, accuracy = 0.341,avg_train_cost = 5.979, lastbatch_err = 0.379, time = 11.211,lr=0.00913517
+4/29 14:26:25  step===10000, Epoch 3/1000, accuracy = 0.358,avg_train_cost = 3.921, lastbatch_err = 0.358, time = 113.795,lr=0.00904382
+4/29 14:51:45  step===11000, Epoch 9/1000, accuracy = 0.355,avg_train_cost = 2.665, lastbatch_err = 0.363, time = 115.023,lr=0.00895338
+4/29 15:18:6  step===12000, Epoch 15/1000, accuracy = 0.358,avg_train_cost = 1.711, lastbatch_err = 0.358, time = 125.722,lr=0.00886385
+4/29 15:44:24  step===13000, Epoch 21/1000, accuracy = 0.367,avg_train_cost = 1.183, lastbatch_err = 0.358, time = 125.525,lr=0.00877521
+4/29 16:9:55  step===14000, Epoch 27/1000, accuracy = 0.347,avg_train_cost = 1.091, lastbatch_err = 0.352, time = 131.385,lr=0.00868746
+4/29 16:35:14  step===15000, Epoch 33/1000, accuracy = 0.333,avg_train_cost = 0.662, lastbatch_err = 0.374, time = 137.576,lr=0.00860058

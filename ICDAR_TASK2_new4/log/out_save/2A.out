@@ -1,0 +1,1632 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 1080026
+len is 0 1148610
+len is 0 1124130
+len is 0 1101121
+len is 0 1085492
+len is 0 1124130
+len is 0 1101121
+len is 0 1124130
+len is 0 1199831
+len is 0 1124130
+len is 0 1157057
+len is 0 1124130
+len is 0 1157057
+len is 0 1199831
+len is 0 1148610
+len is 0 1234345
+len is 0 1157057
+len is 0 1091637
+len is 0 1078701
+len is 0 1161134
+len is 0 1148610
+len is 0 1124130
+len is 0 1078701
+len is 0 1161134
+len is 0 1101121
+len is 0 1234345
+len is 0 1124130
+len is 0 1091637
+len is 0 1101121
+len is 0 1124130
+len is 0 1157057
+len is 0 1101121
+len is 0 1101121
+len is 0 1067138
+len is 0 1199831
+len is 0 1199831
+len is 0 1101121
+len is 0 1078701
+len is 0 1067138
+len is 0 1067138
+len is 0 1199831
+len is 0 1085492
+len is 0 1085492
+len is 0 1101121
+len is 0 1124130
+len is 0 1078701
+len is 0 1067138
+len is 0 1101121
+len is 0 1199831
+len is 0 1078701
+len is 0 1067138
+len is 0 1091637
+len is 0 1161134
+len is 0 1101121
+len is 0 1067138
+len is 0 1080026
+len is 0 1078701
+len is 0 1234345
+len is 0 1161134
+len is 0 1078701
+len is 0 1148610
+len is 0 1078701
+len is 0 1078701
+len is 0 1157057
+len is 0 1078701
+len is 0 1091637
+len is 0 1085492
+len is 0 1157057
+len is 0 1085492
+len is 0 1124130
+len is 0 1078701
+len is 0 1078701
+len is 0 1157057
+len is 0 1157057
+len is 0 1067138
+len is 0 1091637
+len is 0 1199831
+len is 0 1161134
+len is 0 1101121
+len is 0 1085492
+len is 0 1067138
+len is 0 1080026
+len is 0 1101121
+len is 0 1080026
+len is 0 1148610
+len is 0 1085492
+len is 0 1067138
+len is 0 1085492
+len is 0 1161134
+len is 0 1161134
+len is 0 1091637
+len is 0 1101121
+len is 0 1080026
+len is 0 1199831
+len is 0 1080026
+len is 0 1091637
+len is 0 1078701
+len is 0 1161134
+len is 0 1161134
+len is 0 1101121
+len is 0 1199831
+len is 0 1078701
+len is 0 1234345
+len is 0 1080026
+len is 0 1091637
+len is 0 1080026
+len is 0 1080026
+len is 0 1080026
+len is 0 1199831
+len is 0 1085492
+len is 0 1085492
+len is 0 1157057
+len is 0 1148610
+len is 0 1161134
+len is 0 1091637
+len is 0 1101121
+len is 0 1124130
+len is 0 1101121
+len is 0 1101121
+len is 0 1085492
+len is 0 1067138
+len is 0 1199831
+len is 0 1078701
+len is 0 1124130
+len is 0 1091637
+len is 0 1067138
+len is 0 1067138
+len is 0 1161134
+len is 0 1157057
+len is 0 1234345
+len is 0 1161134
+len is 0 1091637
+len is 0 1080026
+len is 0 1157057
+len is 0 1199831
+len is 0 1157057
+len is 0 1085492
+len is 0 1157057
+len is 0 1085492
+len is 0 1148610
+len is 0 1234345
+len is 0 1078701
+len is 0 1161134
+len is 0 1157057
+len is 0 1157057
+len is 0 1091637
+len is 0 1085492
+len is 0 1148610
+len is 0 1080026
+len is 0 1101121
+len is 0 1078701
+len is 0 1161134
+len is 0 1148610
+len is 0 1085492
+len is 0 1080026
+len is 0 1157057
+len is 0 1091637
+len is 0 1161134
+len is 0 1148610
+len is 0 1234345
+len is 0 1157057
+len is 0 1199831
+len is 0 1091637
+len is 0 1234345
+len is 0 1199831
+len is 0 1080026
+len is 0 1067138
+len is 0 1234345
+len is 0 1161134
+len is 0 1148610
+len is 0 1078701
+len is 0 1124130
+len is 0 1091637
+len is 0 1199831
+len is 0 1157057
+len is 0 1101121
+len is 0 1080026
+len is 0 1148610
+len is 0 1085492
+len is 0 1148610
+len is 0 1078701
+len is 0 1124130
+len is 0 1085492
+len is 0 1078701
+len is 0 1124130
+len is 0 1101121
+len is 0 1085492
+len is 0 1085492
+len is 0 1067138
+len is 0 1091637
+len is 0 1148610
+len is 0 1080026
+len is 0 1199831
+len is 0 1234345
+len is 0 1199831
+len is 0 1091637
+len is 0 1234345
+len is 0 1101121
+len is 0 1199831
+len is 0 1080026
+len is 0 1091637
+len is 0 1101121
+len is 0 1124130
+len is 0 1157057
+len is 0 1085492
+len is 0 1161134
+len is 0 1085492
+len is 0 1085492
+len is 0 1067138
+len is 0 1161134
+len is 0 1234345
+len is 0 1234345
+len is 0 1124130
+len is 0 1124130
+len is 0 1067138
+len is 0 1067138
+len is 0 1085492
+len is 0 1067138
+len is 0 1067138
+len is 0 1091637
+len is 0 1157057
+len is 0 1091637
+len is 0 1101121
+len is 0 1091637
+len is 0 1234345
+len is 0 1078701
+len is 0 1148610
+len is 0 1157057
+len is 0 1067138
+len is 0 1234345
+len is 0 1078701
+len is 0 1161134
+len is 0 1161134
+len is 0 1199831
+len is 0 1148610
+len is 0 1067138
+len is 0 1234345
+len is 0 1161134
+len is 0 1080026
+len is 0 1161134
+len is 0 1078701
+len is 0 1067138
+len is 0 1091637
+len is 0 1067138
+len is 0 1080026
+len is 0 1067138
+len is 0 1157057
+len is 0 1067138
+len is 0 1124130
+len is 0 1157057
+len is 0 1148610
+len is 0 1199831
+len is 0 1101121
+len is 0 1124130
+len is 0 1148610
+len is 0 1199831
+len is 0 1080026
+len is 0 1148610
+len is 0 1124130
+len is 0 1080026
+len is 0 1157057
+len is 0 1091637
+len is 0 1148610
+len is 0 1091637
+len is 0 1101121
+len is 0 1148610
+len is 0 1067138
+len is 0 1161134
+len is 0 1085492
+len is 0 1080026
+len is 0 1199831
+len is 0 1148610
+len is 0 1080026
+len is 0 1161134
+len is 0 1080026
+len is 0 1124130
+len is 0 1085492
+len is 0 1124130
+len is 0 1199831
+len is 0 1199831
+len is 0 1234345
+len is 0 1161134
+len is 0 1067138
+len is 0 1067138
+len is 0 1067138
+len is 0 1078701
+len is 0 1148610
+len is 0 1085492
+len is 0 1148610
+len is 0 1101121
+len is 0 1080026
+len is 0 1101121
+len is 0 1161134
+len is 0 1199831
+len is 0 1101121
+len is 0 1157057
+len is 0 1234345
+len is 0 1157057
+len is 0 1199831
+len is 0 1078701
+len is 0 1091637
+len is 0 1067138
+len is 0 1080026
+len is 0 1234345
+len is 0 1234345
+len is 0 1234345
+len is 0 1148610
+len is 0 1124130
+len is 0 1085492
+len is 0 1080026
+len is 0 1157057
+len is 0 1080026
+len is 0 1124130
+len is 0 1234345
+len is 0 1234345
+len is 0 1091637
+len is 0 1078701
+len is 0 1234345
+len is 0 1199831
+len is 0 1148610
+len is 0 1124130
+len is 0 1157057
+len is 0 1078701
+len is 0 1234345
+len is 0 1124130
+len is 0 1078701
+len is 0 1067138
+len is 0 1234345
+len is 0 1067138
+len is 0 1199831
+len is 0 1078701
+len is 0 1148610
+len is 0 1080026
+len is 0 1234345
+len is 0 1124130
+len is 0 1157057
+len is 0 1101121
+len is 0 1078701
+len is 0 1124130
+len is 0 1080026
+len is 0 1148610
+len is 0 1161134
+len is 0 1085492
+len is 0 1234345
+len is 0 1161134
+len is 0 1157057
+len is 0 1124130
+len is 0 1161134
+len is 0 1148610
+len is 0 1234345
+len is 0 1161134
+len is 0 1157057
+len is 0 1199831
+len is 0 1078701
+len is 0 1101121
+len is 0 1101121
+len is 0 1091637
+len is 0 1234345
+len is 0 1157057
+len is 0 1234345
+len is 0 1091637
+len is 0 1091637
+len is 0 1091637
+len is 0 1091637
+len is 0 1161134
+len is 0 1234345
+len is 0 1085492
+len is 0 1091637
+len is 0 1148610
+len is 0 1080026
+len is 0 1124130
+len is 0 1148610
+len is 0 1199831
+len is 0 1085492
+len is 0 1124130
+len is 0 1085492
+len is 0 1085492
+len is 0 1078701
+len is 0 1101121
+len is 0 1199831
+len is 0 1148610
+len is 0 1080026
+len is 0 1199831
+len is 0 1161134
+get image:  1363072
+loading validation data, please wait--------------------- end= 
+get image:  3867
+2018-04-29 17:09:57.160400: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-29 17:09:57.160431: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-29 17:09:57.160438: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-29 17:09:57.254074: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-04-29 17:09:57.254419: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.09GiB
+2018-04-29 17:09:57.254440: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-04-29 17:09:57.254447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-04-29 17:09:57.254457: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new4/checkpoint/ocr-model-100
+=============================begin training=============================
+2018-04-29 17:10:03.965656: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4562 get requests, put_count=3098 evicted_count=1000 eviction_rate=0.322789 and unsatisfied allocation rate=0.562034
+2018-04-29 17:10:03.965702: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+batch_cosr 25.931227 step 101
+batch_cosr 27.43106 step 102
+batch_cosr 25.103947 step 103
+batch_cosr 24.775059 step 104
+2018-04-29 17:10:14.982799: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 643 get requests, put_count=1658 evicted_count=1000 eviction_rate=0.603136 and unsatisfied allocation rate=0.00155521
+batch_cosr 25.878248 step 105
+batch_cosr 25.925783 step 106
+batch_cosr 26.586475 step 107
+batch_cosr 26.177212 step 108
+2018-04-29 17:10:21.066736: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 643 get requests, put_count=1671 evicted_count=1000 eviction_rate=0.598444 and unsatisfied allocation rate=0
+batch_cosr 26.33609 step 109
+batch_cosr 26.222036 step 110
+batch_cosr 26.073166 step 111
+batch_cosr 25.97274 step 112
+batch_cosr 24.909203 step 113
+2018-04-29 17:10:28.568156: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5028 get requests, put_count=3979 evicted_count=1000 eviction_rate=0.251319 and unsatisfied allocation rate=0.416269
+2018-04-29 17:10:28.568207: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 493 to 542
+batch_cosr 26.937334 step 114
+batch_cosr 27.503807 step 115
+batch_cosr 26.15574 step 116
+batch_cosr 26.432613 step 117
+batch_cosr 25.854376 step 118
+batch_cosr 26.494368 step 119
+2018-04-29 17:10:37.622235: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4800 get requests, put_count=4280 evicted_count=1000 eviction_rate=0.233645 and unsatisfied allocation rate=0.334792
+2018-04-29 17:10:37.622285: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 958 to 1053
+batch_cosr 27.018019 step 120
+batch_cosr 25.41542 step 121
+batch_cosr 25.4665 step 122
+batch_cosr 26.694048 step 123
+batch_cosr 26.320467 step 124
+batch_cosr 26.469866 step 125
+batch_cosr 26.778988 step 126
+batch_cosr 26.26604 step 127
+batch_cosr 25.902008 step 128
+batch_cosr 26.544907 step 129
+2018-04-29 17:10:52.802661: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10652 get requests, put_count=10804 evicted_count=1000 eviction_rate=0.0925583 and unsatisfied allocation rate=0.097071
+2018-04-29 17:10:52.802716: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 2049 to 2253
+batch_cosr 27.233734 step 130
+batch_cosr 25.071796 step 131
+batch_cosr 26.926437 step 132
+batch_cosr 25.356546 step 133
+batch_cosr 25.603104 step 134
+batch_cosr 26.532654 step 135
+batch_cosr 25.317669 step 136
+batch_cosr 26.416203 step 137
+batch_cosr 24.381691 step 138
+batch_cosr 26.666052 step 139
+batch_cosr 25.50422 step 140
+batch_cosr 26.100872 step 141
+batch_cosr 25.387186 step 142
+batch_cosr 26.041656 step 143
+batch_cosr 25.2651 step 144
+batch_cosr 25.473045 step 145
+batch_cosr 26.040028 step 146
+batch_cosr 25.69447 step 147
+batch_cosr 26.644638 step 148
+batch_cosr 24.553303 step 149
+batch_cosr 26.287777 step 150
+batch_cosr 26.894054 step 151
+batch_cosr 25.456778 step 152
+batch_cosr 26.020237 step 153
+batch_cosr 26.412434 step 154
+batch_cosr 25.451857 step 155
+batch_cosr 26.018478 step 156
+batch_cosr 25.416029 step 157
+batch_cosr 24.384035 step 158
+batch_cosr 27.139593 step 159
+batch_cosr 26.47944 step 160
+batch_cosr 26.125668 step 161
+batch_cosr 25.392895 step 162
+batch_cosr 25.525574 step 163
+batch_cosr 26.185875 step 164
+batch_cosr 25.216473 step 165
+batch_cosr 24.844738 step 166
+batch_cosr 24.377586 step 167
+batch_cosr 24.794964 step 168
+batch_cosr 26.932297 step 169
+batch_cosr 25.416477 step 170
+batch_cosr 25.423761 step 171
+batch_cosr 25.009119 step 172
+batch_cosr 26.191992 step 173
+batch_cosr 26.213842 step 174
+batch_cosr 25.61315 step 175
+batch_cosr 26.200802 step 176
+batch_cosr 25.869917 step 177
+batch_cosr 25.376339 step 178
+batch_cosr 24.912128 step 179
+batch_cosr 25.819159 step 180
+batch_cosr 24.804337 step 181
+batch_cosr 25.698338 step 182
+batch_cosr 24.903784 step 183
+batch_cosr 26.800606 step 184
+batch_cosr 25.722443 step 185
+batch_cosr 25.339096 step 186
+batch_cosr 25.296844 step 187
+batch_cosr 25.680466 step 188
+batch_cosr 25.358496 step 189
+batch_cosr 26.422255 step 190
+batch_cosr 26.36013 step 191
+batch_cosr 27.20438 step 192
+batch_cosr 26.039658 step 193
+batch_cosr 26.442356 step 194
+batch_cosr 24.917831 step 195
+batch_cosr 26.163544 step 196
+batch_cosr 25.823698 step 197
+batch_cosr 26.073221 step 198
+batch_cosr 25.717796 step 199
+batch 99 : time 1.5137498378753662
+batch_cosr 25.41801 step 200
+save checkpoint 200
+batch_cosr 26.51293 step 201
+batch_cosr 26.705828 step 202
+batch_cosr 24.410862 step 203
+batch_cosr 25.441576 step 204
+batch_cosr 25.981865 step 205
+batch_cosr 26.085676 step 206
+batch_cosr 25.919434 step 207
+batch_cosr 25.98412 step 208
+batch_cosr 26.96896 step 209
+batch_cosr 25.409979 step 210
+batch_cosr 25.39558 step 211
+batch_cosr 26.822628 step 212
+batch_cosr 27.13104 step 213
+batch_cosr 25.393185 step 214
+batch_cosr 24.821255 step 215
+batch_cosr 26.302383 step 216
+batch_cosr 24.860287 step 217
+batch_cosr 25.661453 step 218
+batch_cosr 25.961823 step 219
+batch_cosr 25.719183 step 220
+batch_cosr 25.617716 step 221
+batch_cosr 25.390789 step 222
+batch_cosr 26.125563 step 223
+batch_cosr 25.475887 step 224
+batch_cosr 25.437634 step 225
+batch_cosr 26.140882 step 226
+batch_cosr 25.507977 step 227
+batch_cosr 25.362768 step 228
+batch_cosr 26.24408 step 229
+batch_cosr 25.066757 step 230
+batch_cosr 25.052889 step 231
+batch_cosr 25.267246 step 232
+batch_cosr 25.529167 step 233
+batch_cosr 27.702326 step 234
+batch_cosr 25.849266 step 235
+batch_cosr 25.61991 step 236
+batch_cosr 25.80201 step 237
+batch_cosr 26.225334 step 238
+batch_cosr 25.365406 step 239
+batch_cosr 24.61938 step 240
+batch_cosr 25.531631 step 241
+batch_cosr 25.630117 step 242
+batch_cosr 27.34105 step 243
+batch_cosr 24.764462 step 244
+batch_cosr 26.788548 step 245
+batch_cosr 25.190136 step 246
+batch_cosr 25.217169 step 247
+batch_cosr 25.749704 step 248
+batch_cosr 26.198402 step 249
+batch_cosr 25.409922 step 250
+batch_cosr 26.063776 step 251
+batch_cosr 25.22165 step 252
+batch_cosr 24.674019 step 253
+batch_cosr 25.99158 step 254
+batch_cosr 25.351566 step 255
+batch_cosr 26.437088 step 256
+batch_cosr 25.020678 step 257
+batch_cosr 25.995325 step 258
+batch_cosr 25.559004 step 259
+batch_cosr 26.662004 step 260
+batch_cosr 25.194082 step 261
+batch_cosr 25.002996 step 262
+batch_cosr 26.357805 step 263
+batch_cosr 25.601377 step 264
+batch_cosr 25.224518 step 265
+batch_cosr 26.579802 step 266
+batch_cosr 26.517466 step 267
+batch_cosr 25.485207 step 268
+batch_cosr 26.586195 step 269
+batch_cosr 26.090607 step 270
+batch_cosr 25.733208 step 271
+batch_cosr 25.981853 step 272
+batch_cosr 25.138111 step 273
+batch_cosr 26.277786 step 274
+batch_cosr 26.20323 step 275
+batch_cosr 25.385574 step 276
+batch_cosr 25.352123 step 277
+batch_cosr 25.349533 step 278
+batch_cosr 26.845798 step 279
+batch_cosr 26.117735 step 280
+batch_cosr 26.778982 step 281
+batch_cosr 25.462894 step 282
+batch_cosr 26.414448 step 283
+batch_cosr 26.475948 step 284
+batch_cosr 25.814724 step 285
+batch_cosr 25.887516 step 286
+batch_cosr 25.935139 step 287
+batch_cosr 25.428207 step 288
+batch_cosr 26.3342 step 289
+batch_cosr 26.646582 step 290
+batch_cosr 26.002737 step 291
+batch_cosr 24.607716 step 292
+batch_cosr 25.398705 step 293
+batch_cosr 25.122524 step 294
+batch_cosr 25.332874 step 295
+batch_cosr 25.227135 step 296
+batch_cosr 25.18176 step 297
+batch_cosr 25.96351 step 298
+batch_cosr 25.685497 step 299
+batch 199 : time 1.5097463130950928
+batch_cosr 26.035728 step 300
+save checkpoint 300
+batch_cosr 25.22396 step 301
+batch_cosr 24.90355 step 302
+batch_cosr 24.73546 step 303
+batch_cosr 25.624699 step 304
+batch_cosr 25.861656 step 305
+batch_cosr 25.441257 step 306
+batch_cosr 26.51255 step 307
+batch_cosr 25.132986 step 308
+batch_cosr 26.79277 step 309
+batch_cosr 26.938963 step 310
+batch_cosr 26.606747 step 311
+batch_cosr 26.223684 step 312
+batch_cosr 25.290878 step 313
+batch_cosr 25.485973 step 314
+batch_cosr 25.132345 step 315
+batch_cosr 25.26257 step 316
+batch_cosr 25.755358 step 317
+batch_cosr 25.16174 step 318
+batch_cosr 25.332628 step 319
+batch_cosr 24.23297 step 320
+batch_cosr 26.45591 step 321
+batch_cosr 25.780201 step 322
+batch_cosr 27.285843 step 323
+batch_cosr 26.203362 step 324
+batch_cosr 25.086662 step 325
+batch_cosr 25.696959 step 326
+batch_cosr 25.89157 step 327
+batch_cosr 25.05784 step 328
+batch_cosr 26.332218 step 329
+batch_cosr 25.46659 step 330
+batch_cosr 26.019997 step 331
+batch_cosr 25.416004 step 332
+batch_cosr 25.424755 step 333
+batch_cosr 25.226418 step 334
+batch_cosr 25.465714 step 335
+batch_cosr 26.91887 step 336
+batch_cosr 26.026646 step 337
+batch_cosr 26.439812 step 338
+batch_cosr 26.873795 step 339
+batch_cosr 26.12131 step 340
+batch_cosr 26.32815 step 341
+batch_cosr 26.24324 step 342
+batch_cosr 26.036453 step 343
+batch_cosr 25.725954 step 344
+batch_cosr 25.427622 step 345
+batch_cosr 25.192577 step 346
+batch_cosr 25.953403 step 347
+batch_cosr 25.320381 step 348
+batch_cosr 25.137096 step 349
+batch_cosr 26.432247 step 350
+batch_cosr 25.524841 step 351
+batch_cosr 25.498653 step 352
+batch_cosr 25.720442 step 353
+batch_cosr 26.35635 step 354
+batch_cosr 24.870155 step 355
+batch_cosr 26.12171 step 356
+batch_cosr 25.308128 step 357
+batch_cosr 25.086294 step 358
+batch_cosr 26.68026 step 359
+batch_cosr 25.527113 step 360
+batch_cosr 25.33048 step 361
+batch_cosr 26.353615 step 362
+batch_cosr 24.652214 step 363
+batch_cosr 26.946548 step 364
+batch_cosr 27.850313 step 365
+batch_cosr 25.793015 step 366
+batch_cosr 25.098804 step 367
+batch_cosr 24.878414 step 368
+batch_cosr 25.768135 step 369
+batch_cosr 25.660217 step 370
+batch_cosr 25.891174 step 371
+batch_cosr 24.5545 step 372
+batch_cosr 26.701052 step 373
+batch_cosr 25.41921 step 374
+batch_cosr 25.16319 step 375
+batch_cosr 25.349691 step 376
+batch_cosr 25.520397 step 377
+batch_cosr 25.688326 step 378
+batch_cosr 25.435774 step 379
+batch_cosr 26.56568 step 380
+batch_cosr 25.283842 step 381
+batch_cosr 26.777653 step 382
+batch_cosr 26.448723 step 383
+batch_cosr 25.920883 step 384
+batch_cosr 25.066166 step 385
+batch_cosr 24.718225 step 386
+batch_cosr 25.314104 step 387
+batch_cosr 26.044163 step 388
+batch_cosr 25.084366 step 389
+batch_cosr 26.833803 step 390
+batch_cosr 25.350973 step 391
+batch_cosr 24.635824 step 392
+batch_cosr 26.222782 step 393
+batch_cosr 26.310553 step 394
+batch_cosr 25.241001 step 395
+batch_cosr 26.230831 step 396
+batch_cosr 24.497261 step 397
+batch_cosr 25.763037 step 398
+batch_cosr 26.194036 step 399
+batch 299 : time 1.5201475620269775
+batch_cosr 24.848816 step 400
+save checkpoint 400
+batch_cosr 25.592503 step 401
+batch_cosr 26.603586 step 402
+batch_cosr 25.413033 step 403
+batch_cosr 26.007936 step 404
+batch_cosr 25.54086 step 405
+batch_cosr 25.528643 step 406
+batch_cosr 25.852423 step 407
+batch_cosr 25.602276 step 408
+batch_cosr 26.196686 step 409
+batch_cosr 26.167973 step 410
+batch_cosr 25.097696 step 411
+batch_cosr 25.326408 step 412
+batch_cosr 26.263725 step 413
+batch_cosr 25.111366 step 414
+batch_cosr 25.038233 step 415
+batch_cosr 24.895771 step 416
+batch_cosr 25.314156 step 417
+batch_cosr 26.226097 step 418
+batch_cosr 25.867243 step 419
+batch_cosr 24.866259 step 420
+batch_cosr 26.130713 step 421
+batch_cosr 25.756392 step 422
+batch_cosr 25.754091 step 423
+batch_cosr 25.921757 step 424
+batch_cosr 25.082056 step 425
+batch_cosr 27.071955 step 426
+batch_cosr 27.650166 step 427
+batch_cosr 27.053165 step 428
+batch_cosr 26.451841 step 429
+batch_cosr 25.85795 step 430
+batch_cosr 24.658714 step 431
+batch_cosr 25.106052 step 432
+batch_cosr 25.310013 step 433
+batch_cosr 24.17524 step 434
+batch_cosr 25.380695 step 435
+batch_cosr 24.761396 step 436
+batch_cosr 25.305252 step 437
+batch_cosr 26.036732 step 438
+batch_cosr 25.473896 step 439
+batch_cosr 26.303556 step 440
+batch_cosr 25.178432 step 441
+batch_cosr 25.254509 step 442
+batch_cosr 26.289856 step 443
+batch_cosr 25.01301 step 444
+batch_cosr 25.872154 step 445
+batch_cosr 26.036085 step 446
+batch_cosr 26.356499 step 447
+batch_cosr 26.288397 step 448
+batch_cosr 26.006088 step 449
+batch_cosr 26.252102 step 450
+batch_cosr 26.061125 step 451
+batch_cosr 26.054773 step 452
+batch_cosr 26.292292 step 453
+batch_cosr 26.250729 step 454
+batch_cosr 25.724049 step 455
+batch_cosr 28.12423 step 456
+batch_cosr 25.75145 step 457
+batch_cosr 25.07331 step 458
+batch_cosr 25.893953 step 459
+batch_cosr 27.383862 step 460
+batch_cosr 25.680735 step 461
+batch_cosr 27.7308 step 462
+batch_cosr 25.48402 step 463
+batch_cosr 26.515833 step 464
+batch_cosr 24.979372 step 465
+batch_cosr 25.722675 step 466
+batch_cosr 24.8123 step 467
+batch_cosr 24.680243 step 468
+batch_cosr 25.896496 step 469
+batch_cosr 24.917568 step 470
+batch_cosr 26.151146 step 471
+batch_cosr 26.534782 step 472
+batch_cosr 27.635176 step 473
+batch_cosr 25.218863 step 474
+batch_cosr 25.877075 step 475
+batch_cosr 26.557806 step 476
+batch_cosr 25.291767 step 477
+batch_cosr 25.230183 step 478
+batch_cosr 25.324518 step 479
+batch_cosr 25.231127 step 480
+batch_cosr 25.384073 step 481
+batch_cosr 25.394356 step 482
+batch_cosr 25.753344 step 483
+batch_cosr 26.131605 step 484
+batch_cosr 25.78056 step 485
+batch_cosr 24.817892 step 486
+batch_cosr 25.412613 step 487
+batch_cosr 25.887306 step 488
+batch_cosr 27.117973 step 489
+batch_cosr 24.679638 step 490
+batch_cosr 25.573126 step 491
+batch_cosr 24.686234 step 492
+batch_cosr 25.559498 step 493
+batch_cosr 24.43324 step 494
+batch_cosr 26.133097 step 495
+batch_cosr 26.437687 step 496
+batch_cosr 25.407944 step 497
+batch_cosr 26.708515 step 498
+batch_cosr 25.572145 step 499
+batch 399 : time 1.5284028053283691
+batch_cosr 25.609926 step 500
+save checkpoint 500
+batch_cosr 24.963654 step 501
+batch_cosr 25.218987 step 502
+batch_cosr 26.466438 step 503
+batch_cosr 26.271097 step 504
+batch_cosr 24.637531 step 505
+batch_cosr 25.753174 step 506
+batch_cosr 26.134243 step 507
+batch_cosr 25.81001 step 508
+batch_cosr 25.488934 step 509
+batch_cosr 26.84474 step 510
+batch_cosr 25.672152 step 511
+batch_cosr 25.283756 step 512
+batch_cosr 25.48796 step 513
+batch_cosr 25.459175 step 514
+batch_cosr 26.342491 step 515
+batch_cosr 26.764343 step 516
+batch_cosr 25.005747 step 517
+batch_cosr 25.689472 step 518
+batch_cosr 25.604391 step 519
+batch_cosr 25.448425 step 520
+batch_cosr 24.679594 step 521
+batch_cosr 26.536158 step 522
+batch_cosr 25.486414 step 523
+batch_cosr 25.196022 step 524
+batch_cosr 25.044474 step 525
+batch_cosr 24.916542 step 526
+batch_cosr 26.636953 step 527
+batch_cosr 25.49401 step 528
+batch_cosr 26.19709 step 529
+batch_cosr 25.832176 step 530
+batch_cosr 26.776556 step 531
+batch_cosr 25.538546 step 532
+batch_cosr 25.012909 step 533
+batch_cosr 27.428871 step 534
+batch_cosr 25.206142 step 535
+batch_cosr 26.129725 step 536
+batch_cosr 26.748312 step 537
+batch_cosr 25.783562 step 538
+batch_cosr 26.574978 step 539
+batch_cosr 24.278524 step 540
+batch_cosr 25.554482 step 541
+batch_cosr 25.194975 step 542
+batch_cosr 26.082037 step 543
+batch_cosr 25.760185 step 544
+batch_cosr 26.279907 step 545
+batch_cosr 24.7919 step 546
+batch_cosr 25.097511 step 547
+batch_cosr 25.29066 step 548
+batch_cosr 26.33115 step 549
+batch_cosr 24.878784 step 550
+batch_cosr 25.679337 step 551
+batch_cosr 25.486097 step 552
+batch_cosr 26.302608 step 553
+batch_cosr 25.065252 step 554
+batch_cosr 25.167126 step 555
+batch_cosr 26.86133 step 556
+batch_cosr 26.7971 step 557
+batch_cosr 25.597115 step 558
+batch_cosr 25.188728 step 559
+batch_cosr 25.341156 step 560
+batch_cosr 25.937346 step 561
+batch_cosr 26.556074 step 562
+batch_cosr 25.752512 step 563
+batch_cosr 26.09625 step 564
+batch_cosr 24.631886 step 565
+batch_cosr 26.416548 step 566
+batch_cosr 25.972332 step 567
+batch_cosr 25.384285 step 568
+batch_cosr 25.251972 step 569
+batch_cosr 24.969864 step 570
+batch_cosr 25.388117 step 571
+batch_cosr 25.743662 step 572
+batch_cosr 25.3927 step 573
+batch_cosr 26.589022 step 574
+batch_cosr 25.203686 step 575
+batch_cosr 25.41601 step 576
+batch_cosr 25.89103 step 577
+batch_cosr 26.272146 step 578
+batch_cosr 26.258402 step 579
+batch_cosr 25.177887 step 580
+batch_cosr 26.387815 step 581
+batch_cosr 26.371126 step 582
+batch_cosr 25.382895 step 583
+batch_cosr 26.963022 step 584
+batch_cosr 26.479973 step 585
+batch_cosr 25.184893 step 586
+batch_cosr 25.062286 step 587
+batch_cosr 25.050644 step 588
+batch_cosr 25.903606 step 589
+batch_cosr 26.53018 step 590
+batch_cosr 25.681068 step 591
+batch_cosr 25.171257 step 592
+batch_cosr 25.800438 step 593
+batch_cosr 24.321012 step 594
+batch_cosr 24.935455 step 595
+batch_cosr 26.048578 step 596
+batch_cosr 25.41771 step 597
+batch_cosr 24.96875 step 598
+batch_cosr 26.216059 step 599
+batch 499 : time 1.5275726318359375
+batch_cosr 25.636398 step 600
+save checkpoint 600
+batch_cosr 26.252735 step 601
+batch_cosr 25.53381 step 602
+batch_cosr 25.23534 step 603
+batch_cosr 25.33527 step 604
+batch_cosr 25.992224 step 605
+batch_cosr 25.705885 step 606
+batch_cosr 24.586296 step 607
+batch_cosr 26.165123 step 608
+batch_cosr 24.829346 step 609
+batch_cosr 25.275658 step 610
+batch_cosr 25.631802 step 611
+batch_cosr 25.588367 step 612
+batch_cosr 25.591599 step 613
+batch_cosr 24.661316 step 614
+batch_cosr 24.61589 step 615
+batch_cosr 26.577469 step 616
+batch_cosr 26.08724 step 617
+batch_cosr 25.365255 step 618
+batch_cosr 25.061043 step 619
+batch_cosr 25.855513 step 620
+batch_cosr 25.384977 step 621
+batch_cosr 24.880266 step 622
+batch_cosr 25.693645 step 623
+batch_cosr 26.203188 step 624
+batch_cosr 26.245613 step 625
+batch_cosr 25.217941 step 626
+batch_cosr 25.673664 step 627
+batch_cosr 25.390335 step 628
+batch_cosr 25.903648 step 629
+batch_cosr 25.76687 step 630
+batch_cosr 25.946318 step 631
+batch_cosr 26.035812 step 632
+batch_cosr 24.705906 step 633
+batch_cosr 24.49792 step 634
+batch_cosr 26.430147 step 635
+batch_cosr 26.786861 step 636
+batch_cosr 25.824236 step 637
+batch_cosr 25.826244 step 638
+batch_cosr 26.556648 step 639
+batch_cosr 26.05374 step 640
+batch_cosr 25.24219 step 641
+batch_cosr 25.67989 step 642
+batch_cosr 24.803669 step 643
+batch_cosr 24.480513 step 644
+batch_cosr 24.702028 step 645
+batch_cosr 26.374609 step 646
+batch_cosr 24.966389 step 647
+batch_cosr 24.885712 step 648
+batch_cosr 25.415934 step 649
+batch_cosr 24.896551 step 650
+batch_cosr 24.93849 step 651
+batch_cosr 26.343239 step 652
+batch_cosr 26.085876 step 653
+batch_cosr 26.324629 step 654
+batch_cosr 26.293865 step 655
+batch_cosr 25.656515 step 656
+batch_cosr 23.339327 step 657
+batch_cosr 24.83787 step 658
+batch_cosr 26.104801 step 659
+batch_cosr 25.848335 step 660
+batch_cosr 24.684631 step 661
+batch_cosr 24.559486 step 662
+batch_cosr 24.975466 step 663
+batch_cosr 25.70293 step 664
+batch_cosr 25.218168 step 665
+batch_cosr 25.502369 step 666
+batch_cosr 27.055931 step 667
+batch_cosr 25.464455 step 668
+batch_cosr 25.997723 step 669
+batch_cosr 24.987305 step 670
+batch_cosr 25.824163 step 671
+batch_cosr 25.57145 step 672
+batch_cosr 25.338655 step 673
+batch_cosr 25.245377 step 674
+batch_cosr 25.876438 step 675
+batch_cosr 25.378477 step 676
+batch_cosr 24.919128 step 677
+batch_cosr 27.325216 step 678
+batch_cosr 25.191793 step 679
+batch_cosr 27.500227 step 680
+batch_cosr 25.473183 step 681
+batch_cosr 25.477306 step 682
+batch_cosr 25.472225 step 683
+batch_cosr 25.284729 step 684
+batch_cosr 24.594383 step 685
+batch_cosr 24.436962 step 686
+batch_cosr 24.891584 step 687
+batch_cosr 26.028067 step 688
+batch_cosr 25.285145 step 689
+batch_cosr 25.712437 step 690
+batch_cosr 26.254494 step 691
+batch_cosr 26.308104 step 692
+batch_cosr 25.813364 step 693
+batch_cosr 25.097311 step 694
+batch_cosr 26.18871 step 695
+batch_cosr 25.003222 step 696
+batch_cosr 26.451345 step 697
+batch_cosr 25.353918 step 698
+batch_cosr 25.813412 step 699
+batch 599 : time 1.5257818698883057
+batch_cosr 26.230324 step 700
+save checkpoint 700
+batch_cosr 26.21598 step 701
+batch_cosr 26.083723 step 702
+batch_cosr 25.449282 step 703
+batch_cosr 24.993029 step 704
+batch_cosr 25.556522 step 705
+batch_cosr 26.246853 step 706
+batch_cosr 24.597544 step 707
+batch_cosr 26.003471 step 708
+batch_cosr 26.06972 step 709
+batch_cosr 25.634777 step 710
+batch_cosr 25.376839 step 711
+batch_cosr 25.095892 step 712
+batch_cosr 25.071857 step 713
+batch_cosr 25.506111 step 714
+batch_cosr 25.313025 step 715
+batch_cosr 24.388039 step 716
+batch_cosr 26.302038 step 717
+batch_cosr 26.273603 step 718
+batch_cosr 25.770407 step 719
+batch_cosr 25.527447 step 720
+batch_cosr 25.209213 step 721
+batch_cosr 24.057632 step 722
+batch_cosr 25.294811 step 723
+batch_cosr 26.465614 step 724
+batch_cosr 26.941658 step 725
+batch_cosr 25.047693 step 726
+batch_cosr 24.958637 step 727
+batch_cosr 26.18819 step 728
+batch_cosr 25.193693 step 729
+batch_cosr 24.756521 step 730
+batch_cosr 25.903217 step 731
+batch_cosr 26.032072 step 732
+batch_cosr 24.798653 step 733
+batch_cosr 24.600058 step 734
+batch_cosr 25.93907 step 735
+batch_cosr 25.493572 step 736
+batch_cosr 25.7792 step 737
+batch_cosr 26.258179 step 738
+batch_cosr 25.328049 step 739
+batch_cosr 26.476593 step 740
+batch_cosr 25.54335 step 741
+batch_cosr 25.005672 step 742
+batch_cosr 26.75911 step 743
+batch_cosr 25.85198 step 744
+batch_cosr 26.242807 step 745
+batch_cosr 25.184078 step 746
+batch_cosr 25.133247 step 747
+batch_cosr 25.838142 step 748
+batch_cosr 24.921814 step 749
+batch_cosr 26.160809 step 750
+batch_cosr 25.0448 step 751
+batch_cosr 26.672707 step 752
+batch_cosr 24.890862 step 753
+batch_cosr 26.097992 step 754
+batch_cosr 26.321249 step 755
+batch_cosr 25.873034 step 756
+batch_cosr 26.092754 step 757
+batch_cosr 26.500937 step 758
+batch_cosr 25.00843 step 759
+batch_cosr 24.357426 step 760
+batch_cosr 24.659927 step 761
+batch_cosr 24.53088 step 762
+batch_cosr 24.920141 step 763
+batch_cosr 25.571766 step 764
+batch_cosr 25.105982 step 765
+batch_cosr 26.353086 step 766
+batch_cosr 24.85917 step 767
+batch_cosr 25.199802 step 768
+batch_cosr 25.83767 step 769
+batch_cosr 25.265718 step 770
+batch_cosr 24.958467 step 771
+batch_cosr 25.911785 step 772
+batch_cosr 26.13491 step 773
+batch_cosr 25.499533 step 774
+batch_cosr 24.671907 step 775
+batch_cosr 26.525629 step 776
+batch_cosr 26.353775 step 777
+batch_cosr 26.163736 step 778
+batch_cosr 25.158672 step 779
+batch_cosr 25.178312 step 780
+batch_cosr 25.3785 step 781
+batch_cosr 25.476797 step 782
+batch_cosr 23.997583 step 783
+batch_cosr 25.658846 step 784
+batch_cosr 25.29097 step 785
+batch_cosr 25.120901 step 786
+batch_cosr 25.06364 step 787
+batch_cosr 25.704536 step 788
+batch_cosr 25.499056 step 789
+batch_cosr 26.223898 step 790
+batch_cosr 25.322834 step 791
+batch_cosr 24.94488 step 792
+batch_cosr 25.506134 step 793
+batch_cosr 25.761549 step 794
+batch_cosr 26.526272 step 795
+batch_cosr 26.116407 step 796
+batch_cosr 26.10309 step 797
+batch_cosr 26.096771 step 798
+batch_cosr 25.460676 step 799
+batch 699 : time 1.5277259349822998
+batch_cosr 26.094475 step 800
+save checkpoint 800
+batch_cosr 26.402163 step 801
+batch_cosr 25.618002 step 802
+batch_cosr 26.08054 step 803
+batch_cosr 25.081646 step 804
+batch_cosr 25.020557 step 805
+batch_cosr 24.793407 step 806
+batch_cosr 27.315609 step 807
+batch_cosr 26.02058 step 808
+batch_cosr 24.762268 step 809
+batch_cosr 24.90763 step 810
+batch_cosr 25.133726 step 811
+batch_cosr 25.067665 step 812
+batch_cosr 25.508692 step 813
+batch_cosr 25.107096 step 814
+batch_cosr 26.15967 step 815
+batch_cosr 27.441538 step 816
+batch_cosr 26.199707 step 817
+batch_cosr 26.385704 step 818
+batch_cosr 25.026752 step 819
+batch_cosr 25.942413 step 820
+batch_cosr 25.275038 step 821
+batch_cosr 25.697952 step 822
+batch_cosr 25.515179 step 823
+batch_cosr 24.8602 step 824
+batch_cosr 25.327831 step 825
+batch_cosr 26.303167 step 826
+batch_cosr 25.30756 step 827
+batch_cosr 26.893053 step 828
+batch_cosr 26.190754 step 829
+batch_cosr 25.792301 step 830
+batch_cosr 26.048058 step 831
+batch_cosr 25.543562 step 832
+batch_cosr 25.698742 step 833
+batch_cosr 25.567635 step 834
+batch_cosr 25.500769 step 835
+batch_cosr 24.189161 step 836
+batch_cosr 24.826714 step 837
+batch_cosr 25.899483 step 838
+batch_cosr 25.328785 step 839
+batch_cosr 24.302296 step 840
+batch_cosr 25.220016 step 841
+batch_cosr 25.692932 step 842
+batch_cosr 24.681625 step 843
+batch_cosr 25.752941 step 844
+batch_cosr 27.259344 step 845
+batch_cosr 26.369455 step 846
+batch_cosr 24.598526 step 847
+batch_cosr 24.788452 step 848
+batch_cosr 25.00843 step 849
+batch_cosr 25.472273 step 850
+batch_cosr 25.018332 step 851
+batch_cosr 25.45668 step 852
+batch_cosr 24.633068 step 853
+batch_cosr 25.778969 step 854
+batch_cosr 26.245575 step 855
+batch_cosr 25.781094 step 856
+batch_cosr 26.501743 step 857
+batch_cosr 25.364521 step 858
+batch_cosr 24.627705 step 859
+batch_cosr 25.42882 step 860
+batch_cosr 25.207958 step 861
+batch_cosr 24.712397 step 862
+batch_cosr 24.619358 step 863
+batch_cosr 23.865335 step 864
+batch_cosr 25.435408 step 865
+batch_cosr 25.649918 step 866
+batch_cosr 25.900162 step 867
+batch_cosr 25.739767 step 868
+batch_cosr 24.241777 step 869
+batch_cosr 25.480473 step 870
+batch_cosr 26.584639 step 871
+batch_cosr 24.405615 step 872
+batch_cosr 26.566984 step 873
+batch_cosr 25.566319 step 874
+batch_cosr 24.884933 step 875
+batch_cosr 25.764553 step 876
+batch_cosr 25.921986 step 877
+batch_cosr 27.19682 step 878
+batch_cosr 25.996399 step 879
+batch_cosr 25.323004 step 880
+batch_cosr 24.824387 step 881
+batch_cosr 25.704727 step 882
+batch_cosr 25.861277 step 883
+batch_cosr 25.999094 step 884
+batch_cosr 25.29467 step 885
+batch_cosr 25.266033 step 886
+batch_cosr 25.571901 step 887
+batch_cosr 25.80968 step 888
+batch_cosr 24.762232 step 889
+batch_cosr 25.322586 step 890
+batch_cosr 24.870304 step 891
+batch_cosr 25.250542 step 892
+batch_cosr 25.180185 step 893
+batch_cosr 24.820898 step 894
+batch_cosr 26.453953 step 895
+batch_cosr 25.058558 step 896
+batch_cosr 25.200462 step 897
+batch_cosr 24.73123 step 898
+batch_cosr 25.444107 step 899
+batch 799 : time 1.5279693603515625
+batch_cosr 25.73911 step 900
+save checkpoint 900
+batch_cosr 25.971735 step 901
+batch_cosr 24.799189 step 902
+batch_cosr 25.700626 step 903
+batch_cosr 25.096504 step 904
+batch_cosr 24.483494 step 905
+batch_cosr 25.25497 step 906
+batch_cosr 25.793 step 907
+batch_cosr 24.646719 step 908
+batch_cosr 25.04826 step 909
+batch_cosr 26.011738 step 910
+batch_cosr 24.709534 step 911
+batch_cosr 26.229185 step 912
+batch_cosr 24.800934 step 913
+batch_cosr 24.993296 step 914
+batch_cosr 25.32915 step 915
+batch_cosr 25.881176 step 916
+batch_cosr 24.90342 step 917
+batch_cosr 25.335781 step 918
+batch_cosr 24.496853 step 919
+batch_cosr 25.555315 step 920
+batch_cosr 26.663755 step 921
+batch_cosr 25.732311 step 922
+batch_cosr 25.532959 step 923
+batch_cosr 24.126997 step 924
+batch_cosr 25.356339 step 925
+batch_cosr 25.220726 step 926
+batch_cosr 24.470499 step 927
+batch_cosr 25.381853 step 928
+batch_cosr 24.510525 step 929
+batch_cosr 24.96232 step 930
+batch_cosr 25.53812 step 931
+batch_cosr 25.948372 step 932
+batch_cosr 25.668427 step 933
+batch_cosr 26.25796 step 934
+batch_cosr 24.6504 step 935
+batch_cosr 25.92745 step 936
+batch_cosr 25.703074 step 937
+batch_cosr 24.42651 step 938
+batch_cosr 25.045467 step 939
+batch_cosr 24.877562 step 940
+batch_cosr 25.595387 step 941
+batch_cosr 25.45496 step 942
+batch_cosr 25.38818 step 943
+batch_cosr 25.081104 step 944
+batch_cosr 25.790071 step 945
+batch_cosr 25.47972 step 946
+batch_cosr 25.470364 step 947
+batch_cosr 25.03037 step 948
+batch_cosr 25.079754 step 949
+batch_cosr 25.6844 step 950
+batch_cosr 25.357788 step 951
+batch_cosr 25.217285 step 952
+batch_cosr 23.923199 step 953
+batch_cosr 25.237907 step 954
+batch_cosr 24.83035 step 955
+batch_cosr 26.002813 step 956
+batch_cosr 25.424479 step 957
+batch_cosr 25.249567 step 958
+batch_cosr 24.444653 step 959
+batch_cosr 25.140507 step 960
+batch_cosr 25.133518 step 961
+batch_cosr 26.440863 step 962
+batch_cosr 25.941267 step 963
+batch_cosr 25.188623 step 964
+batch_cosr 24.764328 step 965
+batch_cosr 25.570293 step 966
+batch_cosr 25.755892 step 967
+batch_cosr 24.271084 step 968
+batch_cosr 26.371433 step 969
+batch_cosr 26.655134 step 970
+batch_cosr 25.13957 step 971
+batch_cosr 25.782495 step 972
+batch_cosr 25.235563 step 973
+batch_cosr 26.343374 step 974
+batch_cosr 26.134594 step 975
+batch_cosr 25.58171 step 976
+batch_cosr 24.80251 step 977
+batch_cosr 25.356438 step 978
+batch_cosr 25.247765 step 979
+batch_cosr 26.500137 step 980
+batch_cosr 25.851599 step 981
+batch_cosr 24.427309 step 982
+batch_cosr 24.97077 step 983
+batch_cosr 26.673681 step 984
+batch_cosr 26.786703 step 985
+batch_cosr 25.580383 step 986
+batch_cosr 25.51596 step 987
+batch_cosr 26.764408 step 988
+batch_cosr 26.556252 step 989
+batch_cosr 24.630114 step 990
+batch_cosr 26.44107 step 991
+batch_cosr 25.399778 step 992
+batch_cosr 25.317673 step 993
+batch_cosr 26.458477 step 994
+batch_cosr 24.84432 step 995
+batch_cosr 26.149235 step 996
+batch_cosr 24.16668 step 997
+batch_cosr 26.018236 step 998
+batch_cosr 25.15484 step 999
+batch 899 : time 1.5067634582519531
+batch_cosr 25.906082 step 1000
+save checkpoint 1000
+2018-04-29 17:33:04.731118: W tensorflow/core/common_runtime/bfc_allocator.cc:273] Allocator (GPU_0_bfc) ran out of memory trying to allocate 4.72GiB.  Current allocation summary follows.
+2018-04-29 17:33:04.731183: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (256): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731210: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (512): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731217: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (1024): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731224: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (2048): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731231: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (4096): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731238: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (8192): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731244: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (16384): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731251: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (32768): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731257: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (65536): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731267: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (131072): 	Total Chunks: 2, Chunks in use: 0 348.0KiB allocated for chunks. 204.0KiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731275: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (262144): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731296: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (524288): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731319: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (1048576): 	Total Chunks: 1, Chunks in use: 0 1.39MiB allocated for chunks. 288.0KiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731346: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (2097152): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731356: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (4194304): 	Total Chunks: 1, Chunks in use: 0 5.16MiB allocated for chunks. 1.12MiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731363: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (8388608): 	Total Chunks: 1, Chunks in use: 0 9.25MiB allocated for chunks. 4.50MiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731370: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (16777216): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731377: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (33554432): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731400: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (67108864): 	Total Chunks: 1, Chunks in use: 0 119.00MiB allocated for chunks. 15.00MiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731423: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (134217728): 	Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731430: I tensorflow/core/common_runtime/bfc_allocator.cc:643] Bin (268435456): 	Total Chunks: 4, Chunks in use: 0 5.78GiB allocated for chunks. 455.00MiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-29 17:33:04.731437: I tensorflow/core/common_runtime/bfc_allocator.cc:660] Bin for 4.72GiB was 256.00MiB, Chunk State: 
+2018-04-29 17:33:04.731449: I tensorflow/core/common_runtime/bfc_allocator.cc:666]   Size: 285.42MiB | Requested Size: 40.00MiB | in_use: 0, prev:   Size: 226.58MiB | Requested Size: 226.58MiB | in_use: 1
+2018-04-29 17:33:04.731456: I tensorflow/core/common_runtime/bfc_allocator.cc:666]   Size: 512.00MiB | Requested Size: 15.00MiB | in_use: 0
+2018-04-29 17:33:04.731462: I tensorflow/core/common_runtime/bfc_allocator.cc:666]   Size: 1.00GiB | Requested Size: 320.00MiB | in_use: 0
+2018-04-29 17:33:04.731468: I tensorflow/core/common_runtime/bfc_allocator.cc:666]   Size: 4.00GiB | Requested Size: 80.00MiB | in_use: 0
+2018-04-29 17:33:04.731475: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0000 of size 1280
+2018-04-29 17:33:04.731511: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0500 of size 256
+2018-04-29 17:33:04.731517: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0600 of size 256
+2018-04-29 17:33:04.731522: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0700 of size 256
+2018-04-29 17:33:04.731528: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0800 of size 512
+2018-04-29 17:33:04.731533: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0a00 of size 256
+2018-04-29 17:33:04.731543: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0b00 of size 1024
+2018-04-29 17:33:04.731549: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc0f00 of size 1024
+2018-04-29 17:33:04.731554: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc1300 of size 1024
+2018-04-29 17:33:04.731559: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc1700 of size 1024
+2018-04-29 17:33:04.731564: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc1b00 of size 1024
+2018-04-29 17:33:04.731569: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc1f00 of size 256
+2018-04-29 17:33:04.731574: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc2000 of size 1024
+2018-04-29 17:33:04.731579: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc2400 of size 256
+2018-04-29 17:33:04.731584: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc2500 of size 2048
+2018-04-29 17:33:04.731589: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc2d00 of size 2048
+2018-04-29 17:33:04.731594: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc3500 of size 2048
+2018-04-29 17:33:04.731599: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc3d00 of size 2048
+2018-04-29 17:33:04.731604: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc4500 of size 2048
+2018-04-29 17:33:04.731609: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc4d00 of size 256
+2018-04-29 17:33:04.731614: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc4e00 of size 2048
+2018-04-29 17:33:04.731619: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc5600 of size 256
+2018-04-29 17:33:04.731624: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc5700 of size 2048
+2018-04-29 17:33:04.731629: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc5f00 of size 2048
+2018-04-29 17:33:04.731633: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc6700 of size 2048
+2018-04-29 17:33:04.731638: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc6f00 of size 2048
+2018-04-29 17:33:04.731643: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc7700 of size 2048
+2018-04-29 17:33:04.731648: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc7f00 of size 256
+2018-04-29 17:33:04.731654: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc8000 of size 4096
+2018-04-29 17:33:04.731659: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc9000 of size 256
+2018-04-29 17:33:04.731664: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fc9100 of size 4096
+2018-04-29 17:33:04.731669: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fca100 of size 256
+2018-04-29 17:33:04.731674: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fca200 of size 4096
+2018-04-29 17:33:04.731679: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fcb200 of size 256
+2018-04-29 17:33:04.731684: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fcb300 of size 4096
+2018-04-29 17:33:04.731689: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fcc300 of size 256
+2018-04-29 17:33:04.731694: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fcc400 of size 256
+2018-04-29 17:33:04.731699: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fcc500 of size 512
+2018-04-29 17:33:04.731705: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fcc700 of size 6912
+2018-04-29 17:33:04.731711: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1004fce200 of size 294912
+2018-04-29 17:33:04.731716: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005016200 of size 1024
+2018-04-29 17:33:04.731724: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005016600 of size 2048
+2018-04-29 17:33:04.731730: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005016e00 of size 2048
+2018-04-29 17:33:04.731735: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005017600 of size 208896
+2018-04-29 17:33:04.731740: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504a600 of size 512
+2018-04-29 17:33:04.731745: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504a800 of size 256
+2018-04-29 17:33:04.731750: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504a900 of size 256
+2018-04-29 17:33:04.731755: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504aa00 of size 256
+2018-04-29 17:33:04.731760: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504ab00 of size 256
+2018-04-29 17:33:04.731765: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504ac00 of size 256
+2018-04-29 17:33:04.731770: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504ad00 of size 256
+2018-04-29 17:33:04.731774: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504ae00 of size 256
+2018-04-29 17:33:04.731779: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504af00 of size 256
+2018-04-29 17:33:04.731784: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504b000 of size 2048
+2018-04-29 17:33:04.731789: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504b800 of size 2048
+2018-04-29 17:33:04.731794: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504c000 of size 2048
+2018-04-29 17:33:04.731799: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504c800 of size 2048
+2018-04-29 17:33:04.731804: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504d000 of size 2048
+2018-04-29 17:33:04.731809: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504d800 of size 2048
+2018-04-29 17:33:04.731814: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504e000 of size 2048
+2018-04-29 17:33:04.731819: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504e800 of size 2048
+2018-04-29 17:33:04.731824: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100504f000 of size 4096
+2018-04-29 17:33:04.731829: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005050000 of size 4096
+2018-04-29 17:33:04.731834: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005051000 of size 4096
+2018-04-29 17:33:04.731839: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005052000 of size 4096
+2018-04-29 17:33:04.731844: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005086000 of size 512
+2018-04-29 17:33:04.731849: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005086200 of size 6912
+2018-04-29 17:33:04.731854: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005087d00 of size 1024
+2018-04-29 17:33:04.731859: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005088100 of size 2048
+2018-04-29 17:33:04.731864: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005088900 of size 2048
+2018-04-29 17:33:04.731869: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005089100 of size 2048
+2018-04-29 17:33:04.731874: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005089900 of size 2048
+2018-04-29 17:33:04.731879: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508a100 of size 2048
+2018-04-29 17:33:04.731884: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508a900 of size 4096
+2018-04-29 17:33:04.731889: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508b900 of size 4096
+2018-04-29 17:33:04.731894: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508c900 of size 4096
+2018-04-29 17:33:04.731901: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508d900 of size 4096
+2018-04-29 17:33:04.731907: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508e900 of size 512
+2018-04-29 17:33:04.731912: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508eb00 of size 256
+2018-04-29 17:33:04.731917: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508ec00 of size 256
+2018-04-29 17:33:04.731922: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508ed00 of size 256
+2018-04-29 17:33:04.731927: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508ee00 of size 256
+2018-04-29 17:33:04.731932: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508ef00 of size 256
+2018-04-29 17:33:04.731937: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508f000 of size 256
+2018-04-29 17:33:04.731942: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508f100 of size 256
+2018-04-29 17:33:04.731947: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508f200 of size 256
+2018-04-29 17:33:04.731952: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100508f300 of size 4864
+2018-04-29 17:33:04.731957: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005090600 of size 256
+2018-04-29 17:33:04.731962: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005090700 of size 256
+2018-04-29 17:33:04.731967: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005090800 of size 512
+2018-04-29 17:33:04.731972: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005090a00 of size 512
+2018-04-29 17:33:04.731977: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005090c00 of size 1024
+2018-04-29 17:33:04.731982: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005091000 of size 1024
+2018-04-29 17:33:04.731987: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005091400 of size 1024
+2018-04-29 17:33:04.731992: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005091800 of size 1024
+2018-04-29 17:33:04.731997: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005091c00 of size 1024
+2018-04-29 17:33:04.732002: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005092000 of size 1024
+2018-04-29 17:33:04.732007: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005092400 of size 1024
+2018-04-29 17:33:04.732012: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005092800 of size 1024
+2018-04-29 17:33:04.732017: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005092c00 of size 1024
+2018-04-29 17:33:04.732022: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005093000 of size 2048
+2018-04-29 17:33:04.732027: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005093800 of size 2048
+2018-04-29 17:33:04.732032: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005094000 of size 2048
+2018-04-29 17:33:04.732037: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005094800 of size 2048
+2018-04-29 17:33:04.732042: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005095000 of size 2048
+2018-04-29 17:33:04.732047: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005095800 of size 6912
+2018-04-29 17:33:04.732052: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097300 of size 256
+2018-04-29 17:33:04.732057: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097400 of size 256
+2018-04-29 17:33:04.732062: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097500 of size 256
+2018-04-29 17:33:04.732067: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097600 of size 256
+2018-04-29 17:33:04.732072: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097700 of size 256
+2018-04-29 17:33:04.732080: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097800 of size 256
+2018-04-29 17:33:04.732085: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097900 of size 256
+2018-04-29 17:33:04.732090: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097a00 of size 256
+2018-04-29 17:33:04.732095: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097b00 of size 256
+2018-04-29 17:33:04.732100: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097c00 of size 256
+2018-04-29 17:33:04.732105: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097d00 of size 256
+2018-04-29 17:33:04.732110: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097e00 of size 256
+2018-04-29 17:33:04.732115: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005097f00 of size 256
+2018-04-29 17:33:04.732120: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005098000 of size 256
+2018-04-29 17:33:04.732125: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005098100 of size 256
+2018-04-29 17:33:04.732130: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005098200 of size 256
+2018-04-29 17:33:04.732136: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005098300 of size 15616
+2018-04-29 17:33:04.732142: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x1005053000 of size 208896
+2018-04-29 17:33:04.732150: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x100509c000 of size 147456
+2018-04-29 17:33:04.732156: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10050c0000 of size 2097152
+2018-04-29 17:33:04.732162: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10052c0000 of size 4194304
+2018-04-29 17:33:04.732167: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10056c0000 of size 8388608
+2018-04-29 17:33:04.732173: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1005ec0000 of size 16777216
+2018-04-29 17:33:04.732179: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1006ec0000 of size 4194304
+2018-04-29 17:33:04.732184: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10072c0000 of size 3145728
+2018-04-29 17:33:04.732190: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10075c0000 of size 3145728
+2018-04-29 17:33:04.732194: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10078c0000 of size 3145728
+2018-04-29 17:33:04.732199: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1007bc0000 of size 3145728
+2018-04-29 17:33:04.732208: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1007ec0000 of size 2359296
+2018-04-29 17:33:04.732214: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1008100000 of size 4718592
+2018-04-29 17:33:04.732219: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x1008580000 of size 9699328
+2018-04-29 17:33:04.732225: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10090c0000 of size 4194304
+2018-04-29 17:33:04.732230: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10094c0000 of size 3145728
+2018-04-29 17:33:04.732235: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10097c0000 of size 3145728
+2018-04-29 17:33:04.732240: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1009ac0000 of size 3145728
+2018-04-29 17:33:04.732247: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1009dc0000 of size 208896
+2018-04-29 17:33:04.732257: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1009df3000 of size 294912
+2018-04-29 17:33:04.732268: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x1009e3b000 of size 1179648
+2018-04-29 17:33:04.732278: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100a0c0000 of size 294912
+2018-04-29 17:33:04.732287: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100a108000 of size 1179648
+2018-04-29 17:33:04.732293: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100a228000 of size 2359296
+2018-04-29 17:33:04.732298: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100a468000 of size 4718592
+2018-04-29 17:33:04.732303: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100a8e8000 of size 9437184
+2018-04-29 17:33:04.732308: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100b1e8000 of size 4194304
+2018-04-29 17:33:04.732313: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100b5e8000 of size 3145728
+2018-04-29 17:33:04.732318: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100b8e8000 of size 3145728
+2018-04-29 17:33:04.732323: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100bbe8000 of size 3145728
+2018-04-29 17:33:04.732328: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100bee8000 of size 3145728
+2018-04-29 17:33:04.732333: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100c1e8000 of size 208896
+2018-04-29 17:33:04.732338: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100c21b000 of size 3145728
+2018-04-29 17:33:04.732343: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100ca43000 of size 6803456
+2018-04-29 17:33:04.732349: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x1009f5b000 of size 1462272
+2018-04-29 17:33:04.732354: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x100c51b000 of size 5406720
+2018-04-29 17:33:04.732360: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x100d0c0000 of size 9437184
+2018-04-29 17:33:04.732365: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x100d9c0000 of size 124780544
+2018-04-29 17:33:04.732371: I tensorflow/core/common_runtime/bfc_allocator.cc:678] Chunk at 0x10150c0000 of size 237588480
+2018-04-29 17:33:04.732376: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x1023355000 of size 299282432
+2018-04-29 17:33:04.732381: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x10350c0000 of size 536870912
+2018-04-29 17:33:04.732387: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x10553c0000 of size 1073741824
+2018-04-29 17:33:04.732392: I tensorflow/core/common_runtime/bfc_allocator.cc:687] Free at 0x10953c0000 of size 4294967296
+2018-04-29 17:33:04.732397: I tensorflow/core/common_runtime/bfc_allocator.cc:693]      Summary of in-use Chunks by size: 
+2018-04-29 17:33:04.732405: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 48 Chunks of size 256 totalling 12.0KiB
+2018-04-29 17:33:04.732412: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 7 Chunks of size 512 totalling 3.5KiB
+2018-04-29 17:33:04.732418: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 17 Chunks of size 1024 totalling 17.0KiB
+2018-04-29 17:33:04.732424: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 1280 totalling 1.2KiB
+2018-04-29 17:33:04.732430: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 31 Chunks of size 2048 totalling 62.0KiB
+2018-04-29 17:33:04.732436: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 12 Chunks of size 4096 totalling 48.0KiB
+2018-04-29 17:33:04.732442: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 4864 totalling 4.8KiB
+2018-04-29 17:33:04.732448: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 3 Chunks of size 6912 totalling 20.2KiB
+2018-04-29 17:33:04.732454: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 15616 totalling 15.2KiB
+2018-04-29 17:33:04.732460: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 3 Chunks of size 208896 totalling 612.0KiB
+2018-04-29 17:33:04.732466: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 3 Chunks of size 294912 totalling 864.0KiB
+2018-04-29 17:33:04.732476: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 2 Chunks of size 1179648 totalling 2.25MiB
+2018-04-29 17:33:04.732489: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 2097152 totalling 2.00MiB
+2018-04-29 17:33:04.732495: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 2 Chunks of size 2359296 totalling 4.50MiB
+2018-04-29 17:33:04.732501: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 12 Chunks of size 3145728 totalling 36.00MiB
+2018-04-29 17:33:04.732507: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 4 Chunks of size 4194304 totalling 16.00MiB
+2018-04-29 17:33:04.732514: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 2 Chunks of size 4718592 totalling 9.00MiB
+2018-04-29 17:33:04.732520: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 6803456 totalling 6.49MiB
+2018-04-29 17:33:04.732525: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 8388608 totalling 8.00MiB
+2018-04-29 17:33:04.732532: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 2 Chunks of size 9437184 totalling 18.00MiB
+2018-04-29 17:33:04.732538: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 16777216 totalling 16.00MiB
+2018-04-29 17:33:04.732544: I tensorflow/core/common_runtime/bfc_allocator.cc:696] 1 Chunks of size 237588480 totalling 226.58MiB
+2018-04-29 17:33:04.732550: I tensorflow/core/common_runtime/bfc_allocator.cc:700] Sum Total of in-use chunks: 346.44MiB
+2018-04-29 17:33:04.732559: I tensorflow/core/common_runtime/bfc_allocator.cc:702] Stats: 
+Limit:                 11308947866
+InUse:                   363270144
+MaxInUse:               6197200896
+NumAllocs:                 5271629
+MaxAllocSize:           4294967296
+
+2018-04-29 17:33:04.732574: W tensorflow/core/common_runtime/bfc_allocator.cc:277] ********____________________________________________________________________________________________
+2018-04-29 17:33:04.732592: W tensorflow/core/framework/op_kernel.cc:1158] Resource exhausted: OOM when allocating tensor with shape[3867,160,32,64]
+Traceback (most recent call last):
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1139, in _do_call
+    return fn(*args)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1121, in _run_fn
+    status, run_metadata)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/contextlib.py", line 88, in __exit__
+    next(self.gen)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 466, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[3867,160,32,64]
+	 [[Node: CNN/conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NHWC", padding="SAME", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/gpu:0"](_arg_Placeholder_0_4/_469, CNN/conv1/weights/read)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 101, in <module>
+    train(train_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_argu', val_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_argu_small', train_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_gt.txt',val_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_gt.txt')
+  File "train.py", line 84, in train
+    dense_decoded,lastbatch_err,lr = sess.run([g.dense_decoded,g.lerr,g.learning_rate],val_feed)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 789, in run
+    run_metadata_ptr)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 997, in _run
+    feed_dict_string, options, run_metadata)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1132, in _do_run
+    target_list, options, run_metadata)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[3867,160,32,64]
+	 [[Node: CNN/conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NHWC", padding="SAME", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/gpu:0"](_arg_Placeholder_0_4/_469, CNN/conv1/weights/read)]]
+
+Caused by op 'CNN/conv1/convolution', defined at:
+  File "train.py", line 101, in <module>
+    train(train_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_argu', val_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_argu_small', train_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_gt.txt',val_text_dir='/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/train_data/train_words_gt.txt')
+  File "train.py", line 16, in train
+    g = model.Graph(is_training=True)
+  File "/home/sjhbxs/code/ICDAR_task2/ICDAR_TASK2_new4/code_py/model.py", line 76, in __init__
+    net = slim.conv2d(self.inputs, 64, [3, 3], scope='conv1')
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 947, in convolution
+    outputs = layer.apply(inputs)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 492, in apply
+    return self.__call__(inputs, *args, **kwargs)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 441, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/layers/convolutional.py", line 158, in call
+    data_format=utils.convert_data_format(self.data_format, self.rank + 2))
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 670, in convolution
+    op=op)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 338, in with_space_to_batch
+    return op(input, num_spatial_dims, padding)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 662, in op
+    name=name)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 131, in _non_atrous_convolution
+    name=name)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 399, in conv2d
+    data_format=data_format, name=name)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[3867,160,32,64]
+	 [[Node: CNN/conv1/convolution = Conv2D[T=DT_FLOAT, data_format="NHWC", padding="SAME", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/gpu:0"](_arg_Placeholder_0_4/_469, CNN/conv1/weights/read)]]
+

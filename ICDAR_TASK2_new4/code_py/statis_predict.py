@@ -12,7 +12,7 @@ class character_statis:
            
 f_pred = open(r'../log/text_save/val_predict_sort.txt',"r")
 #f_real = open(r'../log/text_save/val_predict_sort.txt',"r")
-f_real = open(r'/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words_gt_sort.txt',"r")
+f_real = open(r'/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new4/test_data/val_words_gt_sort.txt',"r")
 charset='! "#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]_`abcdefghijklmnopqrstuvwxyz~¡¢£©°É•€★'
 pred_line = f_pred.readline()
 real_line = f_real.readline()

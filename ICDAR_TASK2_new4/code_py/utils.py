@@ -22,7 +22,7 @@ maxPrintLen = 18
 tf.app.flags.DEFINE_boolean('isSavePrediction',True, 'save test prediction')
 tf.app.flags.DEFINE_boolean('Use_CRNN',True, 'use Densenet or CRNN')
 tf.app.flags.DEFINE_boolean('restore',True, 'whether to restore from the latest checkpoint')
-tf.app.flags.DEFINE_string('checkpoint_dir', '/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new2/checkpoint/', 'the checkpoint dir')
+tf.app.flags.DEFINE_string('checkpoint_dir', '/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new4/checkpoint/', 'the checkpoint dir')
 tf.app.flags.DEFINE_float('initial_learning_rate', 1e-2, 'inital lr')
 tf.app.flags.DEFINE_integer('num_layers', 2, 'number of layer')
 tf.app.flags.DEFINE_integer('num_hidden', 256, 'number of hidden')
@@ -188,7 +188,6 @@ class DataIterator2:
     def __init__(self, data_dir,text_dir):
         num_string = {}
         f = open(text_dir,"r")
-        #f = open(r'../test_data/val_words_gt.txt',"r")  
         line = f.readline()  
         while line:  
             contant_line = str(line)
@@ -202,42 +201,35 @@ class DataIterator2:
                 string_line = contant_line.split('|')[1]
             string_line = re.sub('[\r\n\t]', '', string_line)
             num_string[num] = str(string_line)
-            #print(num,": ",num_string[num],":---len",len(num_string[num]))
             line = f.readline()  
         self.image_names = []
         self.image = []
         self.labels=[]
         self.total_pic_read = 0
         for root, sub_folder, file_list in os.walk(data_dir):
-            #print("!!!!!!!!",root)
             for file_path in file_list:
                 if self.total_pic_read % 1000 == 0:
-                    print("!!!!!!!!!!!!!!!!!!!!!",root,"----",file_path) 
+                    print(self.total_pic_read)
+                    print(file_path)
+                if self.total_pic_read > 222000:
+                    break
                 try:
                     self.total_pic_read += 1
-                    image_name = os.path.join(root,file_path)
-                    flag_a = 1
+                    image_name = root + "/" + file_path
                     im = cv2.imread(image_name,1)#/255.#read the gray image
-                    #im = cv2.imread(image_name,0)#/255.#read the gray image
-                    flag_a = 2
                     img = cv2.resize(im, (image_width, image_height))
-                    flag_a = 3
                     img = img.swapaxes(0, 1)
-                    flag_a = 4
-                    flag_a = 5
-                    #gain image string
                     num_from_file_path = file_path.split('.')[0]
+                    num_from_file_path = num_from_file_path.split('_')[1]
                     code = num_string[str(num_from_file_path)]
-                    flag_a = 5
                     code = [SPACE_INDEX if code == SPACE_TOKEN else encode_maps[c] for c in list(code)]   
-                    flag_a = 6
                     if len(code) == 0 or len(code) > 35:
-                        print("len is 0",num_from_file_path)
+                        print("len is 0 or too long",num_from_file_path)
                         continue
                     self.labels.append(code)
                     self.image.append(np.array(img))
-                    #self.image.append(np.array(img[:,:,np.newaxis]))
                     self.image_names.append(image_name)
+                    
                 except:
                     print("!!!!!!!!!!!",root,"---",file_path,"=====",flag_a)
 
