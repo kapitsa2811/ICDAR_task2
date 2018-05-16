@@ -1,0 +1,81 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1101121
+len is 0 or too long 1067138
+len is 0 or too long 1085492
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+len is 0 or too long 1078701
+len is 0 or too long 1199831
+len is 0 or too long 1124130
+***************get image:  42606
+loading validation data, please wait--------------------- end= 
+len is 0 or too long 1091637
+***************get image:  301
+2018-05-09 12:02:19.576539: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-09 12:02:19.576576: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-09 12:02:19.576583: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-09 12:02:19.576588: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-09 12:02:19.576594: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-09 12:02:19.673110: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-09 12:02:19.673342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 2.71GiB
+2018-05-09 12:02:19.673364: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-09 12:02:19.673372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-09 12:02:19.673383: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+=============================begin training=============================
+2018-05-09 12:02:21.988217: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:02:22.839972: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.33GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:02:23.402625: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.13GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:02:24.592859: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.20GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:02:26.245169: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.19GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:02:36.410629: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10012 get requests, put_count=9963 evicted_count=1000 eviction_rate=0.100371 and unsatisfied allocation rate=0.114762
+2018-05-09 12:02:36.410698: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+epochs 0 49
+epochs 0 99
+epochs 0 149
+epochs 1 33
+**********save checkpoint********** all_step: 200
+**********CrossValidation********** all_step: 200
+2018-05-09 12:05:42.033181: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.43GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:05:42.033263: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.07GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:05:42.795938: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.52GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:05:43.459686: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.41GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-09 12:05:44.969915: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.57GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+seq   0: origin: [21, 18, 25, 18] decoded:[]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[69]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[34, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[36]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[79, 69, 71, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[79, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[71, 48, 84, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[79, 80, 65, 78, 53]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[82, 73, 51, 65]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[52, 38, 65]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[69, 69]
+seq  16: origin: [39, 48, 42, 45] decoded:[79]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[18, 17]
+5/9 12:5:48  all_step===200, Epoch 2/1000, accuracy = 0.040,avg_train_cost = 15.849, lastbatch_err = 0.813,lr=0.01000000
+
+Traceback (most recent call last):
+  File "transfer_train.py", line 102, in <module>
+    train(train_dir= pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/train_words_small', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/train_words_gt.txt', pb_file_path = "../log/save_pb/rcnn.pb")
+  File "transfer_train.py", line 97, in train
+    cur_epoch+1,FLAGS.num_epochs,acc,avg_train_cost,lastbatch_err,time.time()-start_time,lr))
+NameError: name 'start_time' is not defined

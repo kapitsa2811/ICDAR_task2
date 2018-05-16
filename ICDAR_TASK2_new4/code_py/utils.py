@@ -208,7 +208,7 @@ class DataIterator2:
         self.total_pic_read = 0
         for root, sub_folder, file_list in os.walk(data_dir):
             for file_path in file_list:
-                if self.total_pic_read % 1000 == 0:
+                if self.total_pic_read % 10000 == 0:
                     print(self.total_pic_read)
                     print(file_path)
                 if self.total_pic_read > 222000:

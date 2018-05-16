@@ -1,0 +1,169 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1101121
+len is 0 or too long 1067138
+len is 0 or too long 1085492
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+len is 0 or too long 1078701
+len is 0 or too long 1199831
+len is 0 or too long 1124130
+get image:  42606
+loading validation data, please wait--------------------- end= 
+len is 0 or too long 1091637
+get image:  1041
+2018-05-06 09:52:33.762084: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:33.762115: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:33.762122: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:33.762127: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:33.762132: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:34.213610: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-06 09:52:34.213952: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.09GiB
+2018-05-06 09:52:34.213975: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-06 09:52:34.213984: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-06 09:52:34.213995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+2018-05-06 09:52:38.447694: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.447899: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.448215: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.447654: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.448616: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.448835: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.448783: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.449190: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.449980: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.450807: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.451005: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.451181: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.451365: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.451511: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.451630: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.452846: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.452945: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.453008: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.453989: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.454099: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.454181: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.454310: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.455082: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.455851: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.456244: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.456834: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.457183: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.457265: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.458105: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.458728: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.459019: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.459375: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.459622: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.460804: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.460949: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.461073: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.461096: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.461669: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.462263: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.462618: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.462796: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.463427: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.463987: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.464098: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.464303: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.464704: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.465320: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.465483: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.466218: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.466662: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.466918: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.466993: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.467051: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.467614: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.468432: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.468531: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.468940: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.469939: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.470139: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.470256: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.470412: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.471019: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.471126: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.471325: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.471951: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.472055: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 09:52:38.472132: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+Traceback (most recent call last):
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1139, in _do_call
+    return fn(*args)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1121, in _run_fn
+    status, run_metadata)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/contextlib.py", line 88, in __exit__
+    next(self.gen)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 466, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.DataLossError: file is too short to be an sstable
+	 [[Node: save/RestoreV2_2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_arg_save/Const_0_0, save/RestoreV2_2/tensor_names, save/RestoreV2_2/shape_and_slices)]]
+	 [[Node: save/RestoreV2_9/_9 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/gpu:0", send_device="/job:localhost/replica:0/task:0/cpu:0", send_device_incarnation=1, tensor_name="edge_142_save/RestoreV2_9", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/gpu:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 94, in <module>
+    train(train_dir= pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/train_words_small', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/train_words_gt.txt')
+  File "train.py", line 42, in train
+    saver.restore(sess,ckpt)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1548, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 789, in run
+    run_metadata_ptr)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 997, in _run
+    feed_dict_string, options, run_metadata)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1132, in _do_run
+    target_list, options, run_metadata)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.DataLossError: file is too short to be an sstable
+	 [[Node: save/RestoreV2_2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_arg_save/Const_0_0, save/RestoreV2_2/tensor_names, save/RestoreV2_2/shape_and_slices)]]
+	 [[Node: save/RestoreV2_9/_9 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/gpu:0", send_device="/job:localhost/replica:0/task:0/cpu:0", send_device_incarnation=1, tensor_name="edge_142_save/RestoreV2_9", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/gpu:0"]()]]
+
+Caused by op 'save/RestoreV2_2', defined at:
+  File "train.py", line 94, in <module>
+    train(train_dir= pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/train_words_small', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/train_words_gt.txt')
+  File "train.py", line 35, in train
+    saver = tf.train.Saver(tf.global_variables(),max_to_keep=3)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1139, in __init__
+    self.build()
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1170, in build
+    restore_sequentially=self._restore_sequentially)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 691, in build
+    restore_sequentially, reshape)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 407, in _AddRestoreOps
+    tensors = self.restore_op(filename_tensor, saveable, preferred_shard)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 247, in restore_op
+    [spec.tensor.dtype])[0])
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 640, in restore_v2
+    dtypes=dtypes, name=name)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/home/sjhbxs/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+DataLossError (see above for traceback): file is too short to be an sstable
+	 [[Node: save/RestoreV2_2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_arg_save/Const_0_0, save/RestoreV2_2/tensor_names, save/RestoreV2_2/shape_and_slices)]]
+	 [[Node: save/RestoreV2_9/_9 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/gpu:0", send_device="/job:localhost/replica:0/task:0/cpu:0", send_device_incarnation=1, tensor_name="edge_142_save/RestoreV2_9", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/gpu:0"]()]]
+

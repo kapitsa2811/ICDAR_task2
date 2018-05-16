@@ -1,0 +1,49 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1101121
+len is 0 or too long 1067138
+len is 0 or too long 1085492
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+len is 0 or too long 1078701
+len is 0 or too long 1199831
+len is 0 or too long 1124130
+get image:  42606
+loading validation data, please wait--------------------- end= 
+len is 0 or too long 1091637
+get image:  1041
+2018-05-06 03:14:21.191391: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 03:14:21.191424: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 03:14:21.191432: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 03:14:21.645469: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-06 03:14:21.645804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.09GiB
+2018-05-06 03:14:21.645833: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-06 03:14:21.645843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-06 03:14:21.645856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+2018-05-06 03:14:29.076121: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076148: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076121: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076121: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076136: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076136: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076136: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.076136: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.078419: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.080052: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be an sstable
+2018-05-06 03:14:29.080508: W tensorflow/core/framework/op_kernel.cc:1158] Data loss: file is too short to be a

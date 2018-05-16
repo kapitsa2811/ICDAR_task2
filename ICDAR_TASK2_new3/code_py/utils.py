@@ -19,10 +19,11 @@ SPACE_INDEX=0
 SPACE_TOKEN=''
 aug_rate=100
 maxPrintLen = 18
+pre_dir = '/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new3'
 tf.app.flags.DEFINE_boolean('isSavePrediction',True, 'save test prediction')
 tf.app.flags.DEFINE_boolean('Use_CRNN',True, 'use Densenet or CRNN')
 tf.app.flags.DEFINE_boolean('restore',True, 'whether to restore from the latest checkpoint')
-tf.app.flags.DEFINE_string('checkpoint_dir', '../checkpoint/', 'the checkpoint dir')
+tf.app.flags.DEFINE_string('checkpoint_dir', pre_dir + '/checkpoint/', 'the checkpoint dir')
 tf.app.flags.DEFINE_float('initial_learning_rate', 1e-2, 'inital lr')
 tf.app.flags.DEFINE_integer('num_layers', 2, 'number of layer')
 tf.app.flags.DEFINE_integer('num_hidden', 256, 'number of hidden')

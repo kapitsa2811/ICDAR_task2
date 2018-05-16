@@ -5,10 +5,10 @@ import utils
 import model
 FLAGS = utils.FLAGS
 
-data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/train_words'
-text_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/train_words_gt.txt'
-#data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words'
-#text_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words_gt.txt'
+#data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/train_words'
+#text_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/train_words_gt.txt'
+data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words'
+text_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/test_data/val_words_gt.txt'
 
 def acc():
     acc_all = []

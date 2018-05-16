@@ -11,14 +11,16 @@ Flag_Isserver = True
 logger = logging.getLogger('Traing for ocr using LSTM+CTC')
 logger.setLevel(logging.INFO)
 pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
+train_keep_prob_fc = 0.5
+train_keep_prob_cv1 = 0.5
 def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
     g = model.Graph(is_training=True)
     print('loading train data, please wait---------------------','end= ')
     train_feeder=utils.DataIterator2(data_dir=train_dir,text_dir=train_text_dir)
-    print('get image: ',train_feeder.size)
+    print('***************get image: ',train_feeder.size)
     print('loading validation data, please wait---------------------','end= ')
     val_feeder=utils.DataIterator2(data_dir=val_dir, text_dir=val_text_dir)
-    print('get image: ',val_feeder.size)
+    print('***************get image: ',val_feeder.size)
 
     num_train_samples = train_feeder.size
     num_batches_per_epoch = int(num_train_samples/FLAGS.batch_size)
@@ -30,7 +32,7 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
     #config.gpu_options.per_process_gpu_memory_fraction = 0.6   
     with tf.Session(graph=g.graph,config=config) as sess:
         sess.run(tf.global_variables_initializer())
-        saver = tf.train.Saver(tf.global_variables(),max_to_keep=3)
+        saver = tf.train.Saver(tf.global_variables(),max_to_keep=100)
         g.graph.finalize()
         train_writer=tf.summary.FileWriter(FLAGS.log_dir+'/train',sess.graph)
         if FLAGS.restore:
@@ -45,7 +47,8 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
         val_feed={g.inputs: val_inputs,
                   g.labels: val_labels,
                   g.seq_len: np.array([g.cnn_time]*val_inputs.shape[0]),
-                  g.keep_prob: 1}
+                  g.keep_prob_fc: 1,
+                  g.keep_prob_cv1: 1}
         for cur_epoch in range(FLAGS.num_epochs):
             shuffle_idx=np.random.permutation(num_train_samples)
             train_cost = 0
@@ -53,19 +56,19 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
             batch_time = time.time()
             for cur_batch in range(num_batches_per_epoch):
                 if (cur_batch+1)%100==0:
-                    print('batch',cur_batch,': time',time.time()-batch_time)
+                    print("cur_epoch====",cur_epoch,"cur_batch----",cur_batch,"g_step****",step,"cost",batch_cost)
                 batch_time = time.time()
                 indexs = [shuffle_idx[i%num_train_samples] for i in range(cur_batch*FLAGS.batch_size,(cur_batch+1)*FLAGS.batch_size)]
                 batch_inputs,batch_seq_len,batch_labels=train_feeder.input_index_generate_batch(indexs)
                 feed={g.inputs: batch_inputs,
                         g.labels:batch_labels,
                         g.seq_len:np.array([g.cnn_time]*batch_inputs.shape[0]),
-                        g.keep_prob: 0.8}
+                        g.keep_prob_fc: train_keep_prob_fc,
+                        g.keep_prob_cv1 : train_keep_prob_cv1}
 
                 summary_str, batch_cost,step,_ = sess.run([g.merged_summay,g.cost,g.global_step,g.optimizer],feed)
                 train_cost+=batch_cost*FLAGS.batch_size
                 train_writer.add_summary(summary_str,step)
-                print("cur_epoch====",cur_epoch,"cur_batch----",cur_batch,"g_step****",step,"cost",batch_cost)
                 if step%FLAGS.save_steps == 0:
                     print("save checkpoint", step)
                     if not os.path.isdir(FLAGS.checkpoint_dir):
@@ -87,7 +90,7 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
                         f.close()
 if __name__ == '__main__':
     if Flag_Isserver:
-        train(train_dir= pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/val_words_small', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/val_words_gt.txt')
+        train(train_dir= pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/train_words_small', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/train_words_gt.txt')
     else:
         train(train_dir='C:/Users/jieyang/Documents/GitHub/STN_CNN_LSTM_CTC_TensorFlow/train/svt/train1', val_dir='C:/Users/jieyang/Documents/GitHub/STN_CNN_LSTM_CTC_TensorFlow/train/svt/test')
     #

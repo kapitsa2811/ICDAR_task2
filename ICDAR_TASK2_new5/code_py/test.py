@@ -8,7 +8,7 @@ pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
 data_dir = pre_data_dir + '/test_data/train_words'
 text_dir = pre_data_dir + '/test_data/train_words_gt.txt'
 #data_dir = pre_data_dir + '/test_data/val_words'
-#text_dir = pre_data_dir + '../test_data/val_words_gt.txt'
+#text_dir = pre_data_dir + '/test_data/val_words_gt.txt'
 
 def acc():
     acc_all = []
@@ -38,7 +38,9 @@ def acc():
             cur_labels = [test_feeder.labels[i] for i in indexs]
             test_feed={g.inputs: test_inputs,
                       g.labels: test_labels,
-                      g.seq_len: np.array([g.cnn_time]*test_inputs.shape[0])}
+                      g.seq_len: np.array([g.cnn_time]*test_inputs.shape[0]),
+                      g.keep_prob_fc: 1,
+                      g.keep_prob_cv1: 1 }
             dense_decoded= sess.run(g.dense_decoded,test_feed)
             acc = utils.accuracy_calculation(cur_labels,dense_decoded,ignore_value=-1,isPrint=False)
             acc_all.append(acc)

@@ -1,0 +1,447 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 1101121
+len is 0 1067138
+len is 0 1085492
+len is 0 1080026
+len is 0 1148610
+len is 0 1161134
+len is 0 1091637
+len is 0 1234345
+len is 0 1157057
+len is 0 1078701
+len is 0 1199831
+len is 0 1124130
+get image:  42606
+loading validation data, please wait--------------------- end= 
+get image:  422
+2018-05-06 09:52:34.913590: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:34.913622: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:34.913630: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:34.913636: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:34.913642: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-06 09:52:34.975612: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-06 09:52:34.976018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 10.96GiB
+2018-05-06 09:52:34.976040: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-06 09:52:34.976048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-06 09:52:34.976058: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new3/checkpoint/ocr-model-8600
+=============================begin training=============================
+2018-05-06 09:52:49.327406: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4560 get requests, put_count=3095 evicted_count=1000 eviction_rate=0.323102 and unsatisfied allocation rate=0.5625
+2018-05-06 09:52:49.327460: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-06 09:52:59.587291: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 634 get requests, put_count=1649 evicted_count=1000 eviction_rate=0.606428 and unsatisfied allocation rate=0.00157729
+2018-05-06 09:53:05.212221: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 651 get requests, put_count=1678 evicted_count=1000 eviction_rate=0.595948 and unsatisfied allocation rate=0.0015361
+2018-05-06 09:53:12.175639: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5029 get requests, put_count=3992 evicted_count=1000 eviction_rate=0.250501 and unsatisfied allocation rate=0.4138
+2018-05-06 09:53:12.175741: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 493 to 542
+2018-05-06 09:53:20.578164: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4802 get requests, put_count=4280 evicted_count=1000 eviction_rate=0.233645 and unsatisfied allocation rate=0.335069
+2018-05-06 09:53:20.578239: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 958 to 1053
+2018-05-06 09:53:34.781927: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10655 get requests, put_count=10807 evicted_count=1000 eviction_rate=0.0925326 and unsatisfied allocation rate=0.0970436
+2018-05-06 09:53:34.781982: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 2049 to 2253
+batch 99 : time 1.461355209350586
+save checkpoint 8700
+save checkpoint 8800
+batch 99 : time 1.4683892726898193
+save checkpoint 8900
+save checkpoint 9000
+seq   0: origin: [37, 38, 45, 45] decoded:[35, 38, 34, 38]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 17, 18]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 65, 17, 25]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[38, 47, 37, 45, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[37, 48, 51, 48, 38, 53]
+seq   5: origin: [58, 79, 82, 75] decoded:[79, 82]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[84, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[77, 79, 78, 73, 78, 68]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 65, 69, 82, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[84, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[42, 38, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 42, 51, 58]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[52, 22, 18, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[65, 83, 69, 89]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[69, 76]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[17, 17]
+5/6 10:2:48  step===9000, Epoch 3/1000, accuracy = 0.026,avg_train_cost = 11.835, lastbatch_err = 0.598, time = 108.057,lr=0.00913517
+
+batch 99 : time 1.4641220569610596
+save checkpoint 9100
+batch 99 : time 1.4772000312805176
+save checkpoint 9200
+save checkpoint 9300
+batch 99 : time 1.480999231338501
+save checkpoint 9400
+save checkpoint 9500
+batch 99 : time 1.4665651321411133
+save checkpoint 9600
+batch 99 : time 1.478745460510254
+save checkpoint 9700
+save checkpoint 9800
+batch 99 : time 1.4849269390106201
+save checkpoint 9900
+save checkpoint 10000
+seq   0: origin: [37, 38, 45, 45] decoded:[49, 38, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 19, 21]
+seq   2: origin: [18, 25, 26, 26] decoded:[20, 22, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 38, 47, 37, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[39, 51, 48, 52, 51]
+seq   5: origin: [58, 79, 82, 75] decoded:[53, 79, 82, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[77, 82, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 82, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[84, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[42, 37, 58]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 52, 53, 34]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 18, 17, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[67, 65, 79, 85]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[76, 69, 69]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[18, 17]
+5/6 10:27:27  step===10000, Epoch 9/1000, accuracy = 0.078,avg_train_cost = 9.199, lastbatch_err = 0.471, time = 109.094,lr=0.00904382
+
+batch 99 : time 1.4728732109069824
+save checkpoint 10100
+batch 99 : time 1.4841194152832031
+save checkpoint 10200
+save checkpoint 10300
+batch 99 : time 1.4905571937561035
+save checkpoint 10400
+save checkpoint 10500
+batch 99 : time 1.4760668277740479
+save checkpoint 10600
+batch 99 : time 1.4642512798309326
+save checkpoint 10700
+save checkpoint 10800
+batch 99 : time 1.4674644470214844
+save checkpoint 10900
+save checkpoint 11000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 34, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 26, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 26, 20, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 38, 54, 47, 37, 41, 58, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[49, 88, 82, 79, 82, 83, 15]
+seq   5: origin: [58, 79, 82, 75] decoded:[70, 79, 70]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[77, 79, 82, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[84, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 38, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 42, 42, 41, 49]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[52, 18, 18, 18, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[67, 65, 83, 83, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 69]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 70, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[45, 18, 17]
+5/6 10:52:7  step===11000, Epoch 15/1000, accuracy = 0.178,avg_train_cost = 6.483, lastbatch_err = 0.342, time = 114.888,lr=0.00895338
+
+batch 99 : time 1.4769747257232666
+save checkpoint 11100
+batch 99 : time 1.483180046081543
+save checkpoint 11200
+save checkpoint 11300
+batch 99 : time 1.4773797988891602
+save checkpoint 11400
+save checkpoint 11500
+batch 99 : time 1.466958999633789
+save checkpoint 11600
+batch 99 : time 1.4746830463409424
+save checkpoint 11700
+save checkpoint 11800
+batch 99 : time 1.4672772884368896
+save checkpoint 11900
+save checkpoint 12000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 20, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[36, 38, 47, 37, 41, 34, 58, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 34, 53, 48, 51, 58, 15]
+seq   5: origin: [58, 79, 82, 75] decoded:[86, 79, 82]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 73, 78, 83]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 38, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 54, 34, 37, 51]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 18, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[68, 69, 76, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[14, 27, 17, 26]
+5/6 11:16:47  step===12000, Epoch 21/1000, accuracy = 0.291,avg_train_cost = 5.076, lastbatch_err = 0.243, time = 120.918,lr=0.00886385
+
+batch 99 : time 1.471839427947998
+save checkpoint 12100
+batch 99 : time 1.458453893661499
+save checkpoint 12200
+save checkpoint 12300
+batch 99 : time 1.4848272800445557
+save checkpoint 12400
+save checkpoint 12500
+batch 99 : time 1.4709761142730713
+save checkpoint 12600
+batch 99 : time 1.4645872116088867
+save checkpoint 12700
+save checkpoint 12800
+batch 99 : time 1.4822609424591064
+save checkpoint 12900
+save checkpoint 13000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 58, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 49, 53, 48, 51, 52, 41]
+seq   5: origin: [58, 79, 82, 75] decoded:[75, 79, 82, 89]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 55, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 54, 37, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 18, 24, 19, 18, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 83, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[51, 17, 17]
+5/6 11:41:27  step===13000, Epoch 27/1000, accuracy = 0.419,avg_train_cost = 3.299, lastbatch_err = 0.179, time = 126.841,lr=0.00877521
+
+batch 99 : time 1.4734458923339844
+save checkpoint 13100
+batch 99 : time 1.4748308658599854
+save checkpoint 13200
+save checkpoint 13300
+batch 99 : time 1.4678006172180176
+save checkpoint 13400
+save checkpoint 13500
+batch 99 : time 1.4782721996307373
+save checkpoint 13600
+batch 99 : time 1.4872384071350098
+save checkpoint 13700
+save checkpoint 13800
+batch 99 : time 2.9517581462860107
+save checkpoint 13900
+save checkpoint 14000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[25, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 49, 53, 48, 51, 52, 15]
+seq   5: origin: [58, 79, 82, 75] decoded:[89, 79, 82, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[84, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 56, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 42, 46, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 18, 19, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 83, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 76, 69]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[21, 24, 17]
+5/6 12:11:19  step===14000, Epoch 33/1000, accuracy = 0.374,avg_train_cost = 3.711, lastbatch_err = 0.202, time = 265.234,lr=0.00868746
+
+batch 99 : time 1.4676713943481445
+save checkpoint 14100
+batch 99 : time 1.4725534915924072
+save checkpoint 14200
+save checkpoint 14300
+batch 99 : time 1.4739809036254883
+save checkpoint 14400
+save checkpoint 14500
+batch 99 : time 1.4731709957122803
+save checkpoint 14600
+batch 99 : time 1.482757806777954
+save checkpoint 14700
+save checkpoint 14800
+batch 99 : time 1.4663426876068115
+save checkpoint 14900
+save checkpoint 15000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 58, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 34, 49, 53, 48, 51, 52, 2]
+seq   5: origin: [58, 79, 82, 75] decoded:[58, 79, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 85, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 56, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 54, 46, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 14, 19, 18, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 76, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[21, 24, 22, 17]
+5/6 12:35:59  step===15000, Epoch 39/1000, accuracy = 0.749,avg_train_cost = 1.137, lastbatch_err = 0.056, time = 138.650,lr=0.00860058
+
+batch 99 : time 1.4682533740997314
+save checkpoint 15100
+batch 99 : time 1.462911605834961
+save checkpoint 15200
+save checkpoint 15300
+batch 99 : time 1.476362705230713
+save checkpoint 15400
+save checkpoint 15500
+batch 99 : time 1.4806993007659912
+save checkpoint 15600
+batch 99 : time 1.482680082321167
+save checkpoint 15700
+save checkpoint 15800
+batch 99 : time 1.4842169284820557
+save checkpoint 15900
+save checkpoint 16000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 58, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 34, 49, 53, 48, 51, 52, 32]
+seq   5: origin: [58, 79, 82, 75] decoded:[58, 79, 82, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 56, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 42, 46, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 14, 19, 18, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 76, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[21, 22, 17]
+5/6 13:0:38  step===16000, Epoch 45/1000, accuracy = 0.870,avg_train_cost = 0.524, lastbatch_err = 0.023, time = 144.559,lr=0.00851458
+
+batch 99 : time 1.4703991413116455
+save checkpoint 16100
+batch 99 : time 1.4737293720245361
+save checkpoint 16200
+save checkpoint 16300
+batch 99 : time 1.4697239398956299
+save checkpoint 16400
+save checkpoint 16500
+batch 99 : time 1.4649536609649658
+save checkpoint 16600
+batch 99 : time 1.4708092212677002
+save checkpoint 16700
+save checkpoint 16800
+batch 99 : time 2.962149143218994
+save checkpoint 16900
+batch 99 : time 2.952737331390381
+save checkpoint 17000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 58, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 34, 49, 53, 48, 51, 52, 32]
+seq   5: origin: [58, 79, 82, 75] decoded:[58, 79, 82, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 56, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 42, 54, 46, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 24, 19, 18, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 76, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[21, 24, 22, 17]
+5/6 13:30:32  step===17000, Epoch 51/1000, accuracy = 0.945,avg_train_cost = 0.254, lastbatch_err = 0.009, time = 300.545,lr=0.00842943
+
+save checkpoint 17100
+batch 99 : time 2.947528839111328
+save checkpoint 17200
+save checkpoint 17300
+batch 99 : time 2.9665627479553223
+save checkpoint 17400
+batch 99 : time 2.9509575366973877
+save checkpoint 17500
+save checkpoint 17600
+batch 99 : time 2.9486947059631348
+save checkpoint 17700
+save checkpoint 17800
+batch 99 : time 2.9586181640625
+save checkpoint 17900
+batch 99 : time 2.95760440826416
+save checkpoint 18000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 58, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 34, 49, 53, 48, 51, 52, 32]
+seq   5: origin: [58, 79, 82, 75] decoded:[58, 79, 82, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 56, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 42, 54, 46, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 24, 14, 19, 18, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 76, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[21, 24, 22, 17]
+5/6 14:20:4  step===18000, Epoch 57/1000, accuracy = 0.972,avg_train_cost = 0.151, lastbatch_err = 0.004, time = 312.936,lr=0.00834514
+
+save checkpoint 18100
+batch 99 : time 2.9429397583007812
+save checkpoint 18200
+save checkpoint 18300
+batch 99 : time 2.9695255756378174
+save checkpoint 18400
+batch 99 : time 2.952641487121582
+save checkpoint 18500
+save checkpoint 18600
+batch 99 : time 2.9438700675964355
+save checkpoint 18700
+save checkpoint 18800
+batch 99 : time 2.9708738327026367
+save checkpoint 18900
+batch 99 : time 2.945394515991211
+save checkpoint 19000
+seq   0: origin: [37, 38, 45, 45] decoded:[37, 38, 45, 45]
+seq   1: origin: [22, 24, 17, 19] decoded:[22, 24, 17, 19]
+seq   2: origin: [18, 25, 26, 26] decoded:[18, 25, 26, 26]
+seq   3: origin: [40, 45, 38, 47, 47, 37, 58, 47, 38] decoded:[40, 45, 38, 47, 47, 37, 58, 47, 38]
+seq   4: origin: [51, 34, 49, 53, 48, 51, 52, 32] decoded:[51, 34, 49, 53, 48, 51, 52, 32]
+seq   5: origin: [58, 79, 82, 75] decoded:[58, 79, 82, 75]
+seq   6: origin: [74, 85, 78, 71, 76, 69] decoded:[74, 85, 78, 71, 76, 69]
+seq   7: origin: [87, 79, 82, 75, 73, 78, 71] decoded:[87, 79, 82, 75, 73, 78, 71]
+seq   8: origin: [84, 73, 82, 69, 68] decoded:[84, 73, 82, 69, 68]
+seq   9: origin: [67, 65, 66, 65, 82, 69, 84] decoded:[67, 65, 66, 65, 82, 69, 84]
+seq  10: origin: [53, 82, 65, 73, 78] decoded:[53, 82, 65, 73, 78]
+seq  11: origin: [45, 42, 56, 38, 45, 45] decoded:[45, 42, 56, 38, 45, 45]
+seq  12: origin: [53, 51, 42, 54, 46, 49, 41] decoded:[53, 51, 42, 54, 46, 49, 41]
+seq  13: origin: [22, 18, 24, 14, 19, 18, 21, 18] decoded:[22, 18, 24, 14, 19, 18, 21, 18]
+seq  14: origin: [36, 65, 83, 84, 82, 79, 76] decoded:[36, 65, 83, 84, 82, 79, 76]
+seq  15: origin: [77, 69, 76, 69, 82] decoded:[77, 69, 76, 69, 82]
+seq  16: origin: [67, 79, 70, 70, 69, 69] decoded:[67, 79, 70, 70, 69, 69]
+seq  17: origin: [21, 24, 22, 17] decoded:[21, 24, 22, 17]
+5/6 15:9:35  step===19000, Epoch 63/1000, accuracy = 0.976,avg_train_cost = 0.106, lastbatch_err = 0.004, time = 324.534,lr=0.00826169
+
+save checkpoint 19100
+batch 99 : time 2.949281692504883
+save checkpoint 19200
+save checkpoint 19300
+batch 99 : time 2.9694786071777344
+save checkpoint 19400
+batch 99 : time 2.95532488822937
+save checkpoint 19500
+save checkpoint 19600

@@ -8,7 +8,7 @@ import logging,datetime
 
 FLAGS=utils.FLAGS
 Flag_Isserver = True
-#???
+pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new3'
 logger = logging.getLogger('Traing for ocr using LSTM+CTC')
 logger.setLevel(logging.INFO)
 
@@ -98,7 +98,7 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
 if __name__ == '__main__':
     #train(train_dir='train',val_dir='val')
     if Flag_Isserver:
-        train(train_dir='../train_data/train_words', val_dir='../train_data/test_train_words', train_text_dir='../train_data/train_words_gt.txt',val_text_dir='../train_data/train_words_gt.txt')
+        train(train_dir=pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/test_train_words', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/train_words_gt.txt')
     else:
         train(train_dir='C:/Users/jieyang/Documents/GitHub/STN_CNN_LSTM_CTC_TensorFlow/train/svt/train1', val_dir='C:/Users/jieyang/Documents/GitHub/STN_CNN_LSTM_CTC_TensorFlow/train/svt/test')
     #

@@ -1,0 +1,280 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1101121
+len is 0 or too long 1067138
+len is 0 or too long 1085492
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+len is 0 or too long 1078701
+len is 0 or too long 1199831
+len is 0 or too long 1124130
+***************get image:  42606
+loading validation data, please wait--------------------- end= 
+len is 0 or too long 1091637
+***************get image:  301
+2018-05-15 08:18:06.145160: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.145198: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.145206: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.145213: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.145219: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.678300: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-15 08:18:06.678775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.03GiB
+2018-05-15 08:18:06.678817: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-15 08:18:06.678841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-15 08:18:06.678853: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new6/checkpoint/ocr-model-31600
+=============================begin training=============================
+2018-05-15 08:18:14.169871: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.188259: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 3.60G (3865470464 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.207486: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 3.24G (3478923264 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.226047: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 2.92G (3131030784 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.243624: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 2.62G (2817927680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.261319: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 2.36G (2536134912 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.280259: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 2.12G (2282521344 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.280287: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:14.989706: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:14.989784: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.33GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:15.740856: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:15.740943: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.13GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:16.824383: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:16.824452: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 702.00MiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:16.842060: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:16.842089: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.20GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:18.360865: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:18.360929: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.19GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:20.750741: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4580 get requests, put_count=3097 evicted_count=1000 eviction_rate=0.322893 and unsatisfied allocation rate=0.563974
+2018-05-15 08:18:20.750775: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-15 08:18:21.131097: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:21.131190: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.19GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:21.916519: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:21.916595: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.20GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:23.903014: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:23.903082: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.13GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:25.038392: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:25.038461: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.33GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2018-05-15 08:18:25.740306: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:26.044329: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:18:35.859137: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 472 get requests, put_count=1485 evicted_count=1000 eviction_rate=0.673401 and unsatisfied allocation rate=0.00211864
+2018-05-15 08:18:35.859204: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 160 to 176
+2018-05-15 08:18:46.082042: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 647 get requests, put_count=1671 evicted_count=1000 eviction_rate=0.598444 and unsatisfied allocation rate=0.0015456
+2018-05-15 08:18:58.632612: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5274 get requests, put_count=5122 evicted_count=2000 eviction_rate=0.390472 and unsatisfied allocation rate=0.415055
+2018-05-15 08:18:58.632663: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 409 to 449
+2018-05-15 08:19:11.331544: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5355 get requests, put_count=5480 evicted_count=2000 eviction_rate=0.364964 and unsatisfied allocation rate=0.361158
+2018-05-15 08:19:11.331629: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+2018-05-15 08:19:26.885063: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4995 get requests, put_count=4662 evicted_count=1000 eviction_rate=0.2145 and unsatisfied allocation rate=0.287888
+2018-05-15 08:19:26.885139: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 1158 to 1273
+cur_epoch==== 0 cur_batch---- 99 g_step**** 31699 cost 5.580896
+cur_epoch==== 1 cur_batch---- 99 g_step**** 31865 cost 6.8186655
+save checkpoint 32000
+2018-05-15 08:35:55.663235: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:35:57.406520: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:35:58.766153: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-15 08:36:00.260761: E tensorflow/stream_executor/cuda/cuda_driver.cc:924] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+seq   0: origin: [21, 18, 25, 18] decoded:[51, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 40, 42, 47, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 43, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[46, 37, 47, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 73, 80, 65, 69, 77]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 85, 73, 73, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[56, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[53, 48, 42, 52, 53, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[49, 51, 38, 53, 34, 45, 51, 34, 47, 53, 51]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[53, 48, 51, 48, 55, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 8:36:2  step===32000, Epoch 3/1000, accuracy = 0.282,avg_train_cost = 6.208, lastbatch_err = 0.352, time = 185.531,lr=0.00724981
+
+cur_epoch==== 2 cur_batch---- 99 g_step**** 32031 cost 6.529285
+cur_epoch==== 3 cur_batch---- 99 g_step**** 32197 cost 5.7112923
+cur_epoch==== 4 cur_batch---- 99 g_step**** 32363 cost 5.398599
+save checkpoint 32400
+cur_epoch==== 5 cur_batch---- 99 g_step**** 32529 cost 5.576762
+cur_epoch==== 6 cur_batch---- 99 g_step**** 32695 cost 5.892481
+save checkpoint 32800
+cur_epoch==== 7 cur_batch---- 99 g_step**** 32861 cost 5.675606
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 18, 35, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 52, 40, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[47, 45, 42, 47, 42, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 77]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 85, 73, 83, 76, 73, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[56, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[53, 49, 42, 52, 37]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[49, 82, 69, 84, 34, 45, 51, 65, 47, 84, 82]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 71, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[46, 48, 51, 48, 55, 38, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 77, 69, 82, 73, 78, 79]
+5/15 9:19:49  step===33000, Epoch 9/1000, accuracy = 0.319,avg_train_cost = 6.090, lastbatch_err = 0.349, time = 192.391,lr=0.00717731
+
+cur_epoch==== 8 cur_batch---- 99 g_step**** 33027 cost 5.781694
+cur_epoch==== 9 cur_batch---- 99 g_step**** 33193 cost 6.2425356
+save checkpoint 33200
+cur_epoch==== 10 cur_batch---- 99 g_step**** 33359 cost 6.176908
+cur_epoch==== 11 cur_batch---- 99 g_step**** 33525 cost 5.5858397
+save checkpoint 33600
+cur_epoch==== 12 cur_batch---- 99 g_step**** 33691 cost 6.579892
+cur_epoch==== 13 cur_batch---- 99 g_step**** 33857 cost 4.87704
+save checkpoint 34000
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 52, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 43, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 45, 42, 47, 52, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[37, 82, 73, 83, 80, 69, 84]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 85, 73, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[56, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[53, 48, 42, 37]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[49, 51, 38, 53, 34, 54, 51, 34, 47, 53, 51]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[46, 48, 51, 48, 55, 38, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 10:3:39  step===34000, Epoch 15/1000, accuracy = 0.336,avg_train_cost = 5.872, lastbatch_err = 0.328, time = 202.782,lr=0.00710553
+
+cur_epoch==== 14 cur_batch---- 99 g_step**** 34023 cost 7.8047686
+cur_epoch==== 15 cur_batch---- 99 g_step**** 34189 cost 5.27195
+cur_epoch==== 16 cur_batch---- 99 g_step**** 34355 cost 5.317367
+save checkpoint 34400
+cur_epoch==== 17 cur_batch---- 99 g_step**** 34521 cost 6.7387342
+cur_epoch==== 18 cur_batch---- 99 g_step**** 34687 cost 5.2575693
+save checkpoint 34800
+cur_epoch==== 19 cur_batch---- 99 g_step**** 34853 cost 6.2102437
+seq   0: origin: [21, 18, 25, 18] decoded:[34, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 52, 40, 53, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 47, 15, 45, 42, 47, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 82, 71, 83, 69, 69, 84]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 85, 73, 83, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[56, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[53, 48, 83, 69]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[39, 51, 38, 53, 34, 45, 51, 34, 47, 53, 51]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 79, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[46, 48, 51, 48, 55, 38, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 10:47:29  step===35000, Epoch 21/1000, accuracy = 0.329,avg_train_cost = 5.846, lastbatch_err = 0.334, time = 212.419,lr=0.00703448
+
+cur_epoch==== 20 cur_batch---- 99 g_step**** 35019 cost 4.8465056
+cur_epoch==== 21 cur_batch---- 99 g_step**** 35185 cost 5.987938
+save checkpoint 35200
+cur_epoch==== 22 cur_batch---- 99 g_step**** 35351 cost 6.493361
+cur_epoch==== 23 cur_batch---- 99 g_step**** 35517 cost 5.688239
+save checkpoint 35600
+cur_epoch==== 24 cur_batch---- 99 g_step**** 35683 cost 5.028742
+cur_epoch==== 25 cur_batch---- 99 g_step**** 35849 cost 5.9250555
+save checkpoint 36000
+seq   0: origin: [21, 18, 25, 18] decoded:[18, 18, 35, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 36, 53, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 41, 42, 47, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 69, 73, 69, 80, 82, 69, 77]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 85, 73, 83, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[87, 73, 76, 76]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[51, 48, 42, 52, 38]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[49, 51, 38, 53, 41, 45, 51, 34, 47, 53, 51]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 40, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[46, 48, 51, 48, 55, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 82, 73, 78, 79]
+5/15 11:31:20  step===36000, Epoch 27/1000, accuracy = 0.309,avg_train_cost = 5.810, lastbatch_err = 0.343, time = 223.556,lr=0.00696413
+
+cur_epoch==== 26 cur_batch---- 99 g_step**** 36015 cost 5.9658422
+cur_epoch==== 27 cur_batch---- 99 g_step**** 36181 cost 6.184694
+cur_epoch==== 28 cur_batch---- 99 g_step**** 36347 cost 4.9264803
+save checkpoint 36400
+cur_epoch==== 29 cur_batch---- 99 g_step**** 36513 cost 5.8163385
+cur_epoch==== 30 cur_batch---- 99 g_step**** 36679 cost 5.5181446
+save checkpoint 36800
+cur_epoch==== 31 cur_batch---- 99 g_step**** 36845 cost 4.773175
+seq   0: origin: [21, 18, 25, 18] decoded:[65, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 40, 53, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 37, 42, 47, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 69, 69, 84]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 83, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[87, 73, 76, 76]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[53, 48, 42, 38]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[49, 51, 38, 53, 41, 54, 51, 34, 47, 53, 51]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[46, 48, 51, 48, 55, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 76, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 12:15:10  step===37000, Epoch 33/1000, accuracy = 0.316,avg_train_cost = 5.690, lastbatch_err = 0.332, time = 234.446,lr=0.00689449
+
+cur_epoch==== 32 cur_batch---- 99 g_step**** 37011 cost 6.0538435
+cur_epoch==== 33 cur_batch---- 99 g_step**** 37177 cost 6.146328
+save checkpoint 37200
+cur_epoch==== 34 cur_batch---- 99 g_step**** 37343 cost 6.072398
+cur_epoch==== 35 cur_batch---- 99 g_step**** 37509 cost 5.47867
+save checkpoint 37600
+cur_epoch==== 36 cur_batch---- 99 g_step**** 37675 cost 5.3020906
+cur_epoch==== 37 cur_batch---- 99 g_step**** 37841 cost 5.406646
+save checkpoint 38000
+seq   0: origin: [21, 18, 25, 18] decoded:[65, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 54, 36, 53, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 37, 42, 47, 52, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 73, 80, 69, 69, 84]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 85, 73, 83, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[56, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[53, 49, 42, 52, 38]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[38, 51, 38, 53, 34, 54, 51, 34, 47, 53, 51]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[46, 48, 51, 48, 55, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 12:58:10  step===38000, Epoch 39/1000, accuracy = 0.339,avg_train_cost = 5.489, lastbatch_err = 0.320, time = 194.646,lr=0.00682555
+
+cur_epoch==== 38 cur_batch---- 99 g_step**** 38007 cost 5.1437664

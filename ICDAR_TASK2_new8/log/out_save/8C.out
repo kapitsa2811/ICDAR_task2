@@ -1,0 +1,1402 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1101121
+len is 0 or too long 1067138
+len is 0 or too long 1085492
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+len is 0 or too long 1078701
+len is 0 or too long 1199831
+len is 0 or too long 1124130
+***************get image:  42606
+loading validation data, please wait--------------------- end= 
+len is 0 or too long 1091637
+***************get image:  301
+2018-05-15 08:18:06.197672: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.197708: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.197715: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.197721: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.197727: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-15 08:18:06.678470: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-15 08:18:06.679211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.03GiB
+2018-05-15 08:18:06.679245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-15 08:18:06.679253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-15 08:18:06.679267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new8/checkpoint/ocr-model-23200
+=============================begin training=============================
+2018-05-15 08:18:20.747143: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4392 get requests, put_count=3035 evicted_count=1000 eviction_rate=0.329489 and unsatisfied allocation rate=0.559426
+2018-05-15 08:18:20.747206: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-15 08:18:27.362464: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 588 get requests, put_count=1601 evicted_count=1000 eviction_rate=0.62461 and unsatisfied allocation rate=0.00170068
+2018-05-15 08:18:34.533005: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4982 get requests, put_count=4803 evicted_count=2000 eviction_rate=0.416406 and unsatisfied allocation rate=0.441991
+2018-05-15 08:18:34.533066: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+2018-05-15 08:18:40.902979: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 525 get requests, put_count=1562 evicted_count=1000 eviction_rate=0.640205 and unsatisfied allocation rate=0
+2018-05-15 08:18:49.784616: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5108 get requests, put_count=5365 evicted_count=2000 eviction_rate=0.372787 and unsatisfied allocation rate=0.35278
+2018-05-15 08:18:49.784669: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+2018-05-15 08:18:59.307428: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 538 get requests, put_count=1653 evicted_count=1000 eviction_rate=0.604961 and unsatisfied allocation rate=0
+epochs 0 49
+epochs 0 99
+epochs 0 149
+epochs 1 33
+**********save checkpoint********** all_step: 23400
+**********CrossValidation********** all_step: 23400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 35, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 42, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[66, 79, 73, 78, 76, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[54, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 78, 48]
+5/15 8:23:42  all_step===23400, Epoch 2/1000, accuracy = 0.163,avg_train_cost = 5.800, lastbatch_err = 0.477,lr=0.00793614
+
+epochs 1 83
+epochs 1 133
+epochs 2 17
+epochs 2 67
+**********save checkpoint********** all_step: 23600
+**********CrossValidation********** all_step: 23600
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[35, 69, 71, 84, 78, 36, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 51, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[67, 79, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 36, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 42, 38, 34, 42, 47, 48]
+5/15 8:28:57  all_step===23600, Epoch 3/1000, accuracy = 0.163,avg_train_cost = 5.662, lastbatch_err = 0.473,lr=0.00793614
+
+epochs 2 117
+epochs 3 1
+epochs 3 51
+epochs 3 101
+**********save checkpoint********** all_step: 23800
+**********CrossValidation********** all_step: 23800
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 20, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[35, 45, 38, 38, 53, 51, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 51, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 42, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 48, 51, 37, 38, 51]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[66, 67, 73, 78, 76, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[51, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 82, 73, 78, 79]
+5/15 8:34:14  all_step===23800, Epoch 4/1000, accuracy = 0.183,avg_train_cost = 5.724, lastbatch_err = 0.469,lr=0.00793614
+
+epochs 3 151
+epochs 4 35
+epochs 4 85
+epochs 4 135
+**********save checkpoint********** all_step: 24000
+**********CrossValidation********** all_step: 24000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[45, 38, 52, 53, 47, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 47, 42, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 48, 82, 37, 38, 51]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 78, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 71, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 42, 38, 42, 47, 48]
+5/15 8:39:27  all_step===24000, Epoch 5/1000, accuracy = 0.166,avg_train_cost = 5.601, lastbatch_err = 0.462,lr=0.00785678
+
+epochs 5 19
+epochs 5 69
+epochs 5 119
+epochs 6 3
+**********save checkpoint********** all_step: 24200
+**********CrossValidation********** all_step: 24200
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[54, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 48, 82, 49, 38, 51]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[79, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 42, 38, 42, 47, 48]
+5/15 8:44:42  all_step===24200, Epoch 7/1000, accuracy = 0.193,avg_train_cost = 5.287, lastbatch_err = 0.453,lr=0.00785678
+
+epochs 6 53
+epochs 6 103
+epochs 6 153
+epochs 7 37
+**********save checkpoint********** all_step: 24400
+**********CrossValidation********** all_step: 24400
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 35]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 38, 52, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[65, 82, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 52, 40, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[51, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 38, 34, 47, 48]
+5/15 8:49:59  all_step===24400, Epoch 8/1000, accuracy = 0.189,avg_train_cost = 5.507, lastbatch_err = 0.464,lr=0.00785678
+
+epochs 7 87
+epochs 7 137
+epochs 8 21
+epochs 8 71
+**********save checkpoint********** all_step: 24600
+**********CrossValidation********** all_step: 24600
+seq   0: origin: [21, 18, 25, 18] decoded:[39, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[35, 38, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 48, 51, 37, 38, 51]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[54, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 53, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 51, 58]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 42, 38, 42, 47, 48]
+5/15 8:55:13  all_step===24600, Epoch 9/1000, accuracy = 0.179,avg_train_cost = 5.418, lastbatch_err = 0.447,lr=0.00785678
+
+epochs 8 121
+epochs 9 5
+epochs 9 55
+epochs 9 105
+**********save checkpoint********** all_step: 24800
+**********CrossValidation********** all_step: 24800
+seq   0: origin: [21, 18, 25, 18] decoded:[19, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 40, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 51, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[54, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 48, 46, 49, 34, 47, 58]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 38, 34, 42, 47, 48]
+5/15 9:0:29  all_step===24800, Epoch 10/1000, accuracy = 0.196,avg_train_cost = 5.217, lastbatch_err = 0.448,lr=0.00785678
+
+epochs 9 155
+epochs 10 39
+epochs 10 89
+epochs 10 139
+**********save checkpoint********** all_step: 25000
+**********CrossValidation********** all_step: 25000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 71, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 67, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 34, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 65, 73, 78, 79]
+5/15 9:5:45  all_step===25000, Epoch 11/1000, accuracy = 0.189,avg_train_cost = 5.134, lastbatch_err = 0.435,lr=0.00777822
+
+epochs 11 23
+epochs 11 73
+epochs 11 123
+epochs 12 7
+**********save checkpoint********** all_step: 25200
+**********CrossValidation********** all_step: 25200
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[45, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 40]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 67, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 73, 78, 68]
+5/15 9:11:1  all_step===25200, Epoch 13/1000, accuracy = 0.206,avg_train_cost = 5.008, lastbatch_err = 0.420,lr=0.00777822
+
+epochs 12 57
+epochs 12 107
+epochs 12 157
+epochs 13 41
+**********save checkpoint********** all_step: 25400
+**********CrossValidation********** all_step: 25400
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[69, 71, 84, 78, 69]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 49, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[35, 83, 79, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 45, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[65, 82, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 65, 73, 78, 79]
+5/15 9:16:17  all_step===25400, Epoch 14/1000, accuracy = 0.199,avg_train_cost = 5.282, lastbatch_err = 0.455,lr=0.00777822
+
+epochs 13 91
+epochs 13 141
+epochs 14 25
+epochs 14 75
+**********save checkpoint********** all_step: 25600
+**********CrossValidation********** all_step: 25600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[52, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 47, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[67, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 48, 51, 37, 38, 51]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 55, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 78, 48]
+5/15 9:21:31  all_step===25600, Epoch 15/1000, accuracy = 0.196,avg_train_cost = 4.942, lastbatch_err = 0.429,lr=0.00777822
+
+epochs 14 125
+epochs 15 9
+epochs 15 59
+epochs 15 109
+**********save checkpoint********** all_step: 25800
+**********CrossValidation********** all_step: 25800
+seq   0: origin: [21, 18, 25, 18] decoded:[19, 18, 35, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 36, 53, 47, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 53, 42, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 45, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 83, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 73, 69, 82, 65, 73, 78, 79]
+5/15 9:26:46  all_step===25800, Epoch 16/1000, accuracy = 0.199,avg_train_cost = 4.887, lastbatch_err = 0.434,lr=0.00777822
+
+epochs 15 159
+epochs 16 43
+epochs 16 93
+epochs 16 143
+**********save checkpoint********** all_step: 26000
+**********CrossValidation********** all_step: 26000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[79, 69, 71, 84, 78, 69, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 84, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[54, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 52, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 38, 42, 47, 48]
+5/15 9:32:2  all_step===26000, Epoch 17/1000, accuracy = 0.203,avg_train_cost = 4.833, lastbatch_err = 0.441,lr=0.00770043
+
+epochs 17 27
+epochs 17 77
+epochs 17 127
+epochs 18 11
+**********save checkpoint********** all_step: 26200
+**********CrossValidation********** all_step: 26200
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 36, 53, 47, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 42, 40]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 67, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 40, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 25]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 9:37:18  all_step===26200, Epoch 19/1000, accuracy = 0.203,avg_train_cost = 4.901, lastbatch_err = 0.422,lr=0.00770043
+
+epochs 18 61
+epochs 18 111
+epochs 18 161
+epochs 19 45
+**********save checkpoint********** all_step: 26400
+**********CrossValidation********** all_step: 26400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 47, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 48, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[51, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 47, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 73, 69, 82, 73, 78, 79]
+5/15 9:42:34  all_step===26400, Epoch 20/1000, accuracy = 0.216,avg_train_cost = 4.568, lastbatch_err = 0.430,lr=0.00770043
+
+epochs 19 95
+epochs 19 145
+epochs 20 29
+epochs 20 79
+**********save checkpoint********** all_step: 26600
+**********CrossValidation********** all_step: 26600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[35, 38, 36, 53, 51, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 82, 65, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 38, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[51, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 46, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 73, 69, 65, 73, 78, 79]
+5/15 9:47:50  all_step===26600, Epoch 21/1000, accuracy = 0.189,avg_train_cost = 4.507, lastbatch_err = 0.429,lr=0.00770043
+
+epochs 20 129
+epochs 21 13
+epochs 21 63
+epochs 21 113
+**********save checkpoint********** all_step: 26800
+**********CrossValidation********** all_step: 26800
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 36, 84, 78, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 67, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[20, 82, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 46, 38, 51, 26]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 65, 73, 78, 79]
+5/15 9:53:6  all_step===26800, Epoch 22/1000, accuracy = 0.203,avg_train_cost = 4.445, lastbatch_err = 0.418,lr=0.00770043
+
+epochs 21 163
+epochs 22 47
+epochs 22 97
+epochs 22 147
+**********save checkpoint********** all_step: 27000
+**********CrossValidation********** all_step: 27000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 38, 36, 53, 34, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 53, 42, 40, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[67, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 52, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 79, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 24, 38, 24]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 42, 78, 79]
+5/15 9:58:22  all_step===27000, Epoch 23/1000, accuracy = 0.236,avg_train_cost = 4.361, lastbatch_err = 0.411,lr=0.00762343
+
+epochs 23 31
+epochs 23 81
+epochs 23 131
+epochs 24 15
+**********save checkpoint********** all_step: 27200
+**********CrossValidation********** all_step: 27200
+seq   0: origin: [21, 18, 25, 18] decoded:[27, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 42, 40]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 67, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[45, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[65, 82, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 34, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 52, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 46, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 78, 79]
+5/15 10:3:38  all_step===27200, Epoch 25/1000, accuracy = 0.216,avg_train_cost = 4.390, lastbatch_err = 0.408,lr=0.00762343
+
+epochs 24 65
+epochs 24 115
+epochs 24 165
+epochs 25 49
+**********save checkpoint********** all_step: 27400
+**********CrossValidation********** all_step: 27400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 34, 36, 53, 34, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 37, 51, 53, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[69, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 46, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 10:8:52  all_step===27400, Epoch 26/1000, accuracy = 0.193,avg_train_cost = 4.641, lastbatch_err = 0.420,lr=0.00762343
+
+epochs 25 99
+epochs 25 149
+epochs 26 33
+epochs 26 83
+**********save checkpoint********** all_step: 27600
+**********CrossValidation********** all_step: 27600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 38, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 51, 48, 52]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 34, 78, 58]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 46, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 10:14:9  all_step===27600, Epoch 27/1000, accuracy = 0.196,avg_train_cost = 4.208, lastbatch_err = 0.414,lr=0.00762343
+
+epochs 26 133
+epochs 27 17
+epochs 27 67
+epochs 27 117
+**********save checkpoint********** all_step: 27800
+**********CrossValidation********** all_step: 27800
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 36, 53, 78, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 48, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[70, 83, 67, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 65, 73, 78, 79]
+5/15 10:19:25  all_step===27800, Epoch 28/1000, accuracy = 0.193,avg_train_cost = 4.129, lastbatch_err = 0.420,lr=0.00762343
+
+epochs 28 1
+epochs 28 51
+epochs 28 101
+epochs 28 151
+**********save checkpoint********** all_step: 28000
+**********CrossValidation********** all_step: 28000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 38, 36, 53, 47, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 53, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[80, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 10:24:41  all_step===28000, Epoch 29/1000, accuracy = 0.213,avg_train_cost = 4.114, lastbatch_err = 0.413,lr=0.00754719
+
+epochs 29 35
+epochs 29 85
+epochs 29 135
+epochs 30 19
+**********save checkpoint********** all_step: 28200
+**********CrossValidation********** all_step: 28200
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 42, 40, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 85, 69, 82, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[39, 83, 79, 73, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 36]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 82, 73, 78, 79]
+5/15 10:29:57  all_step===28200, Epoch 31/1000, accuracy = 0.226,avg_train_cost = 3.990, lastbatch_err = 0.414,lr=0.00754719
+
+epochs 30 69
+epochs 30 119
+epochs 31 3
+epochs 31 53
+**********save checkpoint********** all_step: 28400
+**********CrossValidation********** all_step: 28400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[54, 34, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 53, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 67, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 51, 34, 47, 53]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 52, 36, 36]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 10:35:13  all_step===28400, Epoch 32/1000, accuracy = 0.233,avg_train_cost = 3.875, lastbatch_err = 0.389,lr=0.00754719
+
+epochs 31 103
+epochs 31 153
+epochs 32 37
+epochs 32 87
+**********save checkpoint********** all_step: 28600
+**********CrossValidation********** all_step: 28600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 34, 36, 53, 47, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 37, 51, 53, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 79, 85, 69, 82, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 67, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 73, 69, 65, 73, 78, 79]
+5/15 10:40:28  all_step===28600, Epoch 33/1000, accuracy = 0.239,avg_train_cost = 4.047, lastbatch_err = 0.403,lr=0.00754719
+
+epochs 32 137
+epochs 33 21
+epochs 33 71
+epochs 33 121
+**********save checkpoint********** all_step: 28800
+**********CrossValidation********** all_step: 28800
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 35, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[69, 71, 84, 78, 67, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 42, 48, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 34, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 54, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 82, 65, 73, 78, 79]
+5/15 10:45:44  all_step===28800, Epoch 34/1000, accuracy = 0.209,avg_train_cost = 3.983, lastbatch_err = 0.422,lr=0.00754719
+
+epochs 34 5
+epochs 34 55
+epochs 34 105
+epochs 34 155
+**********save checkpoint********** all_step: 29000
+**********CrossValidation********** all_step: 29000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[69, 71, 84, 78, 69, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 53, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 34, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 79, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 10:50:58  all_step===29000, Epoch 35/1000, accuracy = 0.209,avg_train_cost = 3.860, lastbatch_err = 0.408,lr=0.00747172
+
+epochs 35 39
+epochs 35 89
+epochs 35 139
+epochs 36 23
+**********save checkpoint********** all_step: 29200
+**********CrossValidation********** all_step: 29200
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 69, 71, 84, 78, 69, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 53, 42, 42, 42, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 67, 79, 85, 69, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[39, 83, 79, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 10:56:14  all_step===29200, Epoch 37/1000, accuracy = 0.226,avg_train_cost = 3.530, lastbatch_err = 0.392,lr=0.00747172
+
+epochs 36 73
+epochs 36 123
+epochs 37 7
+epochs 37 57
+**********save checkpoint********** all_step: 29400
+**********CrossValidation********** all_step: 29400
+seq   0: origin: [21, 18, 25, 18] decoded:[22, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[76, 69, 71, 84, 78, 69, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 51, 37, 51, 53, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 67, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 68, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 34, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 42, 78, 79]
+5/15 11:1:29  all_step===29400, Epoch 38/1000, accuracy = 0.229,avg_train_cost = 3.479, lastbatch_err = 0.398,lr=0.00747172
+
+epochs 37 107
+epochs 37 157
+epochs 38 41
+epochs 38 91
+**********save checkpoint********** all_step: 29600
+**********CrossValidation********** all_step: 29600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[45, 38, 36, 53, 78, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 36, 51, 53, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 67, 79, 69, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 82, 73, 78, 79]
+5/15 11:6:46  all_step===29600, Epoch 39/1000, accuracy = 0.236,avg_train_cost = 3.568, lastbatch_err = 0.388,lr=0.00747172
+
+epochs 38 141
+epochs 39 25
+epochs 39 75
+epochs 39 125
+**********save checkpoint********** all_step: 29800
+**********CrossValidation********** all_step: 29800
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 34, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 47, 42, 42, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 67, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[51, 48, 46, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 73, 78, 79]
+5/15 11:12:2  all_step===29800, Epoch 40/1000, accuracy = 0.219,avg_train_cost = 3.496, lastbatch_err = 0.396,lr=0.00747172
+
+epochs 40 9
+epochs 40 59
+epochs 40 109
+epochs 40 159
+**********save checkpoint********** all_step: 30000
+**********CrossValidation********** all_step: 30000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 47, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 36, 51, 53, 42, 42, 42, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 67, 79, 85, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 38, 42, 78, 79]
+5/15 11:17:18  all_step===30000, Epoch 41/1000, accuracy = 0.229,avg_train_cost = 3.480, lastbatch_err = 0.398,lr=0.00739701
+
+epochs 41 43
+epochs 41 93
+epochs 41 143
+epochs 42 27
+**********save checkpoint********** all_step: 30200
+**********CrossValidation********** all_step: 30200
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 38, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 34, 53, 42, 42, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 78, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 73, 69, 82, 73, 78, 79]
+5/15 11:22:34  all_step===30200, Epoch 43/1000, accuracy = 0.233,avg_train_cost = 3.187, lastbatch_err = 0.391,lr=0.00739701
+
+epochs 42 77
+epochs 42 127
+epochs 43 11
+epochs 43 61
+**********save checkpoint********** all_step: 30400
+**********CrossValidation********** all_step: 30400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[49, 51, 37, 51, 53, 42, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 67, 79, 69, 82, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[37, 79, 82, 37, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 79, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 38, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 88, 73, 78, 79]
+5/15 11:27:50  all_step===30400, Epoch 44/1000, accuracy = 0.223,avg_train_cost = 3.292, lastbatch_err = 0.403,lr=0.00739701
+
+epochs 43 111
+epochs 43 161
+epochs 44 45
+epochs 44 95
+**********save checkpoint********** all_step: 30600
+**********CrossValidation********** all_step: 30600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 38, 36, 53, 34, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 51, 47, 42, 48, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 69, 79, 69, 78, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 68, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 82, 73, 78, 79]
+5/15 11:33:4  all_step===30600, Epoch 45/1000, accuracy = 0.219,avg_train_cost = 3.548, lastbatch_err = 0.404,lr=0.00739701
+
+epochs 44 145
+epochs 45 29
+epochs 45 79
+epochs 45 129
+**********save checkpoint********** all_step: 30800
+**********CrossValidation********** all_step: 30800
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 34, 36, 53, 51, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 34, 53, 42, 42, 48, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 85, 69, 78, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 68, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 79, 42, 78, 76, 38]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 48, 46, 49, 34, 47, 58]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 51, 42, 47, 79]
+5/15 11:38:20  all_step===30800, Epoch 46/1000, accuracy = 0.196,avg_train_cost = 3.226, lastbatch_err = 0.412,lr=0.00739701
+
+epochs 46 13
+epochs 46 63
+epochs 46 113
+epochs 46 163
+**********save checkpoint********** all_step: 31000
+**********CrossValidation********** all_step: 31000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 34, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 38, 42, 47, 40, 42, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 79, 69, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 38, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 87, 42, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 42, 78, 79]
+5/15 11:43:36  all_step===31000, Epoch 47/1000, accuracy = 0.233,avg_train_cost = 3.190, lastbatch_err = 0.381,lr=0.00732304
+
+epochs 47 47
+epochs 47 97
+epochs 47 147
+epochs 48 31
+**********save checkpoint********** all_step: 31200
+**********CrossValidation********** all_step: 31200
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 38, 53, 42, 40, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 79, 69, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 87, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 47, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 34, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 42, 78, 79]
+5/15 11:48:52  all_step===31200, Epoch 49/1000, accuracy = 0.213,avg_train_cost = 3.011, lastbatch_err = 0.393,lr=0.00732304
+
+epochs 48 81
+epochs 48 131
+epochs 49 15
+epochs 49 65
+**********save checkpoint********** all_step: 31400
+**********CrossValidation********** all_step: 31400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 38, 36, 84, 65, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 37, 34, 42, 42, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 67, 79, 85, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 69, 73, 78, 79]
+5/15 11:54:8  all_step===31400, Epoch 50/1000, accuracy = 0.213,avg_train_cost = 3.014, lastbatch_err = 0.384,lr=0.00732304
+
+epochs 49 115
+epochs 49 165
+epochs 50 49
+epochs 50 99
+**********save checkpoint********** all_step: 31600
+**********CrossValidation********** all_step: 31600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 51, 37, 38, 42, 47, 40, 48, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 85, 69, 82, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 48, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 73, 78, 79]
+5/15 11:59:24  all_step===31600, Epoch 51/1000, accuracy = 0.233,avg_train_cost = 3.006, lastbatch_err = 0.387,lr=0.00732304
+
+epochs 50 149
+epochs 51 33
+epochs 51 83
+epochs 51 133
+**********save checkpoint********** all_step: 31800
+**********CrossValidation********** all_step: 31800
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 38, 36, 53, 34, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 38, 47, 42, 40, 42, 47]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[49, 82, 79, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 47, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 46, 49, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 46, 26]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 12:4:40  all_step===31800, Epoch 52/1000, accuracy = 0.229,avg_train_cost = 3.386, lastbatch_err = 0.386,lr=0.00732304
+
+epochs 52 17
+epochs 52 67
+epochs 52 117
+epochs 53 1
+**********save checkpoint********** all_step: 32000
+**********CrossValidation********** all_step: 32000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 34, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 38, 53, 42, 47, 42, 40, 38]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 85, 69, 82, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 68, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[69, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 38]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 38, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 51]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[77, 73, 69, 82, 73, 78, 79]
+5/15 12:9:55  all_step===32000, Epoch 54/1000, accuracy = 0.226,avg_train_cost = 3.288, lastbatch_err = 0.405,lr=0.00724981
+
+epochs 53 51
+epochs 53 101
+epochs 53 151
+epochs 54 35
+**********save checkpoint********** all_step: 32200
+**********CrossValidation********** all_step: 32200
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 34, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 41, 42, 47, 40, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 83, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 82, 73, 78, 79]
+5/15 12:15:11  all_step===32200, Epoch 55/1000, accuracy = 0.249,avg_train_cost = 2.603, lastbatch_err = 0.375,lr=0.00724981
+
+epochs 54 85
+epochs 54 135
+epochs 55 19
+epochs 55 69
+**********save checkpoint********** all_step: 32400
+**********CrossValidation********** all_step: 32400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 34, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 35]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 34, 53, 42, 47, 40, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 67, 79, 69, 67]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 79, 73, 78, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 48]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 36, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 51, 42, 78, 79]
+5/15 12:20:27  all_step===32400, Epoch 56/1000, accuracy = 0.219,avg_train_cost = 2.703, lastbatch_err = 0.389,lr=0.00724981
+
+epochs 55 119
+epochs 56 3
+epochs 56 53
+epochs 56 103
+**********save checkpoint********** all_step: 32600
+**********CrossValidation********** all_step: 32600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 52, 41, 53, 42, 47, 40, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 69, 79, 85, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 38, 48, 44, 53, 38, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[46, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 52, 36, 36]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[48, 51, 48, 58, 38, 57, 26]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 88, 73, 78, 79]
+5/15 12:25:43  all_step===32600, Epoch 57/1000, accuracy = 0.226,avg_train_cost = 2.755, lastbatch_err = 0.372,lr=0.00724981
+
+epochs 56 153
+epochs 57 37
+epochs 57 87
+epochs 57 137
+**********save checkpoint********** all_step: 32800
+**********CrossValidation********** all_step: 32800
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[69, 69, 71, 84, 78, 69, 82]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 42, 47, 40, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 78]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 87, 42, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 54, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 73, 78, 75]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[36, 48, 52, 36, 36]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 42, 78, 79]
+5/15 12:30:58  all_step===32800, Epoch 58/1000, accuracy = 0.236,avg_train_cost = 2.825, lastbatch_err = 0.375,lr=0.00724981
+
+epochs 58 21
+epochs 58 71
+epochs 58 121
+epochs 59 5
+**********save checkpoint********** all_step: 33000
+**********CrossValidation********** all_step: 33000
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 37, 38, 42, 47, 40, 48, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 82, 79, 69, 82, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 79, 87, 73, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 52, 36, 48]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 48, 58, 38, 57]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 38, 51, 42, 47, 48]
+5/15 12:36:14  all_step===33000, Epoch 60/1000, accuracy = 0.233,avg_train_cost = 2.551, lastbatch_err = 0.370,lr=0.00717731
+
+epochs 59 55
+epochs 59 105
+epochs 59 155
+epochs 60 39
+**********save checkpoint********** all_step: 33200
+**********CrossValidation********** all_step: 33200
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 54, 38, 36, 53, 51, 42, 36, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 52, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 52, 34, 42, 47, 42, 48, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 19, 79, 69, 85]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 40, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[39, 83, 87, 73, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[48, 54, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 79, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 48, 51, 53, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 38, 51, 42, 47, 48]
+5/15 12:41:30  all_step===33200, Epoch 61/1000, accuracy = 0.243,avg_train_cost = 2.445, lastbatch_err = 0.383,lr=0.00717731
+
+epochs 60 89
+epochs 60 139
+epochs 61 23
+epochs 61 73
+**********save checkpoint********** all_step: 33400
+**********CrossValidation********** all_step: 33400
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 36]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[51, 38, 51, 53, 42, 47, 40, 48]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 67, 79, 69, 82, 65]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 42, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[45, 83, 87, 73, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 54, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[34, 51, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[36, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[37, 51, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 83, 67, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[49, 51, 48, 58, 38, 46]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 42, 78, 79]
+5/15 12:46:45  all_step===33400, Epoch 62/1000, accuracy = 0.226,avg_train_cost = 2.524, lastbatch_err = 0.378,lr=0.00717731
+
+epochs 61 123
+epochs 62 7
+epochs 62 57
+epochs 62 107
+**********save checkpoint********** all_step: 33600
+**********CrossValidation********** all_step: 33600
+seq   0: origin: [21, 18, 25, 18] decoded:[14, 18, 25, 18]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[38, 45, 38, 36, 53, 51, 42, 38, 53]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[38, 34, 40, 45, 38]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[34, 38, 51, 42, 47, 40, 42]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 67, 79, 69, 65, 76]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[36, 48, 48, 44, 53, 51, 52]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[68, 79, 82, 80, 69, 82]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[83, 87, 73, 78, 76, 76, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[43, 42, 45, 45]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[73, 78, 84, 69, 82, 70, 65, 67, 69, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[79, 67, 67, 79]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[67, 79, 77, 80, 65, 78, 89]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[68, 82, 42, 47, 44]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[35, 51, 48, 52, 36, 41, 53, 51, 34, 47, 53, 52]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[67, 48, 83, 36, 79]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[51, 48, 58, 38]
+seq  16: origin: [39, 48, 42, 45] decoded:[39, 48, 42, 45]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[46, 69, 88, 73, 78, 79]
+5/15 12:52:2  all_step===33600, Epoch 63/1000, accuracy = 0.239,avg_train_cost = 2.592, lastbatch_err = 0.382,lr=0.00717731
+
+epochs 62 157
+epochs 63 41
+epochs 63 91

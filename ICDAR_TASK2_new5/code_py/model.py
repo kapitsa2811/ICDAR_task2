@@ -69,6 +69,7 @@ class Graph(object):
                 self.h_trans = stn(self.inputs, s, loc, (utils.image_width, utils.image_height))'''
             if FLAGS.Use_CRNN:
                 with tf.variable_scope('CNN'):
+                    self.keep_prob_cv1 = tf.placeholder("float")
                     net = slim.conv2d(self.inputs, 64, [3, 3], scope='conv1')
                     net = slim.max_pool2d(net, [2, 2], scope='pool1')
                     net = slim.conv2d(net, 128, [3, 3], scope='conv2')
@@ -76,7 +77,8 @@ class Graph(object):
                     net = slim.conv2d(net, 256, [3, 3], activation_fn=None, scope='conv3')
                     net = tf.layers.batch_normalization(net, training=is_training)
                     net = tf.nn.relu(net)
-                    net = slim.conv2d(net, 256, [3, 3], scope='conv4')
+                    net_drop = tf.nn.dropout(net, self.keep_prob_cv1)
+                    net = slim.conv2d(net_drop, 256, [3, 3], scope='conv4')
                     net = slim.max_pool2d(net, [2, 2], [1, 2], scope='pool3')
                     net = slim.conv2d(net, 512, [3, 3], activation_fn=None, scope='conv5')
                     net = tf.layers.batch_normalization(net, training=is_training)
@@ -114,8 +116,8 @@ class Graph(object):
             shape = tf.shape(self.lstm_inputs)
             batch_s, max_timesteps = shape[0], 40
             outputs = tf.reshape(outputs, [-1, FLAGS.num_hidden*2])
-            self.keep_prob = tf.placeholder("float")
-            h_fc1_drop = tf.nn.dropout(outputs,self.keep_prob)
+            self.keep_prob_fc = tf.placeholder("float")
+            h_fc1_drop = tf.nn.dropout(outputs,self.keep_prob_fc)
             W = tf.Variable(tf.truncated_normal([FLAGS.num_hidden*2,num_classes],stddev=0.1, dtype=tf.float32), name='W')
             b = tf.Variable(tf.constant(0., dtype=tf.float32, shape=[num_classes], name='b'))
             logits = tf.matmul(outputs, W) + b

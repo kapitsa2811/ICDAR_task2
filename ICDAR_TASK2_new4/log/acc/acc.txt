@@ -1,0 +1,11 @@
+5/1 8:4:26  step===3000, Epoch 2/1000, accuracy = 0.000,avg_train_cost = 24.601, lastbatch_err = 0.974, time = 383.522,lr=0.00970299
+5/1 8:50:24  step===4000, Epoch 3/1000, accuracy = 0.000,avg_train_cost = 24.364, lastbatch_err = 0.948, time = 742.048,lr=0.00960596
+5/1 9:36:22  step===5000, Epoch 4/1000, accuracy = 0.000,avg_train_cost = 23.545, lastbatch_err = 0.919, time = 1111.275,lr=0.00950990
+5/1 10:22:18  step===6000, Epoch 5/1000, accuracy = 0.007,avg_train_cost = 20.632, lastbatch_err = 0.822, time = 1478.992,lr=0.00941480
+5/1 11:8:14  step===7000, Epoch 6/1000, accuracy = 0.038,avg_train_cost = 16.328, lastbatch_err = 0.680, time = 1848.125,lr=0.00932065
+5/1 11:54:9  step===8000, Epoch 7/1000, accuracy = 0.091,avg_train_cost = 13.818, lastbatch_err = 0.609, time = 2216.210,lr=0.00922745
+5/1 12:40:4  step===9000, Epoch 9/1000, accuracy = 0.119,avg_train_cost = 11.100, lastbatch_err = 0.554, time = 202.770,lr=0.00913517
+5/1 13:26:0  step===10000, Epoch 10/1000, accuracy = 0.151,avg_train_cost = 9.914, lastbatch_err = 0.513, time = 571.235,lr=0.00904382
+5/1 14:11:52  step===11000, Epoch 11/1000, accuracy = 0.180,avg_train_cost = 8.993, lastbatch_err = 0.465, time = 937.372,lr=0.00895338
+5/1 14:57:41  step===12000, Epoch 12/1000, accuracy = 0.200,avg_train_cost = 8.140, lastbatch_err = 0.437, time = 1304.825,lr=0.00886385
+5/1 15:43:28  step===13000, Epoch 13/1000, accuracy = 0.264,avg_train_cost = 7.381, lastbatch_err = 0.375, time = 1671.640,lr=0.00877521
