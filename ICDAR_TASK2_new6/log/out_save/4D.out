@@ -3246,3 +3246,231 @@ cur_epoch==== 161 cur_batch---- 89 g_step**** 65215 cost 25.78498
 cur_epoch==== 161 cur_batch---- 99 g_step**** 65225 cost 25.228897
 cur_epoch==== 161 cur_batch---- 109 g_step**** 65235 cost 24.045118
 cur_epoch==== 161 cur_batch---- 119 g_step**** 65245 cost 24.898731
+cur_epoch==== 161 cur_batch---- 129 g_step**** 65255 cost 24.983938
+cur_epoch==== 161 cur_batch---- 139 g_step**** 65265 cost 25.74157
+cur_epoch==== 161 cur_batch---- 149 g_step**** 65275 cost 25.226597
+cur_epoch==== 161 cur_batch---- 159 g_step**** 65285 cost 24.901543
+cur_epoch==== 162 cur_batch---- 9 g_step**** 65301 cost 24.178268
+cur_epoch==== 162 cur_batch---- 19 g_step**** 65311 cost 24.575071
+cur_epoch==== 162 cur_batch---- 29 g_step**** 65321 cost 24.127884
+cur_epoch==== 162 cur_batch---- 39 g_step**** 65331 cost 23.956379
+cur_epoch==== 162 cur_batch---- 49 g_step**** 65341 cost 24.729439
+cur_epoch==== 162 cur_batch---- 59 g_step**** 65351 cost 26.554714
+cur_epoch==== 162 cur_batch---- 69 g_step**** 65361 cost 24.545816
+cur_epoch==== 162 cur_batch---- 79 g_step**** 65371 cost 25.013193
+cur_epoch==== 162 cur_batch---- 89 g_step**** 65381 cost 24.688238
+cur_epoch==== 162 cur_batch---- 99 g_step**** 65391 cost 25.38875
+cur_epoch==== 162 cur_batch---- 109 g_step**** 65401 cost 26.12134
+cur_epoch==== 162 cur_batch---- 119 g_step**** 65411 cost 24.788343
+cur_epoch==== 162 cur_batch---- 129 g_step**** 65421 cost 24.309158
+cur_epoch==== 162 cur_batch---- 139 g_step**** 65431 cost 24.596657
+cur_epoch==== 162 cur_batch---- 149 g_step**** 65441 cost 24.522762
+cur_epoch==== 162 cur_batch---- 159 g_step**** 65451 cost 25.057575
+cur_epoch==== 163 cur_batch---- 9 g_step**** 65467 cost 25.454971
+cur_epoch==== 163 cur_batch---- 19 g_step**** 65477 cost 25.135933
+cur_epoch==== 163 cur_batch---- 29 g_step**** 65487 cost 24.627096
+cur_epoch==== 163 cur_batch---- 39 g_step**** 65497 cost 24.367207
+cur_epoch==== 163 cur_batch---- 49 g_step**** 65507 cost 24.13175
+cur_epoch==== 163 cur_batch---- 59 g_step**** 65517 cost 25.15059
+cur_epoch==== 163 cur_batch---- 69 g_step**** 65527 cost 26.19554
+cur_epoch==== 163 cur_batch---- 79 g_step**** 65537 cost 25.644043
+cur_epoch==== 163 cur_batch---- 89 g_step**** 65547 cost 25.187637
+cur_epoch==== 163 cur_batch---- 99 g_step**** 65557 cost 23.366905
+cur_epoch==== 163 cur_batch---- 109 g_step**** 65567 cost 23.659122
+cur_epoch==== 163 cur_batch---- 119 g_step**** 65577 cost 23.939316
+cur_epoch==== 163 cur_batch---- 129 g_step**** 65587 cost 24.289112
+cur_epoch==== 163 cur_batch---- 139 g_step**** 65597 cost 24.636225
+save checkpoint 65600
+cur_epoch==== 163 cur_batch---- 149 g_step**** 65607 cost 25.054947
+cur_epoch==== 163 cur_batch---- 159 g_step**** 65617 cost 24.120378
+cur_epoch==== 164 cur_batch---- 9 g_step**** 65633 cost 25.121014
+cur_epoch==== 164 cur_batch---- 19 g_step**** 65643 cost 24.46879
+cur_epoch==== 164 cur_batch---- 29 g_step**** 65653 cost 26.184334
+cur_epoch==== 164 cur_batch---- 39 g_step**** 65663 cost 25.03112
+cur_epoch==== 164 cur_batch---- 49 g_step**** 65673 cost 22.549591
+cur_epoch==== 164 cur_batch---- 59 g_step**** 65683 cost 24.407951
+cur_epoch==== 164 cur_batch---- 69 g_step**** 65693 cost 25.233791
+cur_epoch==== 164 cur_batch---- 79 g_step**** 65703 cost 23.64398
+cur_epoch==== 164 cur_batch---- 89 g_step**** 65713 cost 25.758665
+cur_epoch==== 164 cur_batch---- 99 g_step**** 65723 cost 24.265057
+cur_epoch==== 164 cur_batch---- 109 g_step**** 65733 cost 25.175215
+cur_epoch==== 164 cur_batch---- 119 g_step**** 65743 cost 23.904566
+cur_epoch==== 164 cur_batch---- 129 g_step**** 65753 cost 25.833242
+cur_epoch==== 164 cur_batch---- 139 g_step**** 65763 cost 24.295254
+cur_epoch==== 164 cur_batch---- 149 g_step**** 65773 cost 24.563461
+cur_epoch==== 164 cur_batch---- 159 g_step**** 65783 cost 24.554945
+cur_epoch==== 165 cur_batch---- 9 g_step**** 65799 cost 24.933561
+cur_epoch==== 165 cur_batch---- 19 g_step**** 65809 cost 25.425022
+cur_epoch==== 165 cur_batch---- 29 g_step**** 65819 cost 25.864729
+cur_epoch==== 165 cur_batch---- 39 g_step**** 65829 cost 25.991089
+cur_epoch==== 165 cur_batch---- 49 g_step**** 65839 cost 25.020496
+cur_epoch==== 165 cur_batch---- 59 g_step**** 65849 cost 24.682589
+cur_epoch==== 165 cur_batch---- 69 g_step**** 65859 cost 24.828396
+cur_epoch==== 165 cur_batch---- 79 g_step**** 65869 cost 23.712309
+cur_epoch==== 165 cur_batch---- 89 g_step**** 65879 cost 24.02824
+cur_epoch==== 165 cur_batch---- 99 g_step**** 65889 cost 26.101933
+cur_epoch==== 165 cur_batch---- 109 g_step**** 65899 cost 25.417423
+cur_epoch==== 165 cur_batch---- 119 g_step**** 65909 cost 23.699099
+cur_epoch==== 165 cur_batch---- 129 g_step**** 65919 cost 24.133083
+cur_epoch==== 165 cur_batch---- 139 g_step**** 65929 cost 23.906559
+cur_epoch==== 165 cur_batch---- 149 g_step**** 65939 cost 23.867048
+cur_epoch==== 165 cur_batch---- 159 g_step**** 65949 cost 25.90057
+cur_epoch==== 166 cur_batch---- 9 g_step**** 65965 cost 24.480244
+cur_epoch==== 166 cur_batch---- 19 g_step**** 65975 cost 24.598482
+cur_epoch==== 166 cur_batch---- 29 g_step**** 65985 cost 24.589823
+cur_epoch==== 166 cur_batch---- 39 g_step**** 65995 cost 25.37328
+save checkpoint 66000
+seq   0: origin: [21, 18, 25, 18] decoded:[83, 83]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[36, 69]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[83]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[83, 69]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[83, 69]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[65, 69]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[65, 69]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[52, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[65, 69]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[65, 73, 83]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[65]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[65, 69]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[83, 69]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[65, 69]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[65, 69]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[83]
+seq  16: origin: [39, 48, 42, 45] decoded:[65]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[83, 69]
+5/16 1:15:24  step===66000, Epoch 167/1000, accuracy = 0.000,avg_train_cost = 24.576, lastbatch_err = 0.942, time = 70.424,lr=0.00515137
+
+cur_epoch==== 166 cur_batch---- 49 g_step**** 66005 cost 24.475939
+cur_epoch==== 166 cur_batch---- 59 g_step**** 66015 cost 24.778648
+cur_epoch==== 166 cur_batch---- 69 g_step**** 66025 cost 24.360718
+cur_epoch==== 166 cur_batch---- 79 g_step**** 66035 cost 24.151052
+cur_epoch==== 166 cur_batch---- 89 g_step**** 66045 cost 23.484577
+cur_epoch==== 166 cur_batch---- 99 g_step**** 66055 cost 24.973698
+cur_epoch==== 166 cur_batch---- 109 g_step**** 66065 cost 23.994768
+cur_epoch==== 166 cur_batch---- 119 g_step**** 66075 cost 25.31374
+cur_epoch==== 166 cur_batch---- 129 g_step**** 66085 cost 24.659302
+cur_epoch==== 166 cur_batch---- 139 g_step**** 66095 cost 25.126797
+cur_epoch==== 166 cur_batch---- 149 g_step**** 66105 cost 24.615557
+cur_epoch==== 166 cur_batch---- 159 g_step**** 66115 cost 24.125042
+cur_epoch==== 167 cur_batch---- 9 g_step**** 66131 cost 23.944988
+cur_epoch==== 167 cur_batch---- 19 g_step**** 66141 cost 23.270094
+cur_epoch==== 167 cur_batch---- 29 g_step**** 66151 cost 24.639137
+cur_epoch==== 167 cur_batch---- 39 g_step**** 66161 cost 24.788368
+cur_epoch==== 167 cur_batch---- 49 g_step**** 66171 cost 22.742395
+cur_epoch==== 167 cur_batch---- 59 g_step**** 66181 cost 24.173756
+cur_epoch==== 167 cur_batch---- 69 g_step**** 66191 cost 24.70727
+cur_epoch==== 167 cur_batch---- 79 g_step**** 66201 cost 24.331127
+cur_epoch==== 167 cur_batch---- 89 g_step**** 66211 cost 24.471325
+cur_epoch==== 167 cur_batch---- 99 g_step**** 66221 cost 24.063944
+cur_epoch==== 167 cur_batch---- 109 g_step**** 66231 cost 23.858215
+cur_epoch==== 167 cur_batch---- 119 g_step**** 66241 cost 24.784552
+cur_epoch==== 167 cur_batch---- 129 g_step**** 66251 cost 23.868843
+cur_epoch==== 167 cur_batch---- 139 g_step**** 66261 cost 23.677425
+cur_epoch==== 167 cur_batch---- 149 g_step**** 66271 cost 26.500124
+cur_epoch==== 167 cur_batch---- 159 g_step**** 66281 cost 23.947744
+cur_epoch==== 168 cur_batch---- 9 g_step**** 66297 cost 25.077896
+cur_epoch==== 168 cur_batch---- 19 g_step**** 66307 cost 24.082201
+cur_epoch==== 168 cur_batch---- 29 g_step**** 66317 cost 24.523085
+cur_epoch==== 168 cur_batch---- 39 g_step**** 66327 cost 23.688778
+cur_epoch==== 168 cur_batch---- 49 g_step**** 66337 cost 23.937023
+cur_epoch==== 168 cur_batch---- 59 g_step**** 66347 cost 25.124424
+cur_epoch==== 168 cur_batch---- 69 g_step**** 66357 cost 24.636713
+cur_epoch==== 168 cur_batch---- 79 g_step**** 66367 cost 24.319874
+cur_epoch==== 168 cur_batch---- 89 g_step**** 66377 cost 25.401947
+cur_epoch==== 168 cur_batch---- 99 g_step**** 66387 cost 24.812239
+cur_epoch==== 168 cur_batch---- 109 g_step**** 66397 cost 24.002054
+save checkpoint 66400
+cur_epoch==== 168 cur_batch---- 119 g_step**** 66407 cost 23.787357
+cur_epoch==== 168 cur_batch---- 129 g_step**** 66417 cost 24.086224
+cur_epoch==== 168 cur_batch---- 139 g_step**** 66427 cost 24.062098
+cur_epoch==== 168 cur_batch---- 149 g_step**** 66437 cost 23.671743
+cur_epoch==== 168 cur_batch---- 159 g_step**** 66447 cost 24.338642
+cur_epoch==== 169 cur_batch---- 9 g_step**** 66463 cost 24.82971
+cur_epoch==== 169 cur_batch---- 19 g_step**** 66473 cost 25.576563
+cur_epoch==== 169 cur_batch---- 29 g_step**** 66483 cost 24.014242
+cur_epoch==== 169 cur_batch---- 39 g_step**** 66493 cost 23.474388
+cur_epoch==== 169 cur_batch---- 49 g_step**** 66503 cost 25.225895
+cur_epoch==== 169 cur_batch---- 59 g_step**** 66513 cost 23.961817
+cur_epoch==== 169 cur_batch---- 69 g_step**** 66523 cost 23.00261
+cur_epoch==== 169 cur_batch---- 79 g_step**** 66533 cost 23.943058
+cur_epoch==== 169 cur_batch---- 89 g_step**** 66543 cost 24.258621
+cur_epoch==== 169 cur_batch---- 99 g_step**** 66553 cost 24.736153
+cur_epoch==== 169 cur_batch---- 109 g_step**** 66563 cost 24.883213
+cur_epoch==== 169 cur_batch---- 119 g_step**** 66573 cost 24.004616
+cur_epoch==== 169 cur_batch---- 129 g_step**** 66583 cost 23.77555
+cur_epoch==== 169 cur_batch---- 139 g_step**** 66593 cost 23.860136
+cur_epoch==== 169 cur_batch---- 149 g_step**** 66603 cost 24.319029
+cur_epoch==== 169 cur_batch---- 159 g_step**** 66613 cost 23.50692
+cur_epoch==== 170 cur_batch---- 9 g_step**** 66629 cost 23.928865
+cur_epoch==== 170 cur_batch---- 19 g_step**** 66639 cost 25.128826
+cur_epoch==== 170 cur_batch---- 29 g_step**** 66649 cost 24.71281
+cur_epoch==== 170 cur_batch---- 39 g_step**** 66659 cost 23.610807
+cur_epoch==== 170 cur_batch---- 49 g_step**** 66669 cost 24.129913
+cur_epoch==== 170 cur_batch---- 59 g_step**** 66679 cost 24.565899
+cur_epoch==== 170 cur_batch---- 69 g_step**** 66689 cost 24.978657
+cur_epoch==== 170 cur_batch---- 79 g_step**** 66699 cost 23.91435
+cur_epoch==== 170 cur_batch---- 89 g_step**** 66709 cost 23.466045
+cur_epoch==== 170 cur_batch---- 99 g_step**** 66719 cost 23.560204
+cur_epoch==== 170 cur_batch---- 109 g_step**** 66729 cost 24.196535
+cur_epoch==== 170 cur_batch---- 119 g_step**** 66739 cost 24.575981
+cur_epoch==== 170 cur_batch---- 129 g_step**** 66749 cost 24.388126
+cur_epoch==== 170 cur_batch---- 139 g_step**** 66759 cost 24.094643
+cur_epoch==== 170 cur_batch---- 149 g_step**** 66769 cost 24.594103
+cur_epoch==== 170 cur_batch---- 159 g_step**** 66779 cost 23.657774
+cur_epoch==== 171 cur_batch---- 9 g_step**** 66795 cost 23.607967
+save checkpoint 66800
+cur_epoch==== 171 cur_batch---- 19 g_step**** 66805 cost 24.321604
+cur_epoch==== 171 cur_batch---- 29 g_step**** 66815 cost 25.237778
+cur_epoch==== 171 cur_batch---- 39 g_step**** 66825 cost 24.290674
+cur_epoch==== 171 cur_batch---- 49 g_step**** 66835 cost 24.437584
+cur_epoch==== 171 cur_batch---- 59 g_step**** 66845 cost 24.351967
+cur_epoch==== 171 cur_batch---- 69 g_step**** 66855 cost 24.414577
+cur_epoch==== 171 cur_batch---- 79 g_step**** 66865 cost 23.70883
+cur_epoch==== 171 cur_batch---- 89 g_step**** 66875 cost 26.160685
+cur_epoch==== 171 cur_batch---- 99 g_step**** 66885 cost 23.95
+cur_epoch==== 171 cur_batch---- 109 g_step**** 66895 cost 22.862501
+cur_epoch==== 171 cur_batch---- 119 g_step**** 66905 cost 22.983015
+cur_epoch==== 171 cur_batch---- 129 g_step**** 66915 cost 24.078062
+cur_epoch==== 171 cur_batch---- 139 g_step**** 66925 cost 23.68826
+cur_epoch==== 171 cur_batch---- 149 g_step**** 66935 cost 23.823235
+cur_epoch==== 171 cur_batch---- 159 g_step**** 66945 cost 24.268492
+cur_epoch==== 172 cur_batch---- 9 g_step**** 66961 cost 24.06409
+cur_epoch==== 172 cur_batch---- 19 g_step**** 66971 cost 23.079659
+cur_epoch==== 172 cur_batch---- 29 g_step**** 66981 cost 24.575033
+cur_epoch==== 172 cur_batch---- 39 g_step**** 66991 cost 24.093903
+seq   0: origin: [21, 18, 25, 18] decoded:[84, 80]
+seq   1: origin: [38, 45, 38, 36, 53, 51, 42, 36] decoded:[83, 65, 84]
+seq   2: origin: [38, 34, 40, 45, 38] decoded:[46, 65, 53]
+seq   3: origin: [56, 34, 52, 41, 42, 47, 40, 53, 48, 47] decoded:[36, 69]
+seq   4: origin: [49, 82, 79, 74, 69, 67, 84] decoded:[80, 69]
+seq   5: origin: [36, 48, 48, 44, 42, 38, 52] decoded:[65, 69]
+seq   6: origin: [37, 69, 82, 80, 69, 82] decoded:[65, 79, 78]
+seq   7: origin: [83, 87, 73, 78, 76, 76, 69] decoded:[52, 69]
+seq   8: origin: [56, 42, 45, 45] decoded:[65, 89]
+seq   9: origin: [73, 78, 84, 69, 82, 70, 65, 67, 69, 83] decoded:[65, 78]
+seq  10: origin: [48, 47, 38, 34, 45] decoded:[65, 83]
+seq  11: origin: [67, 79, 77, 80, 65, 78, 89] decoded:[65, 78]
+seq  12: origin: [37, 51, 42, 47, 44] decoded:[84, 84]
+seq  13: origin: [51, 38, 52, 53, 34, 54, 51, 34, 47, 53] decoded:[65, 69]
+seq  14: origin: [36, 48, 52, 36, 48] decoded:[65, 77]
+seq  15: origin: [43, 48, 51, 53, 48, 55, 48, 57] decoded:[69, 83]
+seq  16: origin: [39, 48, 42, 45] decoded:[65, 89]
+seq  17: origin: [46, 69, 88, 73, 67, 79] decoded:[65, 78]
+5/16 1:41:16  step===67000, Epoch 173/1000, accuracy = 0.000,avg_train_cost = 24.172, lastbatch_err = 0.941, time = 76.319,lr=0.00509986
+
+cur_epoch==== 172 cur_batch---- 49 g_step**** 67001 cost 22.818932
+cur_epoch==== 172 cur_batch---- 59 g_step**** 67011 cost 23.140818
+cur_epoch==== 172 cur_batch---- 69 g_step**** 67021 cost 25.110668
+cur_epoch==== 172 cur_batch---- 79 g_step**** 67031 cost 23.784702
+cur_epoch==== 172 cur_batch---- 89 g_step**** 67041 cost 24.418404
+cur_epoch==== 172 cur_batch---- 99 g_step**** 67051 cost 24.51236
+cur_epoch==== 172 cur_batch---- 109 g_step**** 67061 cost 23.441025
+cur_epoch==== 172 cur_batch---- 119 g_step**** 67071 cost 24.052279
+cur_epoch==== 172 cur_batch---- 129 g_step**** 67081 cost 23.604567
+cur_epoch==== 172 cur_batch---- 139 g_step**** 67091 cost 23.067427
+cur_epoch==== 172 cur_batch---- 149 g_step**** 67101 cost 24.119753
+cur_epoch==== 172 cur_batch---- 159 g_step**** 67111 cost 23.674133
+cur_epoch==== 173 cur_batch---- 9 g_step**** 67127 cost 23.593134
+cur_epoch==== 173 cur_batch---- 19 g_step**** 67137 cost 24.827677
+cur_epoch==== 173 cur_batch---- 29 g_step**** 67147 cost 24.20421
+cur_epoch==== 173 cur_batch---- 39 g_step**** 67157 cost 23.052258

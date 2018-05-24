@@ -2,17 +2,19 @@ import cv2,time,os,re
 import tensorflow as tf
 import numpy as np
 import utils
-import model
+import model_transfer
 FLAGS = utils.FLAGS
+Flage_width = 37
 pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
-#data_dir = pre_data_dir + '/test_data/train_words'
-#text_dir = pre_data_dir + '/test_data/train_words_gt.txt'
-data_dir = pre_data_dir + '/test_data/val_words'
-text_dir = pre_data_dir + '/test_data/val_words_gt.txt'
+data_dir = pre_data_dir + '/test_data/train_words'
+text_dir = pre_data_dir + '/test_data/train_words_gt.txt'
+#data_dir = pre_data_dir + '/test_data/val_words'
+#text_dir = pre_data_dir + '/test_data/val_words_gt.txt'
+pb_file_path = "../log/save_pb/rcnn.pb"
 
 def acc():
     acc_all = []
-    g = model.Graph()
+    g = model_transfer.Graph(pb_file_path = pb_file_path)
     with tf.Session(graph = g.graph) as sess:
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver(tf.global_variables(),max_to_keep=100)
@@ -36,12 +38,10 @@ def acc():
                 indexs.append(cur_batch * FLAGS.batch_size + i) 
             test_inputs,test_seq_len,test_labels=test_feeder.input_index_generate_batch(indexs)
             cur_labels = [test_feeder.labels[i] for i in indexs]
-            test_feed={g.inputs: test_inputs,
+            test_feed={g.original_pic: test_inputs,
                       g.labels: test_labels,
-                      g.seq_len: np.array([g.cnn_time]*test_inputs.shape[0]),
-                      g.keep_prob_fc: 1,
-                      g.keep_prob_cv1: 1 }
-            dense_decoded= sess.run(g.dense_decoded,test_feed)
+                      g.seq_len: np.array([Flage_width]*test_inputs.shape[0])}
+            dense_decoded= sess.run(g.dense_decoded, test_feed)
             acc = utils.accuracy_calculation(cur_labels,dense_decoded,ignore_value=-1,isPrint=False)
             acc_all.append(acc)
         print("$$$$$$$$$$$$$$$$$ ACC is :",acc_all,"$$$$$$$$$$$$$$$$$")

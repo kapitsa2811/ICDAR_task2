@@ -21,7 +21,7 @@ tf.app.flags.DEFINE_boolean('isSavePrediction',True, 'save test prediction')
 tf.app.flags.DEFINE_boolean('Use_CRNN',True, 'use Densenet or CRNN')
 tf.app.flags.DEFINE_boolean('restore',True, 'whether to restore from the latest checkpoint')
 tf.app.flags.DEFINE_string('checkpoint_dir', pre_dir + '/checkpoint/', 'the checkpoint dir')
-tf.app.flags.DEFINE_float('initial_learning_rate', 1e-2, 'inital lr')
+tf.app.flags.DEFINE_float('initial_learning_rate', 1e-3, 'inital lr')
 tf.app.flags.DEFINE_integer('num_layers', 2, 'number of layer')
 tf.app.flags.DEFINE_integer('num_hidden', 256, 'number of hidden')
 tf.app.flags.DEFINE_integer('num_epochs', 1000, 'maximum epochs')
@@ -298,6 +298,16 @@ def pad_input_sequences(sequences, maxlen=None, dtype=np.float32,
             raise ValueError('Padding type "%s" not understood' % padding)
     return x, lengths
 
+
+def decode_function1(index_list):
+    index_list_new = []
+    for e in index_list:
+        if e != -1 and e < len(charset):
+            index_list_new.append(e)
+    code = [SPACE_TOKEN if index_list_new == SPACE_INDEX else decode_maps[c] for c in list(index_list_new)]
+    code = ''.join(code)
+    print(code)
+    return code
 
 def decode_function(index_list):
     index_list_new = []

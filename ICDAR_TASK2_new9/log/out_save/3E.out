@@ -1,0 +1,938 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1008925
+len is 0 or too long 1148484
+len is 0 or too long 1010253
+len is 0 or too long 1154762
+len is 0 or too long 1101121
+len is 0 or too long 1184143
+len is 0 or too long 1123759
+len is 0 or too long 1081794
+len is 0 or too long 1034927
+len is 0 or too long 1156796
+len is 0 or too long 1101025
+len is 0 or too long 1188919
+len is 0 or too long 1067138
+len is 0 or too long 1160776
+len is 0 or too long 1236837
+len is 0 or too long 1130593
+len is 0 or too long 1090671
+len is 0 or too long 1007094
+len is 0 or too long 1146666
+len is 0 or too long 1030350
+len is 0 or too long 1019586
+len is 0 or too long 1082215
+len is 0 or too long 1154851
+len is 0 or too long 1018449
+len is 0 or too long 1229128
+len is 0 or too long 1035980
+len is 0 or too long 1207691
+len is 0 or too long 1092022
+len is 0 or too long 1030746
+len is 0 or too long 1026312
+len is 0 or too long 1085492
+len is 0 or too long 1076321
+len is 0 or too long 1029370
+len is 0 or too long 1183689
+len is 0 or too long 1234344
+len is 0 or too long 1161779
+len is 0 or too long 1220200
+len is 0 or too long 1022209
+len is 0 or too long 1206021
+len is 0 or too long 1038035
+len is 0 or too long 1034691
+len is 0 or too long 1034022
+len is 0 or too long 1185381
+len is 0 or too long 1032234
+len is 0 or too long 1021937
+len is 0 or too long 1043200
+len is 0 or too long 1110848
+len is 0 or too long 1083042
+len is 0 or too long 1039021
+len is 0 or too long 1110287
+len is 0 or too long 1006577
+len is 0 or too long 1018733
+len is 0 or too long 1039324
+len is 0 or too long 1016164
+len is 0 or too long 1015483
+len is 0 or too long 1031088
+len is 0 or too long 1142475
+len is 0 or too long 1030535
+len is 0 or too long 1135352
+len is 0 or too long 1014041
+len is 0 or too long 1061448
+len is 0 or too long 1159841
+len is 0 or too long 1199832
+len is 0 or too long 1072977
+len is 0 or too long 1006042
+len is 0 or too long 1036358
+len is 0 or too long 1006575
+len is 0 or too long 1204615
+len is 0 or too long 1209493
+len is 0 or too long 1160154
+len is 0 or too long 1018645
+len is 0 or too long 1027270
+len is 0 or too long 1027581
+len is 0 or too long 1017758
+len is 0 or too long 1038308
+len is 0 or too long 1130609
+len is 0 or too long 1232569
+len is 0 or too long 1082487
+len is 0 or too long 1207819
+len is 0 or too long 1184848
+len is 0 or too long 1207468
+len is 0 or too long 1092526
+len is 0 or too long 1015266
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161385
+len is 0 or too long 1013154
+len is 0 or too long 1067022
+len is 0 or too long 1040066
+len is 0 or too long 1061185
+len is 0 or too long 1024572
+len is 0 or too long 1061655
+len is 0 or too long 1025512
+len is 0 or too long 1088840
+len is 0 or too long 1060056
+len is 0 or too long 1233458
+len is 0 or too long 1001219
+len is 0 or too long 1030611
+len is 0 or too long 1210739
+len is 0 or too long 1032375
+len is 0 or too long 1035842
+len is 0 or too long 1123658
+len is 0 or too long 1001713
+len is 0 or too long 1043149
+len is 0 or too long 1128531
+len is 0 or too long 1204350
+len is 0 or too long 1042440
+len is 0 or too long 1082511
+len is 0 or too long 1062000
+len is 0 or too long 1025362
+len is 0 or too long 1105150
+len is 0 or too long 1205120
+len is 0 or too long 1039260
+len is 0 or too long 1123527
+len is 0 or too long 1025381
+len is 0 or too long 1200100
+len is 0 or too long 1156638
+len is 0 or too long 1215481
+len is 0 or too long 1028621
+len is 0 or too long 1225734
+len is 0 or too long 1076495
+len is 0 or too long 1043868
+len is 0 or too long 1031187
+len is 0 or too long 1003809
+len is 0 or too long 1182857
+len is 0 or too long 1030727
+len is 0 or too long 1039259
+len is 0 or too long 1074554
+len is 0 or too long 1025096
+len is 0 or too long 1217256
+len is 0 or too long 1060290
+len is 0 or too long 1028380
+len is 0 or too long 1130003
+len is 0 or too long 1004615
+len is 0 or too long 1014743
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1013106
+len is 0 or too long 1129458
+len is 0 or too long 1165824
+len is 0 or too long 1167533
+len is 0 or too long 1096541
+len is 0 or too long 1040813
+len is 0 or too long 1208552
+len is 0 or too long 1080086
+len is 0 or too long 1199308
+len is 0 or too long 1198638
+len is 0 or too long 1150628
+len is 0 or too long 1038739
+len is 0 or too long 1088126
+len is 0 or too long 1162710
+len is 0 or too long 1123145
+len is 0 or too long 1034322
+len is 0 or too long 1133969
+len is 0 or too long 1227210
+len is 0 or too long 1163333
+len is 0 or too long 1066906
+len is 0 or too long 1079404
+len is 0 or too long 1040427
+len is 0 or too long 1021814
+len is 0 or too long 1133983
+len is 0 or too long 1031012
+len is 0 or too long 1076494
+len is 0 or too long 1223935
+len is 0 or too long 1006388
+len is 0 or too long 1100816
+len is 0 or too long 1074085
+len is 0 or too long 1234345
+len is 0 or too long 1137923
+len is 0 or too long 1196596
+len is 0 or too long 1032138
+len is 0 or too long 1040851
+len is 0 or too long 1136618
+len is 0 or too long 1233361
+len is 0 or too long 1018113
+len is 0 or too long 1028196
+len is 0 or too long 1157057
+len is 0 or too long 1031925
+len is 0 or too long 1078701
+len is 0 or too long 1077048
+len is 0 or too long 1000150
+len is 0 or too long 1075117
+len is 0 or too long 1143126
+len is 0 or too long 1001673
+len is 0 or too long 1007529
+len is 0 or too long 1001705
+len is 0 or too long 1075642
+len is 0 or too long 1058462
+len is 0 or too long 1215994
+len is 0 or too long 1228272
+len is 0 or too long 1001812
+len is 0 or too long 1022698
+len is 0 or too long 1199833
+len is 0 or too long 1076462
+len is 0 or too long 1102145
+len is 0 or too long 1199831
+len is 0 or too long 1042537
+len is 0 or too long 1006380
+len is 0 or too long 1011222
+len is 0 or too long 1078899
+len is 0 or too long 1026469
+len is 0 or too long 1156777
+len is 0 or too long 1124130
+len is 0 or too long 1108423
+len is 0 or too long 1196951
+len is 0 or too long 1007776
+len is 0 or too long 1194335
+len is 0 or too long 1067503
+len is 0 or too long 1013739
+len is 0 or too long 1108230
+len is 0 or too long 1035287
+len is 0 or too long 1039552
+len is 0 or too long 1204932
+***************get image:  42405
+loading validation data, please wait--------------------- end= 
+***************get image:  35
+2018-05-16 12:57:05.826168: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 12:57:05.826200: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 12:57:05.826209: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 12:57:05.826215: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 12:57:05.826222: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 12:57:05.918026: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-16 12:57:05.918344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.08GiB
+2018-05-16 12:57:05.918366: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-16 12:57:05.918374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-16 12:57:05.918385: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+=============================begin training=============================
+2018-05-16 12:57:11.031025: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2685 get requests, put_count=2348 evicted_count=1000 eviction_rate=0.425894 and unsatisfied allocation rate=0.535196
+2018-05-16 12:57:11.031107: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 12:57:23.187881: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2689 get requests, put_count=2523 evicted_count=1000 eviction_rate=0.396354 and unsatisfied allocation rate=0.442172
+2018-05-16 12:57:23.187938: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+1
+1
+2018-05-16 12:57:25.230307: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+2018-05-16 12:57:28.355181: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+2018-05-16 12:57:34.622206: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5226 get requests, put_count=4705 evicted_count=1000 eviction_rate=0.21254 and unsatisfied allocation rate=0.302334
+2018-05-16 12:57:34.622279: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 12:58:02.733091: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+2018-05-16 12:58:02.733430: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+2018-05-16 12:58:05.856559: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 12:58:23.610533: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 12:58:36.161674: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+2018-05-16 12:58:36.162153: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+2018-05-16 12:58:40.335574: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+cur_epoch==== 0 cur_batch---- 99 g_step**** 99 cost 25.889587
+1
+1
+1
+1
+1
+1
+2018-05-16 12:59:04.394148: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 12:59:13.822362: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 12:59:27.427467: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+2018-05-16 12:59:29.523858: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+2018-05-16 12:59:34.742193: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:00:00.893084: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:00:19.732527: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:00:49.021513: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:00:57.400554: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+2018-05-16 13:01:02.612295: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:01:32.972073: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:01:43.429925: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+cur_epoch==== 1 cur_batch---- 99 g_step**** 264 cost 24.697664
+1
+1
+1
+1
+2018-05-16 13:01:54.939801: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+2018-05-16 13:01:54.941358: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:02:13.759741: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+2018-05-16 13:02:20.058964: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+2018-05-16 13:02:21.106916: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+2018-05-16 13:02:26.332694: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+2018-05-16 13:02:27.374361: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:02:36.811423: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:02:51.454326: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:03:07.144731: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:03:22.822476: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+2018-05-16 13:03:29.118347: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+2018-05-16 13:03:30.165837: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+2018-05-16 13:03:31.213135: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+2018-05-16 13:03:31.214608: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:03:38.526221: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+2018-05-16 13:03:41.673990: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:03:50.061733: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:04:07.837281: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+save checkpoint 400
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:04:21.800361: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+cur_epoch==== 2 cur_batch---- 99 g_step**** 429 cost 23.993086
+1
+1
+1
+1
+1
+1
+2018-05-16 13:04:50.044479: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+2018-05-16 13:04:52.145772: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:05:20.403756: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:05:49.686299: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+2018-05-16 13:05:53.871735: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+seq   0: origin: [21, 18, 25, 18] decoded:[]
+seq   1: origin: [69, 78, 84, 69, 82] decoded:[]
+seq   2: origin: [38, 57, 42, 53] decoded:[]
+seq   3: origin: [51, 38, 34, 37, 42, 47, 40] decoded:[]
+seq   4: origin: [82, 85, 80, 65, 2] decoded:[]
+seq   5: origin: [53, 41, 34, 46, 38, 52] decoded:[]
+seq   6: origin: [52, 56, 38, 38, 53, 52] decoded:[]
+seq   7: origin: [40, 51, 38, 38, 47, 56, 42, 36, 41] decoded:[]
+seq   8: origin: [84, 79, 76, 84, 69, 67] decoded:[]
+seq   9: origin: [37, 38, 52, 52, 38, 51, 53, 52] decoded:[]
+seq  10: origin: [76, 73, 70, 69] decoded:[]
+seq  11: origin: [39, 54, 43, 42] decoded:[]
+seq  12: origin: [49, 72, 79, 84, 79] decoded:[]
+seq  13: origin: [51, 55, 36, 34] decoded:[]
+seq  14: origin: [36, 48, 56, 49, 38] decoded:[]
+seq  15: origin: [53, 51, 34, 55, 38, 45] decoded:[]
+seq  16: origin: [22, 22, 14, 17, 18, 21, 22, 21] decoded:[]
+seq  17: origin: [17, 26, 21, 14, 83, 71] decoded:[]
+5/16 13:5:58  step===500, Epoch 4/1000, accuracy = 0.000,avg_train_cost = inf, lastbatch_err = 1.000, time = 6.169,lr=0.01000000
+
+1
+2018-05-16 13:06:00.038867: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+2018-05-16 13:06:05.281617: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+2018-05-16 13:06:09.470141: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+2018-05-16 13:06:11.567671: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+2018-05-16 13:06:17.832595: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+2018-05-16 13:06:24.128931: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:06:39.831488: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2018-05-16 13:07:04.969563: W tensorflow/core/util/ctc/ctc_loss_calculator.cc:144] No valid path found.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+cur_epoch==== 3 cur_batch---- 99 g_step**** 594 cost 24.569191
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1

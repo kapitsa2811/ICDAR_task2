@@ -66,12 +66,15 @@ while pred_line:
     if len(predict_string) == len(real_string):
         long_same += 1
         count_num_for_character_statis(predict_string, real_string)
-    
+     
+    #if len(predict_string) == len(real_string):
+       # print(predict_string,real_string)
     predict_string = predict_string.upper()
     real_string = real_string.upper()
+    print(predict_string,real_string)
     if predict_string == real_string:
         count_same_case_insensitive += 1
-
+        print("@@@",predict_string,real_string)
     pred_line = f_pred.readline()
     real_line = f_real.readline()  
 

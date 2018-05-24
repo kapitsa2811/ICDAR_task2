@@ -44,9 +44,11 @@ def acc():
                       g.keep_prob_cv2: 1,
                       g.keep_prob_cv3: 1,
                       g.keep_prob_cv4: 1}
-            dense_decoded= sess.run(g.dense_decoded,test_feed)
+            dense_decoded, logits_before_ctc = sess.run([g.dense_decoded,g.logits_before_ctc], test_feed)
+            print("shape*****", logits_before_ctc.shape)
             acc = utils.accuracy_calculation(cur_labels,dense_decoded,ignore_value=-1,isPrint=False)
             acc_all.append(acc)
+            print("cur_acc:",acc)
         print("$$$$$$$$$$$$$$$$$ ACC is :",acc_all,"$$$$$$$$$$$$$$$$$")
         print("avg_acc:",np.array(acc_all).mean()) 
 

@@ -128,6 +128,7 @@ class Graph(object):
             b = tf.Variable(tf.constant(0., dtype=tf.float32, shape=[num_classes], name='b'))
             logits = tf.matmul(outputs, W) + b
             logits = tf.reshape(logits, [batch_s, -1, num_classes])
+            self.logits_before_ctc = tf.argmax(logits,2)
             logits = tf.transpose(logits, (1, 0, 2))
             self.global_step = tf.Variable(0, trainable=False)
             print("###########################################################")

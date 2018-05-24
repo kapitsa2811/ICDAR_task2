@@ -2,12 +2,13 @@ import cv2,time,os,re
 import tensorflow as tf
 import numpy as np
 import utils
-import model
-LAGS = utils.FLAGS
-
+import model_transfer
+FLAGS = utils.FLAGS
+Flage_width = 37
 pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
 data_dir = pre_data_dir + '/test_data/val_words'
 save_dir = '../log/text_save/val_predict.txt'
+pb_file_path = "../log/save_pb/rcnn.pb"
 
 def predict_func_tem():
     if True:    
@@ -22,7 +23,7 @@ def predict_func_tem():
                 indexs.append(cur_batch * FLAGS.batch_size + i) 
  
 def predict_func():
-    g = model.Graph()
+    g = model_transfer.Graph(pb_file_path = pb_file_path)
     with tf.Session(graph = g.graph) as sess:
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver(tf.global_variables(),max_to_keep=100)
@@ -46,8 +47,8 @@ def predict_func():
             for i in range(cur_batch_num):
                 indexs.append(cur_batch * FLAGS.batch_size + i) 
             test_inputs, num_batch=test_feeder.input_index_generate_batch(indexs)
-            test_feed={g.inputs: test_inputs,
-                      g.seq_len: np.array([g.cnn_time]*test_inputs.shape[0])}
+            test_feed={g.original_pic: test_inputs,
+                      g.seq_len: np.array([Flage_width]*test_inputs.shape[0])}
             dense_decoded= sess.run(g.dense_decoded,test_feed)
             for encode_list, e_num in zip(dense_decoded,num_batch):
                 decode_string = utils.decode_function(encode_list)

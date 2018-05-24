@@ -1,0 +1,106 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+len is 0 or too long 1101121
+len is 0 or too long 1067138
+len is 0 or too long 1085492
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+len is 0 or too long 1161134
+len is 0 or too long 1091637
+len is 0 or too long 1234345
+len is 0 or too long 1157057
+len is 0 or too long 1078701
+len is 0 or too long 1199831
+len is 0 or too long 1124130
+***************get image:  42606
+loading validation data, please wait--------------------- end= 
+***************get image:  35
+2018-05-17 00:23:55.704085: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-17 00:23:55.704126: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-17 00:23:55.704147: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-17 00:23:55.704152: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-17 00:23:55.704172: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-17 00:23:55.794688: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-17 00:23:55.795024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.08GiB
+2018-05-17 00:23:55.795043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-17 00:23:55.795050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-17 00:23:55.795060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new6/checkpoint/ocr-model-73600
+=============================begin training=============================
+2018-05-17 00:24:01.856239: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4576 get requests, put_count=3084 evicted_count=1000 eviction_rate=0.324254 and unsatisfied allocation rate=0.566434
+2018-05-17 00:24:01.856307: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-17 00:24:12.264656: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 418 get requests, put_count=1431 evicted_count=1000 eviction_rate=0.698812 and unsatisfied allocation rate=0.00239234
+2018-05-17 00:24:12.264723: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 160 to 176
+2018-05-17 00:24:18.178993: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 652 get requests, put_count=1676 evicted_count=1000 eviction_rate=0.596659 and unsatisfied allocation rate=0.00153374
+2018-05-17 00:24:25.418402: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5281 get requests, put_count=5135 evicted_count=2000 eviction_rate=0.389484 and unsatisfied allocation rate=0.413369
+2018-05-17 00:24:25.418472: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 409 to 449
+2018-05-17 00:24:32.734389: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5358 get requests, put_count=5483 evicted_count=2000 eviction_rate=0.364764 and unsatisfied allocation rate=0.360956
+2018-05-17 00:24:32.734442: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+2018-05-17 00:24:41.591783: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5000 get requests, put_count=4666 evicted_count=1000 eviction_rate=0.214316 and unsatisfied allocation rate=0.2878
+2018-05-17 00:24:41.591870: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 1158 to 1273
+cur_epoch==== 0 cur_batch---- 99 g_step**** 73699 cost 3.4054031
+cur_epoch==== 1 cur_batch---- 99 g_step**** 73865 cost 3.1744308
+save checkpoint 74000
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 18, 25, 18]
+seq   1: origin: [69, 78, 84, 69, 82] decoded:[69, 78, 84, 69, 82, 76]
+seq   2: origin: [38, 57, 42, 53] decoded:[38, 57, 42, 53]
+seq   3: origin: [51, 38, 34, 37, 42, 47, 40] decoded:[51, 38, 34, 37, 42, 47, 40]
+seq   4: origin: [82, 85, 80, 65, 2] decoded:[85, 83, 76]
+seq   5: origin: [53, 41, 34, 46, 38, 52] decoded:[53, 41, 34, 42, 46, 38, 52]
+seq   6: origin: [52, 56, 38, 38, 53, 52] decoded:[52, 56, 38, 38, 45, 52]
+seq   7: origin: [40, 51, 38, 38, 47, 56, 42, 36, 41] decoded:[44, 38, 47, 47, 42, 58]
+seq   8: origin: [84, 79, 76, 84, 69, 67] decoded:[84, 79, 76, 72, 69, 67]
+seq   9: origin: [37, 38, 52, 52, 38, 51, 53, 52] decoded:[37, 38, 52, 52, 38, 51, 53, 52]
+seq  10: origin: [76, 73, 70, 69] decoded:[76, 73, 70, 69]
+seq  11: origin: [39, 54, 43, 42] decoded:[39, 43, 43, 42]
+seq  12: origin: [49, 72, 79, 84, 79] decoded:[80, 72, 79, 84, 79]
+seq  13: origin: [51, 55, 36, 34] decoded:[51, 51, 45, 45, 44, 34, 42]
+seq  14: origin: [36, 48, 56, 49, 38] decoded:[36, 48, 56, 49, 38]
+seq  15: origin: [53, 51, 34, 55, 38, 45] decoded:[53, 51, 34, 55, 38, 45]
+seq  16: origin: [22, 22, 14, 17, 18, 21, 22, 21] decoded:[22, 22, 14, 17, 18, 22, 20, 21]
+seq  17: origin: [17, 26, 21, 14, 83, 71] decoded:[17, 26, 21, 14, 83, 71]
+5/17 0:34:12  step===74000, Epoch 3/1000, accuracy = 0.429,avg_train_cost = 3.408, lastbatch_err = 0.238, time = 107.876,lr=0.00047534
+
+cur_epoch==== 2 cur_batch---- 99 g_step**** 74031 cost 3.4289203
+cur_epoch==== 3 cur_batch---- 99 g_step**** 74197 cost 2.9469876
+cur_epoch==== 4 cur_batch---- 99 g_step**** 74363 cost 2.856267
+save checkpoint 74400
+cur_epoch==== 5 cur_batch---- 99 g_step**** 74529 cost 3.7328324
+cur_epoch==== 6 cur_batch---- 99 g_step**** 74695 cost 3.3918376
+save checkpoint 74800
+cur_epoch==== 7 cur_batch---- 99 g_step**** 74861 cost 3.480576
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 18, 25, 18]
+seq   1: origin: [69, 78, 84, 69, 82] decoded:[69, 78, 84, 69, 82, 76]
+seq   2: origin: [38, 57, 42, 53] decoded:[38, 57, 42, 53]
+seq   3: origin: [51, 38, 34, 37, 42, 47, 40] decoded:[51, 38, 34, 37, 42, 47, 40]
+seq   4: origin: [82, 85, 80, 65, 2] decoded:[85, 80, 76]
+seq   5: origin: [53, 41, 34, 46, 38, 52] decoded:[53, 41, 34, 42, 46, 38, 52]
+seq   6: origin: [52, 56, 38, 38, 53, 52] decoded:[52, 56, 38, 38, 45, 52]
+seq   7: origin: [40, 51, 38, 38, 47, 56, 42, 36, 41] decoded:[44, 38, 47, 47, 42, 58]
+seq   8: origin: [84, 79, 76, 84, 69, 67] decoded:[84, 79, 76, 70, 69, 67]
+seq   9: origin: [37, 38, 52, 52, 38, 51, 53, 52] decoded:[37, 38, 52, 52, 38, 51, 53, 52]
+seq  10: origin: [76, 73, 70, 69] decoded:[76, 73, 70, 69]
+seq  11: origin: [39, 54, 43, 42] decoded:[39, 43, 43, 42]
+seq  12: origin: [49, 72, 79, 84, 79] decoded:[80, 72, 79, 84, 79]
+seq  13: origin: [51, 55, 36, 34] decoded:[51, 45, 45, 44, 34, 42]
+seq  14: origin: [36, 48, 56, 49, 38] decoded:[36, 48, 56, 49, 38]
+seq  15: origin: [53, 51, 34, 55, 38, 45] decoded:[53, 51, 34, 55, 38, 45]
+seq  16: origin: [22, 22, 14, 17, 18, 21, 22, 21] decoded:[20, 22, 14, 17, 18, 22, 20, 20]
+seq  17: origin: [17, 26, 21, 14, 83, 71] decoded:[17, 26, 21, 14, 83, 71]
+5/17 0:59:31  step===75000, Epoch 9/1000, accuracy = 0.429,avg_train_cost = 3.404, lastbatch_err = 0.237, time = 110.149,lr=0.00047059
+
+cur_epoch==== 8 cur_batch---- 99 g_step**** 75027 cost 4.0929627
+cur_epoch==== 9 cur_batch---- 99 g_step**** 75193 cost 2.817223
+save checkpoint 75200

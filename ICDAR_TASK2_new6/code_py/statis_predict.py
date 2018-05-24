@@ -41,7 +41,8 @@ def update_value_by_new_statis():
         if char_statis[e].total_num != 0:
             char_statis[e].total_acc_rate = 1.0 * char_statis[e].total_acc_num / char_statis[e].total_num
 
-
+num_pre_big = 0
+num_pre_small = 0
 
 while pred_line:
     count_all_sample += 1
@@ -67,6 +68,12 @@ while pred_line:
         long_same += 1
         count_num_for_character_statis(predict_string, real_string)
     
+    if len(predict_string) != len(real_string):
+        if len(predict_string) > len(real_string):
+            num_pre_big += 1
+        else:
+            num_pre_small += 1
+        print(predict_string,real_string)
     predict_string = predict_string.upper()
     real_string = real_string.upper()
     if predict_string == real_string:
@@ -83,5 +90,7 @@ print("count_same_case_insensitive", count_same_case_insensitive)
 print("acc_case_insensitive", 1.0*count_same_case_insensitive/count_all_sample)
 print("long_same", long_same)
 print("long_same_rate", 1.0*long_same/count_all_sample)
+print("num pre is longer:", num_pre_big)
+print("num_pre is shorter:", num_pre_small)
 for e in charset:
     print(e, " ", char_statis[e].total_acc_rate, char_statis[e].total_num)

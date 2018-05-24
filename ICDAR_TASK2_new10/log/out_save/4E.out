@@ -1,0 +1,60 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 102), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+***************get image:  35
+loading validation data, please wait--------------------- end= 
+***************get image:  35
+2018-05-16 16:18:29.285536: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 16:18:29.285566: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 16:18:29.285573: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 16:18:29.285578: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 16:18:29.285583: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-16 16:18:29.377558: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-16 16:18:29.377866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.08GiB
+2018-05-16 16:18:29.377886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-16 16:18:29.377893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-16 16:18:29.377903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new10/checkpoint/ocr-model-1600
+=============================begin training=============================
+2018-05-16 16:18:31.850268: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4598 get requests, put_count=3122 evicted_count=1000 eviction_rate=0.320307 and unsatisfied allocation rate=0.560244
+2018-05-16 16:18:31.850323: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-16 16:18:33.430991: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 636 get requests, put_count=1651 evicted_count=1000 eviction_rate=0.605694 and unsatisfied allocation rate=0.00157233
+2018-05-16 16:18:34.415822: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 652 get requests, put_count=1679 evicted_count=1000 eviction_rate=0.595593 and unsatisfied allocation rate=0.00153374
+2018-05-16 16:18:35.617011: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5061 get requests, put_count=4081 evicted_count=1000 eviction_rate=0.245038 and unsatisfied allocation rate=0.400909
+2018-05-16 16:18:35.617079: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 542 to 596
+2018-05-16 16:18:37.064005: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5853 get requests, put_count=6425 evicted_count=2000 eviction_rate=0.311284 and unsatisfied allocation rate=0.260208
+2018-05-16 16:18:37.064061: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 1053 to 1158
+2018-05-16 16:18:42.740877: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 58664 get requests, put_count=58637 evicted_count=1000 eviction_rate=0.0170541 and unsatisfied allocation rate=0.0213419
+2018-05-16 16:18:42.740931: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 2478 to 2725
+save checkpoint 2000
+seq   0: origin: [21, 18, 25, 18] decoded:[21, 18, 25, 18]
+seq   1: origin: [69, 78, 84, 69, 82] decoded:[69, 78, 84, 69, 82]
+seq   2: origin: [38, 57, 42, 53] decoded:[38, 57, 42, 53]
+seq   3: origin: [51, 38, 34, 37, 42, 47, 40] decoded:[51, 38, 34, 37, 42, 47, 40]
+seq   4: origin: [82, 85, 80, 65, 2] decoded:[82, 85, 80, 65, 2]
+seq   5: origin: [53, 41, 34, 46, 38, 52] decoded:[53, 41, 34, 46, 38, 52]
+seq   6: origin: [52, 56, 38, 38, 53, 52] decoded:[67, 79, 78, 69]
+seq   7: origin: [40, 51, 38, 38, 47, 56, 42, 36, 41] decoded:[40, 51, 38, 38, 47, 56, 42, 36, 41]
+seq   8: origin: [84, 79, 76, 84, 69, 67] decoded:[84, 79, 76, 84, 69, 67]
+seq   9: origin: [37, 38, 52, 52, 38, 51, 53, 52] decoded:[37, 38, 52, 38, 51, 53, 52]
+seq  10: origin: [76, 73, 70, 69] decoded:[76, 73, 70, 69]
+seq  11: origin: [39, 54, 43, 42] decoded:[39, 54, 42]
+seq  12: origin: [49, 72, 79, 84, 79] decoded:[49, 72, 79, 84, 79, 73]
+seq  13: origin: [51, 55, 36, 34] decoded:[51, 55, 36, 34]
+seq  14: origin: [36, 48, 56, 49, 38] decoded:[36, 48, 56, 49, 38]
+seq  15: origin: [53, 51, 34, 55, 38, 45] decoded:[53, 51, 34, 55, 38, 45]
+seq  16: origin: [22, 22, 14, 17, 18, 21, 22, 21] decoded:[22, 22, 14, 17, 18, 21, 22, 21]
+seq  17: origin: [17, 26, 21, 14, 83, 71] decoded:[17, 26, 21, 14, 83, 71]
+5/16 16:20:11  step===2000, Epoch 200/1000, accuracy = 0.714,avg_train_cost = 0.737, lastbatch_err = 0.099, time = 1.978,lr=0.00098010
+

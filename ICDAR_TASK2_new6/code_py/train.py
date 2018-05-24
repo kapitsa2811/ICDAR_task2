@@ -31,7 +31,7 @@ def train(train_dir=None,val_dir=None,train_text_dir=None,val_text_dir=None):
     num_val_per_epoch=int(num_val_samples/FLAGS.batch_size)
     
     config=tf.ConfigProto(log_device_placement=False,allow_soft_placement=False)
-    #config.gpu_options.allow_growth = True 
+    config.gpu_options.allow_growth = True 
     #config.gpu_options.per_process_gpu_memory_fraction = 0.6   
     with tf.Session(graph=g.graph,config=config) as sess:
         sess.run(tf.global_variables_initializer())

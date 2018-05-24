@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 import utils
 import model
-LAGS = utils.FLAGS
+FLAGS = utils.FLAGS
 
 pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
 data_dir = pre_data_dir + '/test_data/val_words'
@@ -47,7 +47,12 @@ def predict_func():
                 indexs.append(cur_batch * FLAGS.batch_size + i) 
             test_inputs, num_batch=test_feeder.input_index_generate_batch(indexs)
             test_feed={g.inputs: test_inputs,
-                      g.seq_len: np.array([g.cnn_time]*test_inputs.shape[0])}
+                      g.seq_len: np.array([g.cnn_time]*test_inputs.shape[0]),
+                      g.keep_prob_fc: 1,
+                      g.keep_prob_cv1: 1,
+                      g.keep_prob_cv2: 1,
+                      g.keep_prob_cv3: 1,
+                      g.keep_prob_cv4: 1}
             dense_decoded= sess.run(g.dense_decoded,test_feed)
             for encode_list, e_num in zip(dense_decoded,num_batch):
                 decode_string = utils.decode_function(encode_list)
