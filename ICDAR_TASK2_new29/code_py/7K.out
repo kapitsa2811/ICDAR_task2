@@ -1,0 +1,172 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+loading train data, please wait--------------------- end= 
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1148484.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1154762.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1101121.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1123759.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1156796.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1101025.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1188919.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1067138.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1160776.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1236837.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1130593.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1007094.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1030350.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1019586.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1082215.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1154851.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1229128.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1035980.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1207691.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1026312.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1085492.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1076321.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1234344.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1206021.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1038035.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1034691.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1034022.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1185381.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1032234.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1083042.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1006577.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1039324.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1016164.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1015483.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1142475.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1135352.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1014041.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1061448.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1159841.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1199832.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1072977.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1006042.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1036358.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1006575.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1204615.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1209493.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1027270.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1017758.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1038308.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1082487.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1207819.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1207468.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1092526.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1080026.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1148610.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1013154.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1040066.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1061185.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1024572.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1025512.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1233458.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1030611.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1210739.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1032375.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1035842.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1001713.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1043149.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1128531.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1204350.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1042440.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1082511.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1062000.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1025362.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1205120.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1039260.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1123527.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1200100.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1156638.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1215481.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1028621.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1030727.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1039259.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1074554.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1060290.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1028380.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1004615.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1014743.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1161134.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1091637.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1013106.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1040813.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1199308.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1198638.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1038739.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1088126.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1162710.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1079404.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1040427.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1021814.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1133983.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1031012.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1223935.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1006388.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1100816.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1074085.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1234345.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1137923.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1040851.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1018113.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1028196.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1157057.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1078701.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1077048.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1000150.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1075117.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1007529.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1075642.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1058462.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1228272.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1022698.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1199833.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1076462.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1102145.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1199831.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1042537.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1006380.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1011222.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1078899.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1124130.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1196951.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1007776.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1194335.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1067503.jpg
+!!!the image is wrong and the file path is: /home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2/train_data/train_words / 1204932.jpg
+***************get image:  42484
+loading validation data, please wait--------------------- end= 
+***************get image:  35
+2018-06-21 11:14:52.353120: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-21 11:14:52.353149: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-21 11:14:52.353156: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-21 11:14:52.353162: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-21 11:14:52.353167: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-21 11:14:52.439639: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-06-21 11:14:52.439914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.08GiB
+2018-06-21 11:14:52.439933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-06-21 11:14:52.439954: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-06-21 11:14:52.439964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+=============================begin training=============================
+===step 499 train_acc: [0.3984375] val_acc [0.37142858]
+save checkpoint 499
+===step 999 train_acc: [0.4765625] val_acc [0.37142858]
+save checkpoint 999
+===step 1499 train_acc: [0.5234375] val_acc [0.42857146]
+save checkpoint 1499
+===step 1999 train_acc: [0.6484375] val_acc [0.34285715]
+save checkpoint 1999
+===step 2499 train_acc: [0.5703125] val_acc [0.42857143]
+save checkpoint 2499
+===step 2999 train_acc: [0.7109375] val_acc [0.54285717]
+save checkpoint 2999
+===step 3499 train_acc: [0.6484375] val_acc [0.4571429]
+save checkpoint 3499
