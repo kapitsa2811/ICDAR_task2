@@ -11,8 +11,9 @@ class character_statis:
  
            
 pre_data_dir = '/home/sjhbxs/Data/data_coco_task2/ICDAR_TASK2_new2'
-f_pred = open(r'../log/text_save/val_predict_sort.txt',"r")
-f_pred1 = open(r'../../ICDAR_TASK2_new6/log/text_save/val_predict_sort.txt',"r")
+#f_pred = open(r'../log/text_save/val_predict_sort.txt',"r")
+f_pred = open(r'../../ICDAR_TASK2_new8/log/text_save/val_predict_sort.txt',"r")
+f_pred1 = open(r'../../ICDAR_TASK2_new6/log/text_save/val_predict_sort1.txt',"r")
 f_pred2 = open(r'../../ICDAR_TASK2_new9/log/text_save/val_predict_sort.txt',"r")
 f_pred3 = open(r'../../ICDAR_TASK2_new10/log/text_save/val_predict_sort.txt',"r")
 f_pred4 = open(r'../../ICDAR_TASK2_new11/log/text_save/val_predict_sort.txt',"r")

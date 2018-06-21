@@ -1,0 +1,11 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Traceback (most recent call last):
+  File "train.py", line 99, in <module>
+    train(train_dir= pre_data_dir + '/train_data/train_words', val_dir=pre_data_dir + '/train_data/val_words_small', train_text_dir=pre_data_dir + '/train_data/train_words_gt.txt',val_text_dir=pre_data_dir + '/train_data/val_words_gt.txt')
+  File "train.py", line 18, in train
+    g = model.Graph(is_training=True)
+  File "/home/sjhbxs/code/ICDAR_task2/ICDAR_TASK2_new16/code_py/model.py", line 88, in __init__
+    net = tf.nn.dropout(net, self.keep_prob)
+AttributeError: 'Graph' object has no attribute 'keep_prob'

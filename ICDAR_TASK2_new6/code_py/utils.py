@@ -134,7 +134,7 @@ class DataIterator2:
                     self.image.append(np.array(img[:,:,np.newaxis]))
                     self.image_names.append(image_name)
                 except:
-                    print("!!!!!!!!!!!",root,"---",file_path,"=====",flag_a)
+                    print("!!!!!!!!!!!",root,"---",file_path)
 
     @property
     def size(self):

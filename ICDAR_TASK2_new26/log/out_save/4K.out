@@ -1,0 +1,1117 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 71), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+contain less char orden? 1209085
+contain less char ENJOY  1037336
+contain less char tennis? 1035799
+contain less char fmagnifici@email.it 1008925
+contain less char CLOSED  1062766
+contain less char DAY! 1234043
+contain less char PARING  1042504
+contain less char RAPTORS? 1108381
+contain less char pleasure! 1173474
+contain less char less,  1069568
+contain less char LR=0xFFFF91 1199909
+contain less char (ground 1229714
+contain less char ington  1127552
+contain less char birthday  1152104
+contain less char El Portal 1218130
+contain less char mandalina  1160096
+contain less char SECRET  1075753
+contain less char DAY! 1210082
+contain less char CHICKEN  1018371
+contain less char Jeepers! 1066846
+contain less char win! 1025141
+contain less char vision! 1133836
+contain less char conway\' 1001639
+contain less char SST  1167958
+contain less char Archives  1188428
+contain less char DECORATIONS? 1211449
+contain less char DENTLE  1070058
+contain less char Time! 1177098
+contain less char 98=5167 1116480
+contain less char GRATTA! 1234675
+contain less char PC=0XFFFF9230; 1199900
+contain less char angle? 1033640
+contain less char c&sc& 1176804
+contain less char business!! 1043469
+contain less char time! 1186256
+contain less char hey baby 1213671
+contain less char DONALD  1183991
+contain less char nana\'s 1027476
+contain less char funds? 1232163
+contain less char 47.70\342\202\254 1005973
+contain less char yet? 1012829
+contain less char KISS? 1219960
+contain less char (please 1236567
+contain less char (01239) 1036677
+contain less char VISA  1071418
+len is 0 or too long 1101121
+contain less char (1.0.0) 1199913
+contain less char way.\' 1020829
+contain less char  ©2012 1038984
+contain less char (Ted) 1221033
+contain less char any time 1226066
+contain less char £99 1075018
+contain less char (excluding 1041138
+contain less char VINCI! 1217526
+contain less char again! 1006966
+contain less char BEST  1057807
+contain less char @maeteang 1080013
+contain less char john\'s 1193876
+contain less char SOLO! 1003752
+contain less char &BASKET 1216735
+contain less char webber\'s 1016519
+contain less char (2013). 1033680
+contain less char quick;y 1235932
+contain less char you! 1003759
+contain less char carge! 1024942
+contain less char GRAPE) 1237412
+contain less char @OutriggerHaw 1018350
+contain less char 9'-0" 1012787
+contain less char rupa  1090004
+contain less char FIRST  1187213
+contain less char mcneil& 1030939
+contain less char ACTION! 1098860
+contain less char 12+3 1026607
+contain less char reply) 1006459
+contain less char are! 1233116
+contain less char Rainier  1175063
+contain less char PARK&RIDE 1112503
+contain less char EMERGENCY; 1217222
+contain less char toys," 1238489
+contain less char ABCDEFGHIJKLMNOPQRSTUVWXYZ&abcdefghijklmnopqrstuvwxyz1234567890 1067138
+contain less char money? 1238454
+contain less char danger! 1031329
+contain less char farmer\'s 1033896
+contain less char Finest! 1036501
+contain less char excitement! 1043261
+contain less char THAT! 1139942
+contain less char Stairs! 1041940
+contain less char #140 1110000
+contain less char there! 1239234
+contain less char chowking# 1002183
+contain less char TENNIS  1118043
+contain less char intelligent! 1210021
+contain less char fun! 1065125
+contain less char property! 1219053
+contain less char FREEDOM  1073794
+contain less char NETSUITE  1135239
+contain less char TACO  1025335
+contain less char PLZ!!! 1226535
+contain less char @EPFANS.OH 1063693
+contain less char 300D+ 1064679
+contain less char WHOA! 1123488
+contain less char FLAKE  1197600
+contain less char know? 1020002
+contain less char You!!! 1210527
+contain less char at&t 1116851
+contain less char TM C Warner 1202184
+contain less char john\'s 1012745
+contain less char BEES  1028751
+contain less char KEAM  1009276
+contain less char at&t 1200941
+contain less char beztu  1159063
+contain less char PLUS PLAN 1072215
+contain less char 518  1009210
+contain less char 732  1009207
+contain less char Oufjmi  1095347
+contain less char POISION  1059497
+contain less char sainsbury`s 1026446
+contain less char ©2010 1025808
+contain less char SAVES  1089624
+contain less char (ground) 1014014
+contain less char addington  1200248
+contain less char Brighton&Hove 1069687
+contain less char &storage 1014003
+contain less char gmt+08.00 1007016
+contain less char attack! 1207524
+contain less char c\'est 1034276
+contain less char ngpin  1040980
+contain less char WAL*MART 1115076
+contain less char Blum,  1017850
+contain less char *Malibu 1209622
+contain less char at&t 1202703
+contain less char ELLERSLIE  1164751
+contain less char ValloiaSoft  1153489
+contain less char dunlop  1139105
+contain less char (ROTEE 1237410
+contain less char FORGOTTEN! 1090272
+contain less char best! 1220880
+contain less char tail] 1189689
+contain less char @liliana 1227538
+contain less char (shopping 1201093
+contain less char (geometric 1236164
+contain less char WORTH? 1226655
+contain less char (photomontage) 1133009
+contain less char &militaria 1006149
+contain less char charmig! 1210019
+contain less char (55) 1025732
+contain less char @2010 1231768
+contain less char Electric) 1236392
+contain less char book\'s 1013584
+contain less char num& 1011235
+contain less char PARK&RIDE 1112505
+contain less char GET  1166047
+contain less char nuts  1032828
+contain less char designa  1002366
+contain less char arcade) 1201091
+contain less char MG_3503.JPG 1099068
+contain less char BLACK&DECKER 1109923
+contain less char shade), 1236173
+contain less char "You 1238497
+contain less char learn! 1017553
+contain less char Transfer  1017403
+contain less char fort" 1130146
+contain less char THE  1030468
+contain less char REPENT!  1058446
+contain less char freshness  1200027
+contain less char marta  1029650
+contain less char broad? 1002665
+contain less char 100% 1217293
+contain less char willie.com?" 1036364
+contain less char MANGO  1198526
+contain less char POLYMER; 1005977
+contain less char POP  1119115
+contain less char (25-06-2013) 1234715
+contain less char CDR  1073634
+contain less char OH HAI 1035691
+contain less char H-E  1104376
+contain less char @2010 1233272
+contain less char ner  1172996
+contain less char OHNO! 1056732
+contain less char @ANTHONY 1153966
+contain less char ID=SLIF 1215995
+contain less char BOOM! 1110429
+contain less char off! 1225461
+contain less char Roses  1162507
+len is 0 or too long 1085492
+contain less char "green" 1036495
+contain less char 57\' 1005571
+contain less char Alkrnaar,  1080319
+contain less char €12.50 1185416
+contain less char BUSES  1158429
+contain less char kohl\'s 1016478
+contain less char kk\'s 1003337
+contain less char "This 1234504
+contain less char ms0224091] 1144017
+contain less char 100% 1033741
+contain less char £14 1200558
+contain less char #ROMNEYRYAN2012 1028975
+contain less char ocho! 1009033
+contain less char BETTLEMENT  1087430
+contain less char RIGHT@2007 1238693
+contain less char BLACK&WHITE  1082505
+contain less char (lan) 1007611
+contain less char HERSHEY'S  1159868
+contain less char Hot! 1165523
+contain less char now? 1023850
+contain less char order? 1011718
+contain less char wegman\' 1016785
+contain less char kraft) 1006673
+contain less char BO(RED) 1026526
+contain less char 15+3 1197643
+contain less char lost! 1028080
+contain less char of safety 1215859
+contain less char SEANSADVENTURES! 1014042
+contain less char Elements  1150179
+contain less char print) 1236553
+contain less char Wall" 1225230
+contain less char mlb  1094052
+contain less char CHEFGREGLEON@GMAIL.COM 1038035
+contain less char OUR  1060271
+contain less char cpu=8 1199838
+contain less char Concord  1083168
+contain less char @mayescountypictures.com 1185381
+contain less char again! 1018855
+contain less char amitshahc@outlook.com 1032234
+contain less char pedestrians! 1207523
+contain less char (Symbol: 1236390
+contain less char GOODNESS! 1014826
+contain less char setting). 1007555
+contain less char lem! 1037392
+contain less char twenty\'s 1016714
+contain less char know? 1014675
+contain less char #litchat 1027861
+contain less char PIZZA! 1113272
+contain less char BOSS  1088612
+contain less char (metro 1181112
+contain less char HOTEL  1154223
+contain less char classic  1119254
+contain less char 2.8% 1217294
+contain less char BORUSSIA  1095976
+contain less char (ROU) 1116603
+contain less char TELUS  1106755
+contain less char @.2011 1023583
+contain less char don\'t 1029244
+contain less char Rest!! 1150623
+contain less char los dos 1215322
+contain less char canada\'s 1014342
+contain less char COLAVITA  1060137
+contain less char tank) 1026776
+contain less char CONGRATULATIONS! 1001821
+contain less char M&PCBAORY 1225343
+contain less char [Georgetown 1215009
+contain less char NETSUITE  1135241
+contain less char Passage  1165261
+contain less char   RBS 1055688
+contain less char recycle! 1160244
+contain less char North  1124273
+contain less char cj dawson 1222973
+contain less char CAFE& 1011824
+contain less char new  1204053
+contain less char 12*12 1232427
+contain less char JELLO  1075386
+contain less char Jannnyvi  1134228
+contain less char par&r 1027978
+contain less char anding\'s 1084858
+contain less char £4.69 1234594
+contain less char attraletiv! 1210028
+contain less char 1€/ 1231815
+contain less char <1-9 1216256
+contain less char era! 1207041
+contain less char WINDOWS  1007005
+contain less char rolig! 1210025
+contain less char pointy? 1002664
+contain less char lists) 1218598
+contain less char CL#953749 1194220
+contain less char @Stephanie 1039944
+contain less char BB&T 1040755
+contain less char +VOL 1219916
+contain less char bar% 1035075
+contain less char girls\' 1032002
+contain less char spider! 1041865
+contain less char BUS! 1189295
+contain less char BUS  1063685
+contain less char 100% 1226480
+contain less char seattle  1055961
+contain less char Chau@2012 1043684
+contain less char marchkat@yahoo.com 1030535
+contain less char ca\'s 1005187
+contain less char (01989) 1039125
+contain less char dog? 1204353
+contain less char UNDERWATER) 1232631
+contain less char MUELLER  1155026
+contain less char foolish." 1204617
+contain less char lukebla@ks 1059799
+contain less char WELCOME! 1098844
+contain less char DANGER  1025181
+contain less char x=independently 1224659
+contain less char bartholomew's  1201083
+contain less char -7pm  1150728
+contain less char (30) 1169766
+contain less char hood  1085225
+contain less char g-vaugn@ 1085065
+contain less char sato  1067116
+contain less char (512) 1001380
+contain less char YUNKER  1067113
+contain less char it!" 1151612
+contain less char BOST  1061449
+contain less char David@gman.com 1031541
+contain less char #CUTCHCATCHES 1004276
+contain less char dar=0x853b2000 1199836
+contain less char NEW! 1096081
+contain less char LOOK! 1224289
+contain less char ATTENTIE! 1035517
+contain less char $629.mac  1200593
+contain less char ROCKS! 1091153
+contain less char i\'m 1014087
+contain less char ice cream 1227522
+contain less char N°5 1134508
+contain less char *Jim 1209625
+contain less char USDOT#2042701 1025360
+contain less char ANMs0287(002) 1033316
+contain less char all way 1215192
+contain less char 446\ 1200872
+contain less char world\'s 1009654
+contain less char role  1030221
+contain less char people? 1027860
+contain less char procor  1138624
+contain less char MACBOOK  1029788
+contain less char Tigers! 1109982
+contain less char @Robert 1038553
+contain less char royal  1081276
+contain less char day! 1103668
+contain less char top do 1204339
+contain less char BOMB? 1029384
+contain less char 100% 1110354
+contain less char Emirates  1006233
+contain less char ement! 1224328
+contain less char bag! 1023310
+contain less char First!) 1235237
+contain less char ARREL  1169875
+contain less char parkinson\'s 1043476
+contain less char sn\'t 1008180
+contain less char NEW! 1019655
+contain less char engine  1087120
+contain less char #240 1057890
+contain less char Sydney  1160869
+contain less char at&t 1202697
+contain less char KLM  1031345
+contain less char beltran  1205151
+contain less char OPEN  1173470
+contain less char ONGETTA  1086572
+contain less char prohibited  1097492
+contain less char ©2013 1028891
+contain less char Windows*xp 1227113
+contain less char GRATTA! 1194598
+contain less char rvp  1011392
+contain less char KIA  1034411
+contain less char (con 1016189
+contain less char MANAGEMENT  1164149
+contain less char iHERE! 1070500
+contain less char SIST=0x0000000; 1199826
+contain less char "Kriff" 1031017
+contain less char VARS!!!! 1183382
+contain less char dell\'olivo 1033695
+contain less char can  1201227
+contain less char M Avity 1212597
+contain less char st 00 1208658
+contain less char WATER  1178978
+contain less char Flanosa A Bord 1210159
+contain less char Little  1061999
+contain less char 59¢ 1154251
+contain less char NYU  1110715
+contain less char ZONE! 1238176
+contain less char funds? 1232160
+contain less char TENNIS? 1007761
+contain less char €5.50 1021680
+contain less char don\'t 1032636
+contain less char 6.2665(TOLL 1236831
+contain less char GEEK  1074109
+contain less char POLICE  1043963
+contain less char HERO! 1234999
+contain less char Nassfeld  1019490
+contain less char REPTILE  1167615
+contain less char Vincl! 1009663
+contain less char @Nicola 1239864
+contain less char telemarketers! 1016658
+contain less char this? 1239236
+contain less char Buff@ 1031857
+contain less char CHARGE! 1067114
+contain less char @fotobydave2011 1074913
+contain less char people\'s 1021494
+contain less char 100% 1001858
+contain less char st 00 1208660
+contain less char STATION  1057559
+contain less char FOR  1136185
+contain less char comunications? 1178912
+contain less char peinture! 1021616
+contain less char chocolate iced 1226378
+contain less char (858) 1006095
+contain less char TCOn  1182916
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+contain less char JAAR! 1228830
+contain less char (BALEWADI) 1215071
+contain less char with," 1238504
+contain less char #appre 1120116
+contain less char travel& 1022774
+contain less char war! 1112931
+contain less char SURFSHOP  1098053
+contain less char Coca-Cola  1166645
+contain less char ROCKST★R 1057770
+contain less char JAYDE  1022113
+contain less char ¡YA! 1211054
+contain less char (3), 1183255
+contain less char 24,000+ 1218452
+contain less char gunem\' 1036438
+contain less char What? 1023842
+contain less char nd@schep 1207404
+contain less char £14 1222676
+contain less char       559 1194572
+contain less char 501-1594  1025828
+contain less char CITY! 1220683
+contain less char &MARKET 1185167
+contain less char 126) 1009484
+contain less char law& 1028855
+contain less char (ROTEE 1237413
+contain less char (193/365) 1208224
+contain less char #4234 1233430
+contain less char CHATTA  1155028
+contain less char &tea 1035620
+contain less char sisr=8x40000000 1199829
+contain less char Gallop! 1131587
+contain less char yahoo! 1040593
+contain less char york  1099397
+contain less char 100% 1035113
+contain less char One  1043530
+contain less char ONE! 1157109
+contain less char (01752) 1210759
+contain less char specialty  1200013
+contain less char Dealers  1030302
+contain less char grandview  1177786
+contain less char THE  1056225
+contain less char O!!!M!!! 1147714
+contain less char KFC  1085935
+contain less char pc=8xffff9238; 1199834
+contain less char season? 1043113
+contain less char FUN! 1137939
+contain less char SUNLIGHT  1031204
+contain less char  ENEANN 1058716
+contain less char V_SIONIL 1230842
+contain less char dance! 1010625
+contain less char (even 1214624
+contain less char @BlueMon 1027859
+contain less char <0701234567> 1235687
+contain less char (a503) 1009131
+contain less char new! 1012121
+contain less char on pacific 1227881
+contain less char SELF! 1219852
+contain less char Alfon  1141263
+contain less char at&t 1009504
+contain less char HERE! 1211426
+contain less char ernst& 1006240
+contain less char AVR  1186565
+contain less char smile!! 1149799
+contain less char Mmmm..."ww 1036363
+contain less char (c)amainbucatarie 1011023
+contain less char NETSUITE  1135244
+contain less char TS_STEINER 1028336
+contain less char +130 1148126
+contain less char @gmail.com 1126074
+contain less char @MAV 1120163
+contain less char BOOKS  1104920
+contain less char management& 1031375
+contain less char PLANET! 1217803
+contain less char (sy: 1199884
+contain less char #4011 1232201
+contain less char don\'t 1031119
+contain less char STATES  1055899
+contain less char lipstick? 1016830
+contain less char (A.05) 1237020
+contain less char bakerdavid@gmail.com 1039260
+contain less char D&RGW 1016047
+contain less char Refrigerator  1101219
+contain less char TOSHIBA  1066982
+contain less char YOU! 1237583
+contain less char STAINES  1176689
+contain less char (215) 1218811
+contain less char BROOKFIELD  1078354
+contain less char S=ENMIENDA 1104248
+contain less char augustine\'s 1023534
+contain less char "VANS 1233590
+contain less char ?123 1041142
+contain less char *enel 1025988
+contain less char (638k 1004787
+contain less char SEULS? 1036434
+contain less char communications!? 1160649
+contain less char [www.juannonly.com] 1225734
+contain less char FAMILY  1039254
+contain less char TOSHIBA  1147321
+contain less char ¡YA! 1211056
+contain less char (226 1236202
+contain less char JACKSONLEWCHUK 2010 1076495
+contain less char #smlondon 1025498
+contain less char CAGO_EDU 1115236
+contain less char Weekly  1165745
+contain less char trans fats 1211246
+contain less char ATCH TIME 1003112
+contain less char CABERNET  1102555
+contain less char DALY  1102491
+contain less char DAY! 1163652
+contain less char time  1203793
+contain less char (941)-474-7372 1005387
+contain less char #GOBEARS 1029055
+contain less char GLASGOW  1078362
+contain less char The  1117262
+contain less char QEL+054 1155092
+contain less char ffrent  1041841
+contain less char Hot  1131615
+contain less char bakerdavid@gmail.com 1039259
+contain less char VINCI! 1217527
+contain less char LANDING  1010122
+contain less char Chau@2013 1039927
+contain less char \'u\' 1028090
+contain less char HAPPY  1109631
+contain less char LOVED! 1226487
+contain less char fail! 1006463
+contain less char substituted  1041395
+contain less char  Coral 1079587
+contain less char LOVED! 1090276
+contain less char 2013  1167589
+contain less char LIVE! 1219344
+contain less char it\'s 1003755
+contain less char Value! 1209977
+contain less char insightful! 1210407
+contain less char Happy  1168559
+contain less char at&t 1202701
+contain less char World! 1224366
+contain less char grogon\'s 1025882
+contain less char SES  1101670
+contain less char arge! 1024945
+contain less char ?s-b. 1011728
+contain less char energy! 1084419
+contain less char FULL  1095026
+contain less char FREE). 1236842
+contain less char *tour:smart 1182287
+contain less char Secret Agenda 1212049
+contain less char s0372_ss0033_ 1033331
+contain less char `armed 1231849
+contain less char ___. 1218550
+contain less char with  1133376
+contain less char \'cos 1000374
+contain less char ARMY! 1166054
+contain less char you! 1121768
+contain less char (500g) 1204812
+contain less char  VISA 1024051
+contain less char SPEED  1119240
+contain less char STUCK? 1162570
+contain less char beauty  1191153
+contain less char the  1201188
+contain less char doggie  1205920
+contain less char <(24-06-2018) 1035974
+contain less char 3rd-POPPED  1016765
+contain less char vine yards 1216586
+contain less char tennis? 1007759
+contain less char Caution  1151527
+contain less char CAFTERS&BATTLER 1069048
+contain less char (212)243-8000 1213431
+contain less char YAHOO! 1171316
+contain less char TOSHIBA  1145864
+contain less char (aballo 1232851
+contain less char WORTH? 1226659
+contain less char WARNING! 1220721
+contain less char "Which 1238495
+contain less char 1of@kind 1014771
+contain less char HERO! 1234996
+contain less char (866) 1200513
+contain less char green; 1121765
+contain less char jacob\'s 1037998
+contain less char POST  1055900
+contain less char yellow line 1215607
+contain less char "WHERE 1219161
+contain less char ELAN  1059202
+contain less char TORS? 1235982
+contain less char "Off 1225233
+contain less char (355 1238943
+contain less char violet nine 1223950
+contain less char MAKI  1133703
+contain less char Coca-Cola  1166646
+contain less char moe? 1217312
+contain less char levi\'s 1002840
+contain less char ryan\'s 1022339
+contain less char info@centa.co.uk 1002125
+contain less char Ninja  1084422
+contain less char PLANET! 1217802
+contain less char MALCOLM  1078353
+contain less char AT&T 1146159
+contain less char AID* 1227513
+contain less char PROGRESSIVE  1176650
+contain less char dog! 1108433
+contain less char ADMISSION  1092032
+contain less char at&t 1202700
+contain less char ALTO  1138429
+contain less char ©Steve 1088582
+contain less char ©stephanie 1206380
+contain less char BRITISH! 1060047
+contain less char ebber\'s 1016524
+contain less char adidas  1084664
+contain less char c@te 1209900
+contain less char fxp@grx.de 1041255
+contain less char at&t 1069153
+contain less char ThinkCure! 1131432
+contain less char FLAMM  1110641
+contain less char @chriskompst 1086740
+contain less char @combos.car 1238180
+contain less char Wedding  1079271
+contain less char code=88888007 1199841
+contain less char (718) 1013288
+contain less char (LOOP) 1179246
+contain less char ROCKS! 1093407
+len is 0 or too long 1161134
+contain less char Matteo  1189832
+contain less char Bank  1011148
+contain less char P.NOONAA&CO., 1111401
+contain less char FISH&WILDLIFE 1227389
+len is 0 or too long 1091637
+contain less char drafts! 1011162
+contain less char Lavor! 1065126
+contain less char at&t 1231270
+contain less char pylsur  1159064
+contain less char GRATTA! 1234677
+contain less char cancer  1030818
+contain less char LAKE  1008532
+contain less char ELGIN  1037860
+contain less char COMPACT  1080827
+contain less char (20/365) 1022591
+contain less char Centre  1067979
+contain less char Adam&Eve 1062557
+contain less char Fed  1131138
+contain less char #744 1033718
+contain less char cshootfirsteatlater.com  1199308
+contain less char ©Harry 1040101
+contain less char Cupcake! 1231183
+contain less char SE&CR 1120765
+contain less char BLEIBOD  1031389
+contain less char little  1175925
+contain less char LOON  1154225
+contain less char Univ.] 1215013
+contain less char Coca-Cola  1166647
+contain less char safe? 1003169
+contain less char CELEVELAND  1023270
+contain less char copyright(C) 1072672
+contain less char SKY  1170433
+contain less char Kreme  1095132
+contain less char TakeaSecondtoRelax! 1150628
+contain less char extra#240 1237241
+contain less char weekend! 1142546
+contain less char P[]va 1215764
+contain less char &any 1100052
+contain less char at&t 1038485
+contain less char ERDIT  1107502
+contain less char @Author 1027858
+contain less char ffino\'s 1009227
+contain less char Litchattics? 1027855
+contain less char saman) 1021228
+contain less char Premium  1163592
+contain less char MARCO  1064350
+contain less char you! 1034805
+contain less char VITAMINS! 1017089
+contain less char €200 1215858
+contain less char Electric) 1236391
+contain less char it\'s 1198802
+contain less char HUMP! 1155662
+contain less char don\'t 1041370
+contain less char happy  1090025
+contain less char =8x200d830 1199828
+contain less char (29-06-2013) 1011282
+contain less char #4011 1224218
+contain less char (130 1230582
+contain less char M&Co. 1143661
+contain less char le creosot 1199721
+contain less char Chillie  1131616
+contain less char pink? 1060330
+contain less char (isp). 1007606
+contain less char (EVERETT) 1211443
+contain less char ttison  1028480
+contain less char v=8x3f800800 1199843
+contain less char IRIS  1118049
+contain less char d\'angelo 1181933
+contain less char reserves  1008192
+contain less char 300D+ 1135130
+contain less char Coca-Cola  1123127
+contain less char sec age 1212046
+contain less char parents" 1234502
+contain less char ECALITE  1179662
+contain less char Man  1043529
+contain less char 11.0% 1035012
+contain less char that\'s 1027085
+contain less char WALT  1002536
+contain less char +VOL 1210825
+contain less char watson\'s 1042394
+contain less char mers  1130102
+contain less char bla  1149082
+contain less char i\'m 1017644
+contain less char HERE! 1093785
+contain less char TESLILAT  1171381
+contain less char [yellow 1024194
+contain less char proof) 1220902
+contain less char angel  1134225
+contain less char 100% 1239809
+contain less char JACKSONLEWCHUK 2010 1076494
+contain less char board! 1024123
+contain less char day! 1203151
+contain less char POUR  1120869
+contain less char dawg! 1016449
+contain less char IP&WICH 1056657
+contain less char f3.5-f5.6] 1013754
+contain less char summer? 1179668
+contain less char meccano  1207434
+contain less char lundyd@dmail.org 1208671
+contain less char anses? 1230277
+contain less char wolf! 1207520
+contain less char Available  1030306
+contain less char this! 1057642
+len is 0 or too long 1234345
+contain less char nger) 1238888
+contain less char -\'kwer-1 1026771
+contain less char Happy  1038672
+contain less char apple! 1214454
+contain less char wolf! 1207517
+contain less char United  1042780
+contain less char HAULAGE  1078359
+contain less char BILLYING! 1226751
+contain less char DOLG& 1101384
+contain less char *SO-CO 1209616
+contain less char  c2011 1114936
+contain less char here) 1214622
+contain less char PAY  1070463
+contain less char sport  1197034
+contain less char READY? 1142806
+contain less char 100% 1079122
+contain less char BELIEVIN! 1159537
+contain less char this? 1027341
+contain less char GLU#000000128 1188944
+contain less char _lt22223 1206998
+contain less char 1234567890-=`qwertyuiop[]\asdfghjkl;'zxcvbnm,./ 1157057
+len is 0 or too long 1078701
+contain less char &AdventuresInF 1026386
+contain less char stage! 1116547
+contain less char (718 1013289
+contain less char terror! 1217937
+contain less char canada  1038486
+contain less char CAMERON! 1068332
+contain less char Miami Eagles 1227233
+contain less char OBÉ 1072127
+contain less char augustino\'s 1027936
+contain less char (xcingular 1038119
+contain less char diz*ZYE 1002993
+contain less char grrr! 1207522
+contain less char VIGILANCE  1085764
+contain less char gravity\ 1041050
+contain less char SCION  1000878
+contain less char (nickel1715) 1239863
+contain less char THINK! 1008879
+contain less char right? 1103888
+contain less char TripMaster_ver 1231285
+contain less char production.\ 1149325
+contain less char *special* 1016922
+contain less char  EXF 1148721
+contain less char Fork  1174803
+contain less char YOU  1139229
+contain less char (877) 1107707
+contain less char The  1169068
+contain less char ADMIS  1092034
+contain less char fits\ 1021540
+contain less char IQUES  1108813
+contain less char ple? 1005435
+contain less char FRAN  1064207
+contain less char everton) 1017303
+contain less char pro~one 1178043
+contain less char blog? 1216580
+contain less char l\'amore 1008928
+contain less char (355ml) 1028291
+contain less char LIMIT  1091835
+contain less char (corrupt 1218599
+contain less char AUSTRALIA  1032947
+contain less char UNITED  1177972
+contain less char secor  1093313
+contain less char brad pit 1226210
+contain less char at&t  1120913
+contain less char SASLIFKA@YAHOO.COM 1215994
+contain less char EARTHWORM! 1211447
+contain less char sanding  1110377
+contain less char HONDA  1090541
+contain less char *break 1146902
+contain less char Verteg  1177892
+contain less char (360g) 1210514
+contain less char Yours Love 1213319
+contain less char £1.55 1032328
+contain less char gdit! 1212066
+contain less char +21lt 1032603
+contain less char c&sc& 1176801
+contain less char japan) 1041151
+contain less char Bear! 1228365
+contain less char hollywood&higland 1005546
+contain less char WTC-V&D 1224480
+contain less char ©2016 1006192
+contain less char Asia  1165260
+contain less char who sell 1219050
+contain less char (454G) 1231744
+contain less char dar=0x05382000 1199827
+contain less char POLICE  1150900
+contain less char #GETHEALTHY 1008600
+contain less char adrilena\ 1010958
+contain less char (aballo 1232848
+contain less char lindsay& 1002661
+len is 0 or too long 1199831
+contain less char Bank of America 1210472
+contain less char move? 1110367
+contain less char Insert  1024054
+contain less char FAMILY  1122584
+contain less char Finitude  1002369
+contain less char HOTEL  1154226
+contain less char @mark 1231242
+contain less char latest! 1006909
+contain less char mott st 1205001
+contain less char (geometric-p 1236174
+contain less char a71) 1034784
+contain less char DES= 1104249
+contain less char KIA  1132324
+contain less char MacBre  1165743
+contain less char GOOGLE  1006620
+contain less char ;cc' 1222563
+contain less char special! 1150616
+contain less char print), 1236163
+contain less char snowbird  1007015
+contain less char TINY! 1213886
+contain less char truth? 1023178
+contain less char CHARGE! 1190056
+contain less char hom@btinternet.com 1026469
+contain less char wholesale  1131375
+len is 0 or too long 1124130
+contain less char JediHorsemanship(c) 1108423
+contain less char (NOTHING 1036103
+contain less char you\'ve 1030889
+contain less char boo! 1189342
+contain less char push& 1036503
+contain less char (2011) 1024713
+contain less char Alternators•Starters•Generators 1196951
+contain less char wiley\'s 1019556
+contain less char ethical  1002364
+contain less char \'73 1005518
+contain less char michigan express 1191608
+contain less char al\' 1208858
+contain less char 1940\'s 1010819
+contain less char Kyoto(c) 1212925
+contain less char India;s 1226460
+contain less char america\'s 1031263
+contain less char FOUND  1006003
+contain less char RVP  1033459
+contain less char work? 1013036
+contain less char stretch! 1030396
+contain less char usa! 1015625
+contain less char  BECAUSE 1071815
+contain less char PARAGRAPH  1149323
+contain less char (Symbol: 1236393
+contain less char nce! 1217191
+contain less char CITY  1085111
+contain less char shade), 1019140
+contain less char rental  1068402
+contain less char L0070JB  1132416
+contain less char 100% 1213545
+contain less char (21) 1038277
+contain less char (HINJWADI) 1012585
+contain less char Coca-Cola  1166644
+contain less char @2011 1227629
+contain less char PARK&RIDE 1229010
+contain less char sportpix  1202432
+contain less char (illegible) 1237912
+contain less char world\'s 1009653
+contain less char lundyd@dma1.or 1039835
+contain less char PROBLEMS? 1213828
+contain less char 824  1171560
+contain less char 14TH! 1238444
+contain less char (head 1235235
+contain less char <60-90 1216253
+contain less char BASIL  1138488
+contain less char Budweiser  1091696
+contain less char YOU; 1061562
+contain less char WALL" 1233591
+contain less char [logout] 1199863
+contain less char time! 1013203
+contain less char His  1043531
+contain less char est! 1220883
+contain less char (c)SaraiRachel 1025231
+contain less char (CC) 1236571
+contain less char lo&behold 1069688
+contain less char SKU# 1166699
+contain less char @northline 1026644
+contain less char BR1+3791 1114717
+contain less char Baked  1015299
+contain less char ARRIVA  1121068
+contain less char Kelblocks  1040470
+contain less char #4011 1232199
+contain less char cho\'s 1012323
+contain less char DAVID  1163246
+contain less char GOODERHAM&W 1029140
+***************get image:  41713
+loading validation data, please wait--------------------- end= 
+contain less char rupa  1090004
+contain less char happy  1090025
+***************get image:  33
+2018-06-12 08:20:22.470003: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-12 08:20:22.470033: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-12 08:20:22.470041: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-12 08:20:22.470047: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-12 08:20:22.470061: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-12 08:20:22.559436: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-06-12 08:20:22.559753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.09GiB
+2018-06-12 08:20:22.559819: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-06-12 08:20:22.559828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-06-12 08:20:22.559839: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+restore from the checkpoint/home/sjhbxs/checkout/ICDAR_task2/ICDAR_TASK2_new26/checkpoint/ocr-model-36500
+=============================begin training=============================
+2018-06-12 08:20:28.796888: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4580 get requests, put_count=3098 evicted_count=1000 eviction_rate=0.322789 and unsatisfied allocation rate=0.563755
+2018-06-12 08:20:28.796960: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-06-12 08:20:39.441632: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 555 get requests, put_count=1568 evicted_count=1000 eviction_rate=0.637755 and unsatisfied allocation rate=0.0018018
+2018-06-12 08:20:45.504747: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 649 get requests, put_count=1671 evicted_count=1000 eviction_rate=0.598444 and unsatisfied allocation rate=0.00154083
+2018-06-12 08:20:52.951572: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5279 get requests, put_count=5141 evicted_count=2000 eviction_rate=0.389029 and unsatisfied allocation rate=0.41201
+2018-06-12 08:20:52.951627: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 409 to 449
+2018-06-12 08:21:00.491368: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5364 get requests, put_count=5495 evicted_count=2000 eviction_rate=0.363967 and unsatisfied allocation rate=0.359433
+2018-06-12 08:21:00.491448: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+2018-06-12 08:21:09.582291: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5191 get requests, put_count=4873 evicted_count=1000 eviction_rate=0.205212 and unsatisfied allocation rate=0.274128
+2018-06-12 08:21:09.582346: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 1158 to 1273
+cur_epoch==== 0 cur_batch---- 99 g_step**** 36599 cost 3.8841681
+cur_epoch==== 1 cur_batch---- 99 g_step**** 36761 cost 3.6435914
+cur_epoch==== 2 cur_batch---- 99 g_step**** 36923 cost 4.512198
+save checkpoint 37000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[36, 22, 22, 37, 36]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[35, 52]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[68, 58, 55, 49, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 22, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 22, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 4, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 8:33:18  step===37000, Epoch 4/1000, accuracy = 0.424,avg_train_cost = 3.705, lastbatch_err = 0.307, time = 22.849,lr=0.00034472
+
+cur_epoch==== 3 cur_batch---- 99 g_step**** 37085 cost 4.3914127
+cur_epoch==== 4 cur_batch---- 99 g_step**** 37247 cost 3.752394
+cur_epoch==== 5 cur_batch---- 99 g_step**** 37409 cost 3.4263048
+save checkpoint 37500
+cur_epoch==== 6 cur_batch---- 99 g_step**** 37571 cost 4.0905023
+cur_epoch==== 7 cur_batch---- 99 g_step**** 37733 cost 3.28659
+cur_epoch==== 8 cur_batch---- 99 g_step**** 37895 cost 3.6696515
+save checkpoint 38000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[36, 48, 48, 37, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[35, 26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[68, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[61, 52, 49]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 7, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 36, 28, 31]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 4, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 8:58:46  step===38000, Epoch 10/1000, accuracy = 0.394,avg_train_cost = 3.735, lastbatch_err = 0.306, time = 64.835,lr=0.00034128
+
+cur_epoch==== 9 cur_batch---- 99 g_step**** 38057 cost 3.3493242
+cur_epoch==== 10 cur_batch---- 99 g_step**** 38219 cost 3.9845142
+cur_epoch==== 11 cur_batch---- 99 g_step**** 38381 cost 3.5482428
+save checkpoint 38500
+cur_epoch==== 12 cur_batch---- 99 g_step**** 38543 cost 3.8000941
+cur_epoch==== 13 cur_batch---- 99 g_step**** 38705 cost 3.7828803
+cur_epoch==== 14 cur_batch---- 99 g_step**** 38867 cost 3.2256045
+save checkpoint 39000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 37, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 47]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[68, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 7, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 36, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 62, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 9:24:15  step===39000, Epoch 16/1000, accuracy = 0.364,avg_train_cost = 3.700, lastbatch_err = 0.346, time = 107.213,lr=0.00033786
+
+cur_epoch==== 15 cur_batch---- 99 g_step**** 39029 cost 3.237106
+cur_epoch==== 16 cur_batch---- 99 g_step**** 39191 cost 3.6990619
+cur_epoch==== 17 cur_batch---- 99 g_step**** 39353 cost 3.2745676
+save checkpoint 39500
+cur_epoch==== 18 cur_batch---- 99 g_step**** 39515 cost 3.563766
+cur_epoch==== 19 cur_batch---- 99 g_step**** 39677 cost 3.376542
+cur_epoch==== 20 cur_batch---- 99 g_step**** 39839 cost 4.068753
+save checkpoint 40000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 45, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 52, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[35, 22, 47]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 32, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 36, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 62, 4, 10, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 62, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 9:49:44  step===40000, Epoch 22/1000, accuracy = 0.424,avg_train_cost = 3.613, lastbatch_err = 0.318, time = 149.743,lr=0.00033449
+
+cur_epoch==== 21 cur_batch---- 99 g_step**** 40001 cost 3.8659701
+cur_epoch==== 22 cur_batch---- 99 g_step**** 40163 cost 3.9906337
+cur_epoch==== 23 cur_batch---- 99 g_step**** 40325 cost 3.289013
+cur_epoch==== 24 cur_batch---- 99 g_step**** 40487 cost 3.4119208
+save checkpoint 40500
+cur_epoch==== 25 cur_batch---- 99 g_step**** 40649 cost 3.958387
+cur_epoch==== 26 cur_batch---- 99 g_step**** 40811 cost 3.891661
+cur_epoch==== 27 cur_batch---- 99 g_step**** 40973 cost 3.3035235
+save checkpoint 41000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[35, 35, 26, 30]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 20, 22, 42]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 36, 28, 18, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 62, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 10:15:13  step===41000, Epoch 28/1000, accuracy = 0.515,avg_train_cost = 3.570, lastbatch_err = 0.270, time = 193.009,lr=0.00033114
+
+cur_epoch==== 28 cur_batch---- 99 g_step**** 41135 cost 3.4541757
+cur_epoch==== 29 cur_batch---- 99 g_step**** 41297 cost 3.7131066
+cur_epoch==== 30 cur_batch---- 99 g_step**** 41459 cost 3.6101933
+save checkpoint 41500
+cur_epoch==== 31 cur_batch---- 99 g_step**** 41621 cost 3.2858384
+cur_epoch==== 32 cur_batch---- 99 g_step**** 41783 cost 3.1350317
+cur_epoch==== 33 cur_batch---- 99 g_step**** 41945 cost 3.0216653
+save checkpoint 42000
+seq   0: origin: [11, 8, 15, 8] decoded:[11, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[35, 47]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[56, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 32, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 36, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 4, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 62, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 10:40:42  step===42000, Epoch 34/1000, accuracy = 0.455,avg_train_cost = 3.523, lastbatch_err = 0.296, time = 235.932,lr=0.00032783
+
+cur_epoch==== 34 cur_batch---- 99 g_step**** 42107 cost 3.1248329
+cur_epoch==== 35 cur_batch---- 99 g_step**** 42269 cost 3.5617998
+cur_epoch==== 36 cur_batch---- 99 g_step**** 42431 cost 3.4604063
+save checkpoint 42500
+cur_epoch==== 37 cur_batch---- 99 g_step**** 42593 cost 3.4795823
+                                                                 

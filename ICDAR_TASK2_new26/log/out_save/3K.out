@@ -1,0 +1,1966 @@
+nohup: ignoring input
+/home/sjhbxs/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+###########################################################
+SparseTensor(indices=Tensor("BLSTM/Placeholder_2:0", shape=(?, ?), dtype=int64), values=Tensor("BLSTM/Placeholder_1:0", shape=(?,), dtype=int32), dense_shape=Tensor("BLSTM/Placeholder:0", shape=(?,), dtype=int64))
+Tensor("transpose:0", shape=(?, ?, 71), dtype=float32)
+Tensor("BLSTM/Placeholder_3:0", shape=(?,), dtype=int32)
+loading train data, please wait--------------------- end= 
+contain less char orden? 1209085
+contain less char ENJOY  1037336
+contain less char tennis? 1035799
+contain less char fmagnifici@email.it 1008925
+contain less char CLOSED  1062766
+contain less char DAY! 1234043
+contain less char PARING  1042504
+contain less char RAPTORS? 1108381
+contain less char pleasure! 1173474
+contain less char less,  1069568
+contain less char LR=0xFFFF91 1199909
+contain less char (ground 1229714
+contain less char ington  1127552
+contain less char birthday  1152104
+contain less char El Portal 1218130
+contain less char mandalina  1160096
+contain less char SECRET  1075753
+contain less char DAY! 1210082
+contain less char CHICKEN  1018371
+contain less char Jeepers! 1066846
+contain less char win! 1025141
+contain less char vision! 1133836
+contain less char conway\' 1001639
+contain less char SST  1167958
+contain less char Archives  1188428
+contain less char DECORATIONS? 1211449
+contain less char DENTLE  1070058
+contain less char Time! 1177098
+contain less char 98=5167 1116480
+contain less char GRATTA! 1234675
+contain less char PC=0XFFFF9230; 1199900
+contain less char angle? 1033640
+contain less char c&sc& 1176804
+contain less char business!! 1043469
+contain less char time! 1186256
+contain less char hey baby 1213671
+contain less char DONALD  1183991
+contain less char nana\'s 1027476
+contain less char funds? 1232163
+contain less char 47.70\342\202\254 1005973
+contain less char yet? 1012829
+contain less char KISS? 1219960
+contain less char (please 1236567
+contain less char (01239) 1036677
+contain less char VISA  1071418
+len is 0 or too long 1101121
+contain less char (1.0.0) 1199913
+contain less char way.\' 1020829
+contain less char  ©2012 1038984
+contain less char (Ted) 1221033
+contain less char any time 1226066
+contain less char £99 1075018
+contain less char (excluding 1041138
+contain less char VINCI! 1217526
+contain less char again! 1006966
+contain less char BEST  1057807
+contain less char @maeteang 1080013
+contain less char john\'s 1193876
+contain less char SOLO! 1003752
+contain less char &BASKET 1216735
+contain less char webber\'s 1016519
+contain less char (2013). 1033680
+contain less char quick;y 1235932
+contain less char you! 1003759
+contain less char carge! 1024942
+contain less char GRAPE) 1237412
+contain less char @OutriggerHaw 1018350
+contain less char 9'-0" 1012787
+contain less char rupa  1090004
+contain less char FIRST  1187213
+contain less char mcneil& 1030939
+contain less char ACTION! 1098860
+contain less char 12+3 1026607
+contain less char reply) 1006459
+contain less char are! 1233116
+contain less char Rainier  1175063
+contain less char PARK&RIDE 1112503
+contain less char EMERGENCY; 1217222
+contain less char toys," 1238489
+contain less char ABCDEFGHIJKLMNOPQRSTUVWXYZ&abcdefghijklmnopqrstuvwxyz1234567890 1067138
+contain less char money? 1238454
+contain less char danger! 1031329
+contain less char farmer\'s 1033896
+contain less char Finest! 1036501
+contain less char excitement! 1043261
+contain less char THAT! 1139942
+contain less char Stairs! 1041940
+contain less char #140 1110000
+contain less char there! 1239234
+contain less char chowking# 1002183
+contain less char TENNIS  1118043
+contain less char intelligent! 1210021
+contain less char fun! 1065125
+contain less char property! 1219053
+contain less char FREEDOM  1073794
+contain less char NETSUITE  1135239
+contain less char TACO  1025335
+contain less char PLZ!!! 1226535
+contain less char @EPFANS.OH 1063693
+contain less char 300D+ 1064679
+contain less char WHOA! 1123488
+contain less char FLAKE  1197600
+contain less char know? 1020002
+contain less char You!!! 1210527
+contain less char at&t 1116851
+contain less char TM C Warner 1202184
+contain less char john\'s 1012745
+contain less char BEES  1028751
+contain less char KEAM  1009276
+contain less char at&t 1200941
+contain less char beztu  1159063
+contain less char PLUS PLAN 1072215
+contain less char 518  1009210
+contain less char 732  1009207
+contain less char Oufjmi  1095347
+contain less char POISION  1059497
+contain less char sainsbury`s 1026446
+contain less char ©2010 1025808
+contain less char SAVES  1089624
+contain less char (ground) 1014014
+contain less char addington  1200248
+contain less char Brighton&Hove 1069687
+contain less char &storage 1014003
+contain less char gmt+08.00 1007016
+contain less char attack! 1207524
+contain less char c\'est 1034276
+contain less char ngpin  1040980
+contain less char WAL*MART 1115076
+contain less char Blum,  1017850
+contain less char *Malibu 1209622
+contain less char at&t 1202703
+contain less char ELLERSLIE  1164751
+contain less char ValloiaSoft  1153489
+contain less char dunlop  1139105
+contain less char (ROTEE 1237410
+contain less char FORGOTTEN! 1090272
+contain less char best! 1220880
+contain less char tail] 1189689
+contain less char @liliana 1227538
+contain less char (shopping 1201093
+contain less char (geometric 1236164
+contain less char WORTH? 1226655
+contain less char (photomontage) 1133009
+contain less char &militaria 1006149
+contain less char charmig! 1210019
+contain less char (55) 1025732
+contain less char @2010 1231768
+contain less char Electric) 1236392
+contain less char book\'s 1013584
+contain less char num& 1011235
+contain less char PARK&RIDE 1112505
+contain less char GET  1166047
+contain less char nuts  1032828
+contain less char designa  1002366
+contain less char arcade) 1201091
+contain less char MG_3503.JPG 1099068
+contain less char BLACK&DECKER 1109923
+contain less char shade), 1236173
+contain less char "You 1238497
+contain less char learn! 1017553
+contain less char Transfer  1017403
+contain less char fort" 1130146
+contain less char THE  1030468
+contain less char REPENT!  1058446
+contain less char freshness  1200027
+contain less char marta  1029650
+contain less char broad? 1002665
+contain less char 100% 1217293
+contain less char willie.com?" 1036364
+contain less char MANGO  1198526
+contain less char POLYMER; 1005977
+contain less char POP  1119115
+contain less char (25-06-2013) 1234715
+contain less char CDR  1073634
+contain less char OH HAI 1035691
+contain less char H-E  1104376
+contain less char @2010 1233272
+contain less char ner  1172996
+contain less char OHNO! 1056732
+contain less char @ANTHONY 1153966
+contain less char ID=SLIF 1215995
+contain less char BOOM! 1110429
+contain less char off! 1225461
+contain less char Roses  1162507
+len is 0 or too long 1085492
+contain less char "green" 1036495
+contain less char 57\' 1005571
+contain less char Alkrnaar,  1080319
+contain less char €12.50 1185416
+contain less char BUSES  1158429
+contain less char kohl\'s 1016478
+contain less char kk\'s 1003337
+contain less char "This 1234504
+contain less char ms0224091] 1144017
+contain less char 100% 1033741
+contain less char £14 1200558
+contain less char #ROMNEYRYAN2012 1028975
+contain less char ocho! 1009033
+contain less char BETTLEMENT  1087430
+contain less char RIGHT@2007 1238693
+contain less char BLACK&WHITE  1082505
+contain less char (lan) 1007611
+contain less char HERSHEY'S  1159868
+contain less char Hot! 1165523
+contain less char now? 1023850
+contain less char order? 1011718
+contain less char wegman\' 1016785
+contain less char kraft) 1006673
+contain less char BO(RED) 1026526
+contain less char 15+3 1197643
+contain less char lost! 1028080
+contain less char of safety 1215859
+contain less char SEANSADVENTURES! 1014042
+contain less char Elements  1150179
+contain less char print) 1236553
+contain less char Wall" 1225230
+contain less char mlb  1094052
+contain less char CHEFGREGLEON@GMAIL.COM 1038035
+contain less char OUR  1060271
+contain less char cpu=8 1199838
+contain less char Concord  1083168
+contain less char @mayescountypictures.com 1185381
+contain less char again! 1018855
+contain less char amitshahc@outlook.com 1032234
+contain less char pedestrians! 1207523
+contain less char (Symbol: 1236390
+contain less char GOODNESS! 1014826
+contain less char setting). 1007555
+contain less char lem! 1037392
+contain less char twenty\'s 1016714
+contain less char know? 1014675
+contain less char #litchat 1027861
+contain less char PIZZA! 1113272
+contain less char BOSS  1088612
+contain less char (metro 1181112
+contain less char HOTEL  1154223
+contain less char classic  1119254
+contain less char 2.8% 1217294
+contain less char BORUSSIA  1095976
+contain less char (ROU) 1116603
+contain less char TELUS  1106755
+contain less char @.2011 1023583
+contain less char don\'t 1029244
+contain less char Rest!! 1150623
+contain less char los dos 1215322
+contain less char canada\'s 1014342
+contain less char COLAVITA  1060137
+contain less char tank) 1026776
+contain less char CONGRATULATIONS! 1001821
+contain less char M&PCBAORY 1225343
+contain less char [Georgetown 1215009
+contain less char NETSUITE  1135241
+contain less char Passage  1165261
+contain less char   RBS 1055688
+contain less char recycle! 1160244
+contain less char North  1124273
+contain less char cj dawson 1222973
+contain less char CAFE& 1011824
+contain less char new  1204053
+contain less char 12*12 1232427
+contain less char JELLO  1075386
+contain less char Jannnyvi  1134228
+contain less char par&r 1027978
+contain less char anding\'s 1084858
+contain less char £4.69 1234594
+contain less char attraletiv! 1210028
+contain less char 1€/ 1231815
+contain less char <1-9 1216256
+contain less char era! 1207041
+contain less char WINDOWS  1007005
+contain less char rolig! 1210025
+contain less char pointy? 1002664
+contain less char lists) 1218598
+contain less char CL#953749 1194220
+contain less char @Stephanie 1039944
+contain less char BB&T 1040755
+contain less char +VOL 1219916
+contain less char bar% 1035075
+contain less char girls\' 1032002
+contain less char spider! 1041865
+contain less char BUS! 1189295
+contain less char BUS  1063685
+contain less char 100% 1226480
+contain less char seattle  1055961
+contain less char Chau@2012 1043684
+contain less char marchkat@yahoo.com 1030535
+contain less char ca\'s 1005187
+contain less char (01989) 1039125
+contain less char dog? 1204353
+contain less char UNDERWATER) 1232631
+contain less char MUELLER  1155026
+contain less char foolish." 1204617
+contain less char lukebla@ks 1059799
+contain less char WELCOME! 1098844
+contain less char DANGER  1025181
+contain less char x=independently 1224659
+contain less char bartholomew's  1201083
+contain less char -7pm  1150728
+contain less char (30) 1169766
+contain less char hood  1085225
+contain less char g-vaugn@ 1085065
+contain less char sato  1067116
+contain less char (512) 1001380
+contain less char YUNKER  1067113
+contain less char it!" 1151612
+contain less char BOST  1061449
+contain less char David@gman.com 1031541
+contain less char #CUTCHCATCHES 1004276
+contain less char dar=0x853b2000 1199836
+contain less char NEW! 1096081
+contain less char LOOK! 1224289
+contain less char ATTENTIE! 1035517
+contain less char $629.mac  1200593
+contain less char ROCKS! 1091153
+contain less char i\'m 1014087
+contain less char ice cream 1227522
+contain less char N°5 1134508
+contain less char *Jim 1209625
+contain less char USDOT#2042701 1025360
+contain less char ANMs0287(002) 1033316
+contain less char all way 1215192
+contain less char 446\ 1200872
+contain less char world\'s 1009654
+contain less char role  1030221
+contain less char people? 1027860
+contain less char procor  1138624
+contain less char MACBOOK  1029788
+contain less char Tigers! 1109982
+contain less char @Robert 1038553
+contain less char royal  1081276
+contain less char day! 1103668
+contain less char top do 1204339
+contain less char BOMB? 1029384
+contain less char 100% 1110354
+contain less char Emirates  1006233
+contain less char ement! 1224328
+contain less char bag! 1023310
+contain less char First!) 1235237
+contain less char ARREL  1169875
+contain less char parkinson\'s 1043476
+contain less char sn\'t 1008180
+contain less char NEW! 1019655
+contain less char engine  1087120
+contain less char #240 1057890
+contain less char Sydney  1160869
+contain less char at&t 1202697
+contain less char KLM  1031345
+contain less char beltran  1205151
+contain less char OPEN  1173470
+contain less char ONGETTA  1086572
+contain less char prohibited  1097492
+contain less char ©2013 1028891
+contain less char Windows*xp 1227113
+contain less char GRATTA! 1194598
+contain less char rvp  1011392
+contain less char KIA  1034411
+contain less char (con 1016189
+contain less char MANAGEMENT  1164149
+contain less char iHERE! 1070500
+contain less char SIST=0x0000000; 1199826
+contain less char "Kriff" 1031017
+contain less char VARS!!!! 1183382
+contain less char dell\'olivo 1033695
+contain less char can  1201227
+contain less char M Avity 1212597
+contain less char st 00 1208658
+contain less char WATER  1178978
+contain less char Flanosa A Bord 1210159
+contain less char Little  1061999
+contain less char 59¢ 1154251
+contain less char NYU  1110715
+contain less char ZONE! 1238176
+contain less char funds? 1232160
+contain less char TENNIS? 1007761
+contain less char €5.50 1021680
+contain less char don\'t 1032636
+contain less char 6.2665(TOLL 1236831
+contain less char GEEK  1074109
+contain less char POLICE  1043963
+contain less char HERO! 1234999
+contain less char Nassfeld  1019490
+contain less char REPTILE  1167615
+contain less char Vincl! 1009663
+contain less char @Nicola 1239864
+contain less char telemarketers! 1016658
+contain less char this? 1239236
+contain less char Buff@ 1031857
+contain less char CHARGE! 1067114
+contain less char @fotobydave2011 1074913
+contain less char people\'s 1021494
+contain less char 100% 1001858
+contain less char st 00 1208660
+contain less char STATION  1057559
+contain less char FOR  1136185
+contain less char comunications? 1178912
+contain less char peinture! 1021616
+contain less char chocolate iced 1226378
+contain less char (858) 1006095
+contain less char TCOn  1182916
+len is 0 or too long 1080026
+len is 0 or too long 1148610
+contain less char JAAR! 1228830
+contain less char (BALEWADI) 1215071
+contain less char with," 1238504
+contain less char #appre 1120116
+contain less char travel& 1022774
+contain less char war! 1112931
+contain less char SURFSHOP  1098053
+contain less char Coca-Cola  1166645
+contain less char ROCKST★R 1057770
+contain less char JAYDE  1022113
+contain less char ¡YA! 1211054
+contain less char (3), 1183255
+contain less char 24,000+ 1218452
+contain less char gunem\' 1036438
+contain less char What? 1023842
+contain less char nd@schep 1207404
+contain less char £14 1222676
+contain less char       559 1194572
+contain less char 501-1594  1025828
+contain less char CITY! 1220683
+contain less char &MARKET 1185167
+contain less char 126) 1009484
+contain less char law& 1028855
+contain less char (ROTEE 1237413
+contain less char (193/365) 1208224
+contain less char #4234 1233430
+contain less char CHATTA  1155028
+contain less char &tea 1035620
+contain less char sisr=8x40000000 1199829
+contain less char Gallop! 1131587
+contain less char yahoo! 1040593
+contain less char york  1099397
+contain less char 100% 1035113
+contain less char One  1043530
+contain less char ONE! 1157109
+contain less char (01752) 1210759
+contain less char specialty  1200013
+contain less char Dealers  1030302
+contain less char grandview  1177786
+contain less char THE  1056225
+contain less char O!!!M!!! 1147714
+contain less char KFC  1085935
+contain less char pc=8xffff9238; 1199834
+contain less char season? 1043113
+contain less char FUN! 1137939
+contain less char SUNLIGHT  1031204
+contain less char  ENEANN 1058716
+contain less char V_SIONIL 1230842
+contain less char dance! 1010625
+contain less char (even 1214624
+contain less char @BlueMon 1027859
+contain less char <0701234567> 1235687
+contain less char (a503) 1009131
+contain less char new! 1012121
+contain less char on pacific 1227881
+contain less char SELF! 1219852
+contain less char Alfon  1141263
+contain less char at&t 1009504
+contain less char HERE! 1211426
+contain less char ernst& 1006240
+contain less char AVR  1186565
+contain less char smile!! 1149799
+contain less char Mmmm..."ww 1036363
+contain less char (c)amainbucatarie 1011023
+contain less char NETSUITE  1135244
+contain less char TS_STEINER 1028336
+contain less char +130 1148126
+contain less char @gmail.com 1126074
+contain less char @MAV 1120163
+contain less char BOOKS  1104920
+contain less char management& 1031375
+contain less char PLANET! 1217803
+contain less char (sy: 1199884
+contain less char #4011 1232201
+contain less char don\'t 1031119
+contain less char STATES  1055899
+contain less char lipstick? 1016830
+contain less char (A.05) 1237020
+contain less char bakerdavid@gmail.com 1039260
+contain less char D&RGW 1016047
+contain less char Refrigerator  1101219
+contain less char TOSHIBA  1066982
+contain less char YOU! 1237583
+contain less char STAINES  1176689
+contain less char (215) 1218811
+contain less char BROOKFIELD  1078354
+contain less char S=ENMIENDA 1104248
+contain less char augustine\'s 1023534
+contain less char "VANS 1233590
+contain less char ?123 1041142
+contain less char *enel 1025988
+contain less char (638k 1004787
+contain less char SEULS? 1036434
+contain less char communications!? 1160649
+contain less char [www.juannonly.com] 1225734
+contain less char FAMILY  1039254
+contain less char TOSHIBA  1147321
+contain less char ¡YA! 1211056
+contain less char (226 1236202
+contain less char JACKSONLEWCHUK 2010 1076495
+contain less char #smlondon 1025498
+contain less char CAGO_EDU 1115236
+contain less char Weekly  1165745
+contain less char trans fats 1211246
+contain less char ATCH TIME 1003112
+contain less char CABERNET  1102555
+contain less char DALY  1102491
+contain less char DAY! 1163652
+contain less char time  1203793
+contain less char (941)-474-7372 1005387
+contain less char #GOBEARS 1029055
+contain less char GLASGOW  1078362
+contain less char The  1117262
+contain less char QEL+054 1155092
+contain less char ffrent  1041841
+contain less char Hot  1131615
+contain less char bakerdavid@gmail.com 1039259
+contain less char VINCI! 1217527
+contain less char LANDING  1010122
+contain less char Chau@2013 1039927
+contain less char \'u\' 1028090
+contain less char HAPPY  1109631
+contain less char LOVED! 1226487
+contain less char fail! 1006463
+contain less char substituted  1041395
+contain less char  Coral 1079587
+contain less char LOVED! 1090276
+contain less char 2013  1167589
+contain less char LIVE! 1219344
+contain less char it\'s 1003755
+contain less char Value! 1209977
+contain less char insightful! 1210407
+contain less char Happy  1168559
+contain less char at&t 1202701
+contain less char World! 1224366
+contain less char grogon\'s 1025882
+contain less char SES  1101670
+contain less char arge! 1024945
+contain less char ?s-b. 1011728
+contain less char energy! 1084419
+contain less char FULL  1095026
+contain less char FREE). 1236842
+contain less char *tour:smart 1182287
+contain less char Secret Agenda 1212049
+contain less char s0372_ss0033_ 1033331
+contain less char `armed 1231849
+contain less char ___. 1218550
+contain less char with  1133376
+contain less char \'cos 1000374
+contain less char ARMY! 1166054
+contain less char you! 1121768
+contain less char (500g) 1204812
+contain less char  VISA 1024051
+contain less char SPEED  1119240
+contain less char STUCK? 1162570
+contain less char beauty  1191153
+contain less char the  1201188
+contain less char doggie  1205920
+contain less char <(24-06-2018) 1035974
+contain less char 3rd-POPPED  1016765
+contain less char vine yards 1216586
+contain less char tennis? 1007759
+contain less char Caution  1151527
+contain less char CAFTERS&BATTLER 1069048
+contain less char (212)243-8000 1213431
+contain less char YAHOO! 1171316
+contain less char TOSHIBA  1145864
+contain less char (aballo 1232851
+contain less char WORTH? 1226659
+contain less char WARNING! 1220721
+contain less char "Which 1238495
+contain less char 1of@kind 1014771
+contain less char HERO! 1234996
+contain less char (866) 1200513
+contain less char green; 1121765
+contain less char jacob\'s 1037998
+contain less char POST  1055900
+contain less char yellow line 1215607
+contain less char "WHERE 1219161
+contain less char ELAN  1059202
+contain less char TORS? 1235982
+contain less char "Off 1225233
+contain less char (355 1238943
+contain less char violet nine 1223950
+contain less char MAKI  1133703
+contain less char Coca-Cola  1166646
+contain less char moe? 1217312
+contain less char levi\'s 1002840
+contain less char ryan\'s 1022339
+contain less char info@centa.co.uk 1002125
+contain less char Ninja  1084422
+contain less char PLANET! 1217802
+contain less char MALCOLM  1078353
+contain less char AT&T 1146159
+contain less char AID* 1227513
+contain less char PROGRESSIVE  1176650
+contain less char dog! 1108433
+contain less char ADMISSION  1092032
+contain less char at&t 1202700
+contain less char ALTO  1138429
+contain less char ©Steve 1088582
+contain less char ©stephanie 1206380
+contain less char BRITISH! 1060047
+contain less char ebber\'s 1016524
+contain less char adidas  1084664
+contain less char c@te 1209900
+contain less char fxp@grx.de 1041255
+contain less char at&t 1069153
+contain less char ThinkCure! 1131432
+contain less char FLAMM  1110641
+contain less char @chriskompst 1086740
+contain less char @combos.car 1238180
+contain less char Wedding  1079271
+contain less char code=88888007 1199841
+contain less char (718) 1013288
+contain less char (LOOP) 1179246
+contain less char ROCKS! 1093407
+len is 0 or too long 1161134
+contain less char Matteo  1189832
+contain less char Bank  1011148
+contain less char P.NOONAA&CO., 1111401
+contain less char FISH&WILDLIFE 1227389
+len is 0 or too long 1091637
+contain less char drafts! 1011162
+contain less char Lavor! 1065126
+contain less char at&t 1231270
+contain less char pylsur  1159064
+contain less char GRATTA! 1234677
+contain less char cancer  1030818
+contain less char LAKE  1008532
+contain less char ELGIN  1037860
+contain less char COMPACT  1080827
+contain less char (20/365) 1022591
+contain less char Centre  1067979
+contain less char Adam&Eve 1062557
+contain less char Fed  1131138
+contain less char #744 1033718
+contain less char cshootfirsteatlater.com  1199308
+contain less char ©Harry 1040101
+contain less char Cupcake! 1231183
+contain less char SE&CR 1120765
+contain less char BLEIBOD  1031389
+contain less char little  1175925
+contain less char LOON  1154225
+contain less char Univ.] 1215013
+contain less char Coca-Cola  1166647
+contain less char safe? 1003169
+contain less char CELEVELAND  1023270
+contain less char copyright(C) 1072672
+contain less char SKY  1170433
+contain less char Kreme  1095132
+contain less char TakeaSecondtoRelax! 1150628
+contain less char extra#240 1237241
+contain less char weekend! 1142546
+contain less char P[]va 1215764
+contain less char &any 1100052
+contain less char at&t 1038485
+contain less char ERDIT  1107502
+contain less char @Author 1027858
+contain less char ffino\'s 1009227
+contain less char Litchattics? 1027855
+contain less char saman) 1021228
+contain less char Premium  1163592
+contain less char MARCO  1064350
+contain less char you! 1034805
+contain less char VITAMINS! 1017089
+contain less char €200 1215858
+contain less char Electric) 1236391
+contain less char it\'s 1198802
+contain less char HUMP! 1155662
+contain less char don\'t 1041370
+contain less char happy  1090025
+contain less char =8x200d830 1199828
+contain less char (29-06-2013) 1011282
+contain less char #4011 1224218
+contain less char (130 1230582
+contain less char M&Co. 1143661
+contain less char le creosot 1199721
+contain less char Chillie  1131616
+contain less char pink? 1060330
+contain less char (isp). 1007606
+contain less char (EVERETT) 1211443
+contain less char ttison  1028480
+contain less char v=8x3f800800 1199843
+contain less char IRIS  1118049
+contain less char d\'angelo 1181933
+contain less char reserves  1008192
+contain less char 300D+ 1135130
+contain less char Coca-Cola  1123127
+contain less char sec age 1212046
+contain less char parents" 1234502
+contain less char ECALITE  1179662
+contain less char Man  1043529
+contain less char 11.0% 1035012
+contain less char that\'s 1027085
+contain less char WALT  1002536
+contain less char +VOL 1210825
+contain less char watson\'s 1042394
+contain less char mers  1130102
+contain less char bla  1149082
+contain less char i\'m 1017644
+contain less char HERE! 1093785
+contain less char TESLILAT  1171381
+contain less char [yellow 1024194
+contain less char proof) 1220902
+contain less char angel  1134225
+contain less char 100% 1239809
+contain less char JACKSONLEWCHUK 2010 1076494
+contain less char board! 1024123
+contain less char day! 1203151
+contain less char POUR  1120869
+contain less char dawg! 1016449
+contain less char IP&WICH 1056657
+contain less char f3.5-f5.6] 1013754
+contain less char summer? 1179668
+contain less char meccano  1207434
+contain less char lundyd@dmail.org 1208671
+contain less char anses? 1230277
+contain less char wolf! 1207520
+contain less char Available  1030306
+contain less char this! 1057642
+len is 0 or too long 1234345
+contain less char nger) 1238888
+contain less char -\'kwer-1 1026771
+contain less char Happy  1038672
+contain less char apple! 1214454
+contain less char wolf! 1207517
+contain less char United  1042780
+contain less char HAULAGE  1078359
+contain less char BILLYING! 1226751
+contain less char DOLG& 1101384
+contain less char *SO-CO 1209616
+contain less char  c2011 1114936
+contain less char here) 1214622
+contain less char PAY  1070463
+contain less char sport  1197034
+contain less char READY? 1142806
+contain less char 100% 1079122
+contain less char BELIEVIN! 1159537
+contain less char this? 1027341
+contain less char GLU#000000128 1188944
+contain less char _lt22223 1206998
+contain less char 1234567890-=`qwertyuiop[]\asdfghjkl;'zxcvbnm,./ 1157057
+len is 0 or too long 1078701
+contain less char &AdventuresInF 1026386
+contain less char stage! 1116547
+contain less char (718 1013289
+contain less char terror! 1217937
+contain less char canada  1038486
+contain less char CAMERON! 1068332
+contain less char Miami Eagles 1227233
+contain less char OBÉ 1072127
+contain less char augustino\'s 1027936
+contain less char (xcingular 1038119
+contain less char diz*ZYE 1002993
+contain less char grrr! 1207522
+contain less char VIGILANCE  1085764
+contain less char gravity\ 1041050
+contain less char SCION  1000878
+contain less char (nickel1715) 1239863
+contain less char THINK! 1008879
+contain less char right? 1103888
+contain less char TripMaster_ver 1231285
+contain less char production.\ 1149325
+contain less char *special* 1016922
+contain less char  EXF 1148721
+contain less char Fork  1174803
+contain less char YOU  1139229
+contain less char (877) 1107707
+contain less char The  1169068
+contain less char ADMIS  1092034
+contain less char fits\ 1021540
+contain less char IQUES  1108813
+contain less char ple? 1005435
+contain less char FRAN  1064207
+contain less char everton) 1017303
+contain less char pro~one 1178043
+contain less char blog? 1216580
+contain less char l\'amore 1008928
+contain less char (355ml) 1028291
+contain less char LIMIT  1091835
+contain less char (corrupt 1218599
+contain less char AUSTRALIA  1032947
+contain less char UNITED  1177972
+contain less char secor  1093313
+contain less char brad pit 1226210
+contain less char at&t  1120913
+contain less char SASLIFKA@YAHOO.COM 1215994
+contain less char EARTHWORM! 1211447
+contain less char sanding  1110377
+contain less char HONDA  1090541
+contain less char *break 1146902
+contain less char Verteg  1177892
+contain less char (360g) 1210514
+contain less char Yours Love 1213319
+contain less char £1.55 1032328
+contain less char gdit! 1212066
+contain less char +21lt 1032603
+contain less char c&sc& 1176801
+contain less char japan) 1041151
+contain less char Bear! 1228365
+contain less char hollywood&higland 1005546
+contain less char WTC-V&D 1224480
+contain less char ©2016 1006192
+contain less char Asia  1165260
+contain less char who sell 1219050
+contain less char (454G) 1231744
+contain less char dar=0x05382000 1199827
+contain less char POLICE  1150900
+contain less char #GETHEALTHY 1008600
+contain less char adrilena\ 1010958
+contain less char (aballo 1232848
+contain less char lindsay& 1002661
+len is 0 or too long 1199831
+contain less char Bank of America 1210472
+contain less char move? 1110367
+contain less char Insert  1024054
+contain less char FAMILY  1122584
+contain less char Finitude  1002369
+contain less char HOTEL  1154226
+contain less char @mark 1231242
+contain less char latest! 1006909
+contain less char mott st 1205001
+contain less char (geometric-p 1236174
+contain less char a71) 1034784
+contain less char DES= 1104249
+contain less char KIA  1132324
+contain less char MacBre  1165743
+contain less char GOOGLE  1006620
+contain less char ;cc' 1222563
+contain less char special! 1150616
+contain less char print), 1236163
+contain less char snowbird  1007015
+contain less char TINY! 1213886
+contain less char truth? 1023178
+contain less char CHARGE! 1190056
+contain less char hom@btinternet.com 1026469
+contain less char wholesale  1131375
+len is 0 or too long 1124130
+contain less char JediHorsemanship(c) 1108423
+contain less char (NOTHING 1036103
+contain less char you\'ve 1030889
+contain less char boo! 1189342
+contain less char push& 1036503
+contain less char (2011) 1024713
+contain less char Alternators•Starters•Generators 1196951
+contain less char wiley\'s 1019556
+contain less char ethical  1002364
+contain less char \'73 1005518
+contain less char michigan express 1191608
+contain less char al\' 1208858
+contain less char 1940\'s 1010819
+contain less char Kyoto(c) 1212925
+contain less char India;s 1226460
+contain less char america\'s 1031263
+contain less char FOUND  1006003
+contain less char RVP  1033459
+contain less char work? 1013036
+contain less char stretch! 1030396
+contain less char usa! 1015625
+contain less char  BECAUSE 1071815
+contain less char PARAGRAPH  1149323
+contain less char (Symbol: 1236393
+contain less char nce! 1217191
+contain less char CITY  1085111
+contain less char shade), 1019140
+contain less char rental  1068402
+contain less char L0070JB  1132416
+contain less char 100% 1213545
+contain less char (21) 1038277
+contain less char (HINJWADI) 1012585
+contain less char Coca-Cola  1166644
+contain less char @2011 1227629
+contain less char PARK&RIDE 1229010
+contain less char sportpix  1202432
+contain less char (illegible) 1237912
+contain less char world\'s 1009653
+contain less char lundyd@dma1.or 1039835
+contain less char PROBLEMS? 1213828
+contain less char 824  1171560
+contain less char 14TH! 1238444
+contain less char (head 1235235
+contain less char <60-90 1216253
+contain less char BASIL  1138488
+contain less char Budweiser  1091696
+contain less char YOU; 1061562
+contain less char WALL" 1233591
+contain less char [logout] 1199863
+contain less char time! 1013203
+contain less char His  1043531
+contain less char est! 1220883
+contain less char (c)SaraiRachel 1025231
+contain less char (CC) 1236571
+contain less char lo&behold 1069688
+contain less char SKU# 1166699
+contain less char @northline 1026644
+contain less char BR1+3791 1114717
+contain less char Baked  1015299
+contain less char ARRIVA  1121068
+contain less char Kelblocks  1040470
+contain less char #4011 1232199
+contain less char cho\'s 1012323
+contain less char DAVID  1163246
+contain less char GOODERHAM&W 1029140
+***************get image:  41713
+loading validation data, please wait--------------------- end= 
+contain less char rupa  1090004
+contain less char happy  1090025
+***************get image:  33
+2018-06-11 11:57:16.724477: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-11 11:57:16.724504: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-11 11:57:16.724511: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-11 11:57:16.724516: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-11 11:57:16.724530: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-06-11 11:57:16.816044: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-06-11 11:57:16.816435: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.09GiB
+2018-06-11 11:57:16.816458: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-06-11 11:57:16.816466: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-06-11 11:57:16.816477: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+restore is true
+=============================begin training=============================
+2018-06-11 11:57:23.023509: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4576 get requests, put_count=3076 evicted_count=1000 eviction_rate=0.325098 and unsatisfied allocation rate=0.568182
+2018-06-11 11:57:23.023588: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-06-11 11:57:33.708301: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 340 get requests, put_count=1353 evicted_count=1000 eviction_rate=0.739098 and unsatisfied allocation rate=0.00294118
+2018-06-11 11:57:33.708369: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 160 to 176
+2018-06-11 11:57:39.808085: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 648 get requests, put_count=1672 evicted_count=1000 eviction_rate=0.598086 and unsatisfied allocation rate=0.00154321
+2018-06-11 11:57:47.310378: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5284 get requests, put_count=5170 evicted_count=2000 eviction_rate=0.386847 and unsatisfied allocation rate=0.407646
+2018-06-11 11:57:47.310428: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 449 to 493
+2018-06-11 11:57:54.928548: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5374 get requests, put_count=5556 evicted_count=2000 eviction_rate=0.359971 and unsatisfied allocation rate=0.350391
+2018-06-11 11:57:54.928608: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 720 to 792
+2018-06-11 11:58:05.639473: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5339 get requests, put_count=5413 evicted_count=1000 eviction_rate=0.18474 and unsatisfied allocation rate=0.199663
+2018-06-11 11:58:05.639528: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 1540 to 1694
+cur_epoch==== 0 cur_batch---- 99 g_step**** 99 cost 25.787207
+cur_epoch==== 1 cur_batch---- 99 g_step**** 261 cost 25.595032
+cur_epoch==== 2 cur_batch---- 99 g_step**** 423 cost 24.795988
+save checkpoint 500
+cur_epoch==== 3 cur_batch---- 99 g_step**** 585 cost 24.108704
+cur_epoch==== 4 cur_batch---- 99 g_step**** 747 cost 24.792236
+cur_epoch==== 5 cur_batch---- 99 g_step**** 909 cost 25.146965
+save checkpoint 1000
+seq   0: origin: [11, 8, 15, 8] decoded:[]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[]
+seq   2: origin: [22, 41, 26, 37] decoded:[]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[62]
+seq   9: origin: [55, 52, 49, 48] decoded:[]
+seq  10: origin: [23, 38, 27, 26] decoded:[]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[57]
+seq  12: origin: [35, 39, 20, 18] decoded:[]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[58, 48]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[]
+6/11 12:23:8  step===1000, Epoch 7/1000, accuracy = 0.000,avg_train_cost = 24.511, lastbatch_err = 0.997, time = 44.387,lr=0.00099000
+
+cur_epoch==== 6 cur_batch---- 99 g_step**** 1071 cost 24.497616
+cur_epoch==== 7 cur_batch---- 99 g_step**** 1233 cost 24.004416
+cur_epoch==== 8 cur_batch---- 99 g_step**** 1395 cost 23.839954
+save checkpoint 1500
+cur_epoch==== 9 cur_batch---- 99 g_step**** 1557 cost 23.715572
+cur_epoch==== 10 cur_batch---- 99 g_step**** 1719 cost 23.49529
+cur_epoch==== 11 cur_batch---- 99 g_step**** 1881 cost 22.94645
+save checkpoint 2000
+seq   0: origin: [11, 8, 15, 8] decoded:[]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[62]
+seq   2: origin: [22, 41, 26, 37] decoded:[63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[52]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[7]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[58, 57]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[62]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[62, 62, 62, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[]
+seq  10: origin: [23, 38, 27, 26] decoded:[48]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[44, 44, 62]
+seq  12: origin: [35, 39, 20, 18] decoded:[7]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[62]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[62, 58, 48]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[]
+6/11 12:49:27  step===2000, Epoch 13/1000, accuracy = 0.000,avg_train_cost = 23.619, lastbatch_err = 0.985, time = 87.040,lr=0.00098010
+
+cur_epoch==== 12 cur_batch---- 99 g_step**** 2043 cost 23.174658
+cur_epoch==== 13 cur_batch---- 99 g_step**** 2205 cost 23.307043
+cur_epoch==== 14 cur_batch---- 99 g_step**** 2367 cost 23.61394
+save checkpoint 2500
+cur_epoch==== 15 cur_batch---- 99 g_step**** 2529 cost 21.999046
+cur_epoch==== 16 cur_batch---- 99 g_step**** 2691 cost 21.697939
+cur_epoch==== 17 cur_batch---- 99 g_step**** 2853 cost 21.915646
+save checkpoint 3000
+seq   0: origin: [11, 8, 15, 8] decoded:[]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[62, 57, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[37, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[48, 48]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[57, 62]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[22, 48]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[48, 48, 48]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[62, 62, 48, 61, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[52]
+seq  10: origin: [23, 38, 27, 26] decoded:[48, 48]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 44, 44]
+seq  12: origin: [35, 39, 20, 18] decoded:[]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[62]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[10]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[57, 48]
+6/11 13:15:8  step===3000, Epoch 19/1000, accuracy = 0.000,avg_train_cost = 21.239, lastbatch_err = 0.893, time = 129.530,lr=0.00097030
+
+cur_epoch==== 18 cur_batch---- 99 g_step**** 3015 cost 21.641794
+cur_epoch==== 19 cur_batch---- 99 g_step**** 3177 cost 21.684696
+cur_epoch==== 20 cur_batch---- 99 g_step**** 3339 cost 20.489264
+save checkpoint 3500
+cur_epoch==== 21 cur_batch---- 99 g_step**** 3501 cost 19.722319
+cur_epoch==== 22 cur_batch---- 99 g_step**** 3663 cost 18.463284
+cur_epoch==== 23 cur_batch---- 99 g_step**** 3825 cost 18.251648
+cur_epoch==== 24 cur_batch---- 99 g_step**** 3987 cost 18.420706
+save checkpoint 4000
+seq   0: origin: [11, 8, 15, 8] decoded:[8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[46, 57, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 37, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[52, 48, 62]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[40, 22]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 44, 48, 48]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[52]
+seq  10: origin: [23, 38, 27, 26] decoded:[48]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[46, 58, 44, 52, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[63, 44, 48]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[45, 64]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[12]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[57]
+6/11 13:48:38  step===4000, Epoch 25/1000, accuracy = 0.030,avg_train_cost = 18.028, lastbatch_err = 0.830, time = 281.038,lr=0.00096060
+
+cur_epoch==== 25 cur_batch---- 99 g_step**** 4149 cost 17.025644
+cur_epoch==== 26 cur_batch---- 99 g_step**** 4311 cost 16.170334
+cur_epoch==== 27 cur_batch---- 99 g_step**** 4473 cost 16.904676
+save checkpoint 4500
+cur_epoch==== 28 cur_batch---- 99 g_step**** 4635 cost 15.237111
+cur_epoch==== 29 cur_batch---- 99 g_step**** 4797 cost 15.88829
+cur_epoch==== 30 cur_batch---- 99 g_step**** 4959 cost 15.247489
+save checkpoint 5000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[45, 57, 52, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[56, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[40, 22, 22]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 48]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[56, 52]
+seq  10: origin: [23, 38, 27, 26] decoded:[33]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 61, 58, 55, 58, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[40, 54, 48, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 65, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[45, 68, 64, 56, 57]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 11, 12, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 48]
+6/11 14:29:47  step===5000, Epoch 31/1000, accuracy = 0.030,avg_train_cost = 15.046, lastbatch_err = 0.707, time = 347.861,lr=0.00095099
+
+cur_epoch==== 31 cur_batch---- 99 g_step**** 5121 cost 13.90784
+cur_epoch==== 32 cur_batch---- 99 g_step**** 5283 cost 13.580176
+cur_epoch==== 33 cur_batch---- 99 g_step**** 5445 cost 13.995082
+save checkpoint 5500
+cur_epoch==== 34 cur_batch---- 99 g_step**** 5607 cost 13.448127
+cur_epoch==== 35 cur_batch---- 99 g_step**** 5769 cost 12.522957
+cur_epoch==== 36 cur_batch---- 99 g_step**** 5931 cost 12.205715
+save checkpoint 6000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 52, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[63, 57, 52, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[40, 48, 48, 49, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[68, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[63, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[29, 48, 36, 29]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 61, 59, 55, 58, 63, 58, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[68, 61, 54, 48, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[45, 68, 64, 56, 57]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 11, 5, 12, 11, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 56, 62, 48]
+6/11 15:11:29  step===6000, Epoch 38/1000, accuracy = 0.091,avg_train_cost = 12.519, lastbatch_err = 0.699, time = 15.886,lr=0.00094148
+
+cur_epoch==== 37 cur_batch---- 99 g_step**** 6093 cost 12.4621105
+cur_epoch==== 38 cur_batch---- 99 g_step**** 6255 cost 12.603443
+cur_epoch==== 39 cur_batch---- 99 g_step**** 6417 cost 13.005317
+save checkpoint 6500
+cur_epoch==== 40 cur_batch---- 99 g_step**** 6579 cost 12.466221
+cur_epoch==== 41 cur_batch---- 99 g_step**** 6741 cost 12.413314
+cur_epoch==== 42 cur_batch---- 99 g_step**** 6903 cost 13.15314
+save checkpoint 7000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 52, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[63, 51, 44, 52, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[66, 48, 48, 63, 36]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[68, 58, 45, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[52, 52, 49]
+seq  10: origin: [23, 38, 27, 26] decoded:[33, 36]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 52, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[68, 52, 54, 48, 61]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 68, 61, 64, 57, 6]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 15, 4, 12, 15, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 56, 62, 48]
+6/11 15:53:15  step===7000, Epoch 44/1000, accuracy = 0.061,avg_train_cost = 11.947, lastbatch_err = 0.699, time = 85.771,lr=0.00093207
+
+cur_epoch==== 43 cur_batch---- 99 g_step**** 7065 cost 11.825148
+cur_epoch==== 44 cur_batch---- 99 g_step**** 7227 cost 11.115861
+cur_epoch==== 45 cur_batch---- 99 g_step**** 7389 cost 10.8396845
+save checkpoint 7500
+cur_epoch==== 46 cur_batch---- 99 g_step**** 7551 cost 11.0650425
+cur_epoch==== 47 cur_batch---- 99 g_step**** 7713 cost 11.338636
+cur_epoch==== 48 cur_batch---- 99 g_step**** 7875 cost 9.268822
+save checkpoint 8000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[66, 48, 48, 26, 58]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[52, 52, 49, 44]
+seq  10: origin: [23, 38, 27, 26] decoded:[33, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 49, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[68, 52, 54, 48, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 10, 14, 64, 56, 56, 8]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 15, 4, 12, 15, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 56, 31, 48]
+6/11 16:34:59  step===8000, Epoch 50/1000, accuracy = 0.091,avg_train_cost = 11.312, lastbatch_err = 0.689, time = 156.318,lr=0.00092274
+
+cur_epoch==== 49 cur_batch---- 99 g_step**** 8037 cost 10.151448
+cur_epoch==== 50 cur_batch---- 99 g_step**** 8199 cost 10.76558
+cur_epoch==== 51 cur_batch---- 99 g_step**** 8361 cost 10.711482
+save checkpoint 8500
+cur_epoch==== 52 cur_batch---- 99 g_step**** 8523 cost 10.972683
+cur_epoch==== 53 cur_batch---- 99 g_step**** 8685 cost 10.864524
+cur_epoch==== 54 cur_batch---- 99 g_step**** 8847 cost 11.138208
+save checkpoint 9000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 52, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[63, 51, 44, 52, 48, 62, 52]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[66, 48, 48, 52, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[52, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[33, 62, 63]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 52, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 57, 61, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 10, 4, 7, 8, 6, 8]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 15, 4, 12, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[63, 51, 56, 62, 48]
+6/11 17:16:42  step===9000, Epoch 56/1000, accuracy = 0.121,avg_train_cost = 10.698, lastbatch_err = 0.640, time = 225.758,lr=0.00091352
+
+cur_epoch==== 55 cur_batch---- 99 g_step**** 9009 cost 10.799337
+cur_epoch==== 56 cur_batch---- 99 g_step**** 9171 cost 10.9370575
+cur_epoch==== 57 cur_batch---- 99 g_step**** 9333 cost 9.950857
+cur_epoch==== 58 cur_batch---- 99 g_step**** 9495 cost 10.123554
+save checkpoint 9500
+cur_epoch==== 59 cur_batch---- 99 g_step**** 9657 cost 10.961411
+cur_epoch==== 60 cur_batch---- 99 g_step**** 9819 cost 10.259764
+cur_epoch==== 61 cur_batch---- 99 g_step**** 9981 cost 10.054943
+save checkpoint 10000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 52, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 44, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[55, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 49, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 51, 54, 61, 61]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 61, 64, 56, 56]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 13, 4, 13, 15, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 56, 30, 31, 48]
+6/11 17:58:24  step===10000, Epoch 62/1000, accuracy = 0.152,avg_train_cost = 10.247, lastbatch_err = 0.651, time = 295.195,lr=0.00090438
+
+cur_epoch==== 62 cur_batch---- 99 g_step**** 10143 cost 9.280353
+cur_epoch==== 63 cur_batch---- 99 g_step**** 10305 cost 11.287689
+cur_epoch==== 64 cur_batch---- 99 g_step**** 10467 cost 9.726423
+save checkpoint 10500
+cur_epoch==== 65 cur_batch---- 99 g_step**** 10629 cost 10.313142
+cur_epoch==== 66 cur_batch---- 99 g_step**** 10791 cost 9.4616785
+cur_epoch==== 67 cur_batch---- 99 g_step**** 10953 cost 9.274022
+save checkpoint 11000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[54, 48, 44, 47, 52, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 44, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 37, 36]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[40, 22, 61, 61]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 10, 4, 7, 12, 9, 8]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 11, 4, 13, 15, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 56, 48]
+6/11 18:40:8  step===11000, Epoch 68/1000, accuracy = 0.152,avg_train_cost = 9.839, lastbatch_err = 0.610, time = 365.458,lr=0.00089534
+
+cur_epoch==== 68 cur_batch---- 99 g_step**** 11115 cost 10.831998
+cur_epoch==== 69 cur_batch---- 99 g_step**** 11277 cost 10.075792
+cur_epoch==== 70 cur_batch---- 99 g_step**** 11439 cost 9.71405
+save checkpoint 11500
+cur_epoch==== 71 cur_batch---- 99 g_step**** 11601 cost 8.349283
+cur_epoch==== 72 cur_batch---- 99 g_step**** 11763 cost 10.151958
+cur_epoch==== 73 cur_batch---- 99 g_step**** 11925 cost 9.394767
+save checkpoint 12000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 44, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[66, 48, 48, 52, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[25, 18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[56, 58, 55, 51, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[37, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 18, 54, 61, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 10, 4, 7, 8, 12, 9, 8]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 15, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 56, 57, 48]
+6/11 19:21:53  step===12000, Epoch 75/1000, accuracy = 0.182,avg_train_cost = 9.251, lastbatch_err = 0.636, time = 30.655,lr=0.00088638
+
+cur_epoch==== 74 cur_batch---- 99 g_step**** 12087 cost 8.624529
+cur_epoch==== 75 cur_batch---- 99 g_step**** 12249 cost 10.308485
+cur_epoch==== 76 cur_batch---- 99 g_step**** 12411 cost 9.680653
+save checkpoint 12500
+cur_epoch==== 77 cur_batch---- 99 g_step**** 12573 cost 8.964801
+cur_epoch==== 78 cur_batch---- 99 g_step**** 12735 cost 9.741308
+cur_epoch==== 79 cur_batch---- 99 g_step**** 12897 cost 9.193773
+save checkpoint 13000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[61, 48, 44, 47, 57, 50]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 44, 56, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 62, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[37, 22, 62, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 18, 22, 48, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 68]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 10, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 15, 9, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 52, 56, 45, 48, 62]
+6/11 20:3:35  step===13000, Epoch 81/1000, accuracy = 0.152,avg_train_cost = 8.762, lastbatch_err = 0.621, time = 101.030,lr=0.00087752
+
+cur_epoch==== 80 cur_batch---- 99 g_step**** 13059 cost 9.097698
+cur_epoch==== 81 cur_batch---- 99 g_step**** 13221 cost 8.513942
+cur_epoch==== 82 cur_batch---- 99 g_step**** 13383 cost 8.925296
+save checkpoint 13500
+cur_epoch==== 83 cur_batch---- 99 g_step**** 13545 cost 10.4125
+cur_epoch==== 84 cur_batch---- 99 g_step**** 13707 cost 8.568386
+cur_epoch==== 85 cur_batch---- 99 g_step**** 13869 cost 7.50694
+save checkpoint 14000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 52, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 44, 47, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 18, 30, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 56, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 36, 48, 61, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[37, 22, 36, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 18, 54, 48, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 33, 48, 42]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 4, 7, 8, 12, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 15, 15, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 18, 26, 22]
+6/11 20:45:16  step===14000, Epoch 87/1000, accuracy = 0.152,avg_train_cost = 8.675, lastbatch_err = 0.540, time = 170.385,lr=0.00086875
+
+cur_epoch==== 86 cur_batch---- 99 g_step**** 14031 cost 7.855707
+cur_epoch==== 87 cur_batch---- 99 g_step**** 14193 cost 8.615522
+cur_epoch==== 88 cur_batch---- 99 g_step**** 14355 cost 8.041586
+save checkpoint 14500
+cur_epoch==== 89 cur_batch---- 99 g_step**** 14517 cost 8.800473
+cur_epoch==== 90 cur_batch---- 99 g_step**** 14679 cost 8.600103
+cur_epoch==== 91 cur_batch---- 99 g_step**** 14841 cost 7.5757523
+save checkpoint 15000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 47, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 18, 30, 22, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[30, 38]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 48, 36, 62, 48, 61, 63, 62]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[19, 22, 22, 62, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 54, 48, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 44, 61, 48, 55]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 4, 7, 8, 11, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 15, 15, 4, 62, 15, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 26, 30, 48]
+6/11 21:26:58  step===15000, Epoch 93/1000, accuracy = 0.182,avg_train_cost = 8.310, lastbatch_err = 0.560, time = 241.057,lr=0.00086006
+
+cur_epoch==== 92 cur_batch---- 99 g_step**** 15003 cost 8.362784
+cur_epoch==== 93 cur_batch---- 99 g_step**** 15165 cost 7.383397
+cur_epoch==== 94 cur_batch---- 99 g_step**** 15327 cost 8.667393
+cur_epoch==== 95 cur_batch---- 99 g_step**** 15489 cost 8.576258
+save checkpoint 15500
+cur_epoch==== 96 cur_batch---- 99 g_step**** 15651 cost 7.9702644
+cur_epoch==== 97 cur_batch---- 99 g_step**** 15813 cost 9.149341
+cur_epoch==== 98 cur_batch---- 99 g_step**** 15975 cost 7.828865
+save checkpoint 16000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 44, 56, 48, 62, 52]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 22]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[47, 48, 36, 62, 48, 61, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[9, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[39, 35, 28, 35, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 61, 18, 61, 22, 42]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 69, 26, 30, 48, 62]
+6/11 22:8:38  step===16000, Epoch 99/1000, accuracy = 0.182,avg_train_cost = 8.024, lastbatch_err = 0.496, time = 310.406,lr=0.00085146
+
+cur_epoch==== 99 cur_batch---- 99 g_step**** 16137 cost 7.55392
+cur_epoch==== 100 cur_batch---- 99 g_step**** 16299 cost 7.500079
+cur_epoch==== 101 cur_batch---- 99 g_step**** 16461 cost 7.8717756
+save checkpoint 16500
+cur_epoch==== 102 cur_batch---- 99 g_step**** 16623 cost 7.337778
+cur_epoch==== 103 cur_batch---- 99 g_step**** 16785 cost 8.487229
+cur_epoch==== 104 cur_batch---- 99 g_step**** 16947 cost 7.643569
+save checkpoint 17000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 44, 30, 48, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[30, 18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[37, 22, 62, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[39, 18, 28, 22, 33]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 42]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 4, 7, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 13, 4, 12, 15, 11]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 51, 69, 30, 48, 62]
+6/11 22:50:16  step===17000, Epoch 105/1000, accuracy = 0.182,avg_train_cost = 7.710, lastbatch_err = 0.505, time = 381.030,lr=0.00084294
+
+cur_epoch==== 105 cur_batch---- 99 g_step**** 17109 cost 7.2518744
+cur_epoch==== 106 cur_batch---- 99 g_step**** 17271 cost 8.414345
+cur_epoch==== 107 cur_batch---- 99 g_step**** 17433 cost 7.908406
+save checkpoint 17500
+cur_epoch==== 108 cur_batch---- 99 g_step**** 17595 cost 8.089882
+cur_epoch==== 109 cur_batch---- 99 g_step**** 17757 cost 6.742422
+cur_epoch==== 110 cur_batch---- 99 g_step**** 17919 cost 7.3030725
+save checkpoint 18000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 52, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 31, 22, 62, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49]
+seq  10: origin: [23, 38, 27, 26] decoded:[37, 22, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[39, 18, 28, 31]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 42]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[9, 10, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 9, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 26, 30, 22]
+6/11 23:31:57  step===18000, Epoch 112/1000, accuracy = 0.182,avg_train_cost = 7.366, lastbatch_err = 0.480, time = 45.622,lr=0.00083451
+
+cur_epoch==== 111 cur_batch---- 99 g_step**** 18081 cost 8.531874
+cur_epoch==== 112 cur_batch---- 99 g_step**** 18243 cost 7.0590625
+cur_epoch==== 113 cur_batch---- 99 g_step**** 18405 cost 7.298148
+save checkpoint 18500
+cur_epoch==== 114 cur_batch---- 99 g_step**** 18567 cost 7.1616607
+cur_epoch==== 115 cur_batch---- 99 g_step**** 18729 cost 7.90869
+cur_epoch==== 116 cur_batch---- 99 g_step**** 18891 cost 8.124255
+save checkpoint 19000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[30]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 22, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58, 48]
+seq  12: origin: [35, 39, 20, 18] decoded:[18, 20, 22, 33]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 42]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 4, 8, 12, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 26, 30, 22]
+6/12 0:12:42  step===19000, Epoch 118/1000, accuracy = 0.212,avg_train_cost = 7.037, lastbatch_err = 0.465, time = 80.164,lr=0.00082617
+
+cur_epoch==== 117 cur_batch---- 99 g_step**** 19053 cost 7.0733685
+cur_epoch==== 118 cur_batch---- 99 g_step**** 19215 cost 8.121855
+cur_epoch==== 119 cur_batch---- 99 g_step**** 19377 cost 6.804657
+save checkpoint 19500
+cur_epoch==== 120 cur_batch---- 99 g_step**** 19539 cost 6.8884945
+cur_epoch==== 121 cur_batch---- 99 g_step**** 19701 cost 8.623301
+cur_epoch==== 122 cur_batch---- 99 g_step**** 19863 cost 6.443003
+save checkpoint 20000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 62, 8]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 55, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[30]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 32, 22, 37]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 22, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 16, 11, 4, 13, 13]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 26, 30, 22, 36]
+6/12 0:49:13  step===20000, Epoch 124/1000, accuracy = 0.212,avg_train_cost = 6.774, lastbatch_err = 0.439, time = 184.895,lr=0.00081791
+
+cur_epoch==== 123 cur_batch---- 99 g_step**** 20025 cost 7.8184004
+cur_epoch==== 124 cur_batch---- 99 g_step**** 20187 cost 6.613463
+cur_epoch==== 125 cur_batch---- 99 g_step**** 20349 cost 7.1357365
+save checkpoint 20500
+cur_epoch==== 126 cur_batch---- 99 g_step**** 20511 cost 6.8044605
+cur_epoch==== 127 cur_batch---- 99 g_step**** 20673 cost 6.679445
+cur_epoch==== 128 cur_batch---- 99 g_step**** 20835 cost 5.915696
+cur_epoch==== 129 cur_batch---- 99 g_step**** 20997 cost 7.3033323
+save checkpoint 21000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 52, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 22, 48, 37, 36]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 18]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[37, 22, 62, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[66, 54, 48, 59]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 8, 12, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 15, 11, 4, 62, 46]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 26, 30, 22, 36]
+6/12 1:30:55  step===21000, Epoch 130/1000, accuracy = 0.303,avg_train_cost = 6.601, lastbatch_err = 0.413, time = 256.377,lr=0.00080973
+
+cur_epoch==== 130 cur_batch---- 99 g_step**** 21159 cost 7.0554585
+cur_epoch==== 131 cur_batch---- 99 g_step**** 21321 cost 6.2683535
+cur_epoch==== 132 cur_batch---- 99 g_step**** 21483 cost 6.0752945
+save checkpoint 21500
+cur_epoch==== 133 cur_batch---- 99 g_step**** 21645 cost 6.939303
+cur_epoch==== 134 cur_batch---- 99 g_step**** 21807 cost 6.5929213
+cur_epoch==== 135 cur_batch---- 99 g_step**** 21969 cost 6.589634
+save checkpoint 22000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 63]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[33, 22, 26, 22, 36, 37]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 59, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[18, 28, 18, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 42]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 16, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 26, 30, 22, 36]
+6/12 2:0:52  step===22000, Epoch 136/1000, accuracy = 0.273,avg_train_cost = 6.364, lastbatch_err = 0.443, time = 199.361,lr=0.00080163
+
+cur_epoch==== 136 cur_batch---- 99 g_step**** 22131 cost 6.431631
+cur_epoch==== 137 cur_batch---- 99 g_step**** 22293 cost 7.2499456
+cur_epoch==== 138 cur_batch---- 99 g_step**** 22455 cost 6.261237
+save checkpoint 22500
+cur_epoch==== 139 cur_batch---- 99 g_step**** 22617 cost 6.2100186
+cur_epoch==== 140 cur_batch---- 99 g_step**** 22779 cost 7.0212717
+cur_epoch==== 141 cur_batch---- 99 g_step**** 22941 cost 6.0888834
+save checkpoint 23000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 20]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 7, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[39, 35, 28, 35, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[10, 12, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 12, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 2:26:48  step===23000, Epoch 142/1000, accuracy = 0.303,avg_train_cost = 6.156, lastbatch_err = 0.349, time = 242.065,lr=0.00079361
+
+cur_epoch==== 142 cur_batch---- 99 g_step**** 23103 cost 4.8399463
+cur_epoch==== 143 cur_batch---- 99 g_step**** 23265 cost 5.242186
+cur_epoch==== 144 cur_batch---- 99 g_step**** 23427 cost 6.014036
+save checkpoint 23500
+cur_epoch==== 145 cur_batch---- 99 g_step**** 23589 cost 6.4127645
+cur_epoch==== 146 cur_batch---- 99 g_step**** 23751 cost 6.171798
+cur_epoch==== 147 cur_batch---- 99 g_step**** 23913 cost 6.042041
+save checkpoint 24000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 67, 52, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 30]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[43, 7, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[18, 31, 28, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 16, 4, 10, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[13, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 26, 22, 36]
+6/12 2:52:18  step===24000, Epoch 149/1000, accuracy = 0.242,avg_train_cost = 5.895, lastbatch_err = 0.411, time = 37.127,lr=0.00078568
+
+cur_epoch==== 148 cur_batch---- 99 g_step**** 24075 cost 6.8335567
+cur_epoch==== 149 cur_batch---- 99 g_step**** 24237 cost 6.1781263
+cur_epoch==== 150 cur_batch---- 99 g_step**** 24399 cost 5.4533195
+save checkpoint 24500
+cur_epoch==== 151 cur_batch---- 99 g_step**** 24561 cost 5.345154
+cur_epoch==== 152 cur_batch---- 99 g_step**** 24723 cost 6.448019
+cur_epoch==== 153 cur_batch---- 99 g_step**** 24885 cost 5.814101
+save checkpoint 25000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 45, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 58, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 18, 37]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[9, 7, 48, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[36, 35, 28, 22, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 33, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 15, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 26, 30, 22, 36]
+6/12 3:17:53  step===25000, Epoch 155/1000, accuracy = 0.242,avg_train_cost = 5.656, lastbatch_err = 0.426, time = 80.070,lr=0.00077782
+
+cur_epoch==== 154 cur_batch---- 99 g_step**** 25047 cost 5.463922
+cur_epoch==== 155 cur_batch---- 99 g_step**** 25209 cost 5.785804
+cur_epoch==== 156 cur_batch---- 99 g_step**** 25371 cost 5.8629947
+save checkpoint 25500
+cur_epoch==== 157 cur_batch---- 99 g_step**** 25533 cost 5.293892
+cur_epoch==== 158 cur_batch---- 99 g_step**** 25695 cost 6.483246
+cur_epoch==== 159 cur_batch---- 99 g_step**** 25857 cost 5.734437
+save checkpoint 26000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 26, 37]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 7, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[39, 35, 28, 35, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 13, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 26, 30, 22, 36]
+6/12 3:43:28  step===26000, Epoch 161/1000, accuracy = 0.242,avg_train_cost = 5.468, lastbatch_err = 0.395, time = 122.751,lr=0.00077004
+
+cur_epoch==== 160 cur_batch---- 99 g_step**** 26019 cost 6.277359
+cur_epoch==== 161 cur_batch---- 99 g_step**** 26181 cost 5.510415
+cur_epoch==== 162 cur_batch---- 99 g_step**** 26343 cost 6.204181
+save checkpoint 26500
+cur_epoch==== 163 cur_batch---- 99 g_step**** 26505 cost 5.9356728
+cur_epoch==== 164 cur_batch---- 99 g_step**** 26667 cost 6.738323
+cur_epoch==== 165 cur_batch---- 99 g_step**** 26829 cost 4.805849
+cur_epoch==== 166 cur_batch---- 99 g_step**** 26991 cost 5.1676183
+save checkpoint 27000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 20, 37]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[36, 32, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[31, 35, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 26, 30, 22, 36]
+6/12 4:8:57  step===27000, Epoch 167/1000, accuracy = 0.333,avg_train_cost = 5.433, lastbatch_err = 0.383, time = 165.277,lr=0.00076234
+
+cur_epoch==== 167 cur_batch---- 99 g_step**** 27153 cost 5.1470027
+cur_epoch==== 168 cur_batch---- 99 g_step**** 27315 cost 5.2049675
+cur_epoch==== 169 cur_batch---- 99 g_step**** 27477 cost 5.7690268
+save checkpoint 27500
+cur_epoch==== 170 cur_batch---- 99 g_step**** 27639 cost 4.710052
+cur_epoch==== 171 cur_batch---- 99 g_step**** 27801 cost 5.5115075
+cur_epoch==== 172 cur_batch---- 99 g_step**** 27963 cost 5.0944295
+save checkpoint 28000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 8]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[30, 20]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 32, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 33, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 46, 8, 12, 10, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 12, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 4:34:51  step===28000, Epoch 173/1000, accuracy = 0.364,avg_train_cost = 5.246, lastbatch_err = 0.351, time = 224.994,lr=0.00075472
+
+cur_epoch==== 173 cur_batch---- 99 g_step**** 28125 cost 5.073237
+cur_epoch==== 174 cur_batch---- 99 g_step**** 28287 cost 5.421199
+cur_epoch==== 175 cur_batch---- 99 g_step**** 28449 cost 5.840212
+save checkpoint 28500
+cur_epoch==== 176 cur_batch---- 99 g_step**** 28611 cost 5.1067867
+cur_epoch==== 177 cur_batch---- 99 g_step**** 28773 cost 4.481901
+cur_epoch==== 178 cur_batch---- 99 g_step**** 28935 cost 4.4341097
+save checkpoint 29000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 18, 26, 37]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[9, 22, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 46, 8, 62, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 5:0:20  step===29000, Epoch 180/1000, accuracy = 0.364,avg_train_cost = 4.950, lastbatch_err = 0.354, time = 3.646,lr=0.00074717
+
+cur_epoch==== 179 cur_batch---- 99 g_step**** 29097 cost 5.1120024
+cur_epoch==== 180 cur_batch---- 99 g_step**** 29259 cost 5.3278675
+cur_epoch==== 181 cur_batch---- 99 g_step**** 29421 cost 4.311398
+save checkpoint 29500
+cur_epoch==== 182 cur_batch---- 99 g_step**** 29583 cost 5.6116853
+cur_epoch==== 183 cur_batch---- 99 g_step**** 29745 cost 4.300068
+cur_epoch==== 184 cur_batch---- 99 g_step**** 29907 cost 5.1074514
+save checkpoint 30000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 67, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 22, 26, 37]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[33, 19, 22, 33, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[31, 35, 28, 35, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 4, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 62, 13]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 5:25:51  step===30000, Epoch 186/1000, accuracy = 0.333,avg_train_cost = 4.906, lastbatch_err = 0.350, time = 46.661,lr=0.00073970
+
+cur_epoch==== 185 cur_batch---- 99 g_step**** 30069 cost 4.9561434
+cur_epoch==== 186 cur_batch---- 99 g_step**** 30231 cost 4.2709026
+cur_epoch==== 187 cur_batch---- 99 g_step**** 30393 cost 4.7804413
+save checkpoint 30500
+cur_epoch==== 188 cur_batch---- 99 g_step**** 30555 cost 4.7471294
+cur_epoch==== 189 cur_batch---- 99 g_step**** 30717 cost 4.6717625
+cur_epoch==== 190 cur_batch---- 99 g_step**** 30879 cost 5.0073175
+save checkpoint 31000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 31, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[30, 26, 20]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[33, 32, 22, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[31, 35, 28, 31]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 46, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 5:51:21  step===31000, Epoch 192/1000, accuracy = 0.333,avg_train_cost = 4.825, lastbatch_err = 0.378, time = 88.933,lr=0.00073230
+
+cur_epoch==== 191 cur_batch---- 99 g_step**** 31041 cost 4.970727
+cur_epoch==== 192 cur_batch---- 99 g_step**** 31203 cost 5.6042852
+cur_epoch==== 193 cur_batch---- 99 g_step**** 31365 cost 4.24777
+save checkpoint 31500
+cur_epoch==== 194 cur_batch---- 99 g_step**** 31527 cost 4.753587
+cur_epoch==== 195 cur_batch---- 99 g_step**** 31689 cost 4.3644295
+cur_epoch==== 196 cur_batch---- 99 g_step**** 31851 cost 4.3666124
+save checkpoint 32000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61, 48]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 18, 26, 37]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 22, 22, 42, 29]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 28, 22, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 8, 12, 9, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 12, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 30, 22, 36]
+6/12 6:17:17  step===32000, Epoch 198/1000, accuracy = 0.333,avg_train_cost = 4.627, lastbatch_err = 0.315, time = 132.118,lr=0.00072498
+
+cur_epoch==== 197 cur_batch---- 99 g_step**** 32013 cost 5.015544
+cur_epoch==== 198 cur_batch---- 99 g_step**** 32175 cost 4.027659
+cur_epoch==== 199 cur_batch---- 99 g_step**** 32337 cost 4.372017
+cur_epoch==== 200 cur_batch---- 99 g_step**** 32499 cost 4.85046
+save checkpoint 32500
+cur_epoch==== 201 cur_batch---- 99 g_step**** 32661 cost 4.291707
+cur_epoch==== 202 cur_batch---- 99 g_step**** 32823 cost 4.633732
+cur_epoch==== 203 cur_batch---- 99 g_step**** 32985 cost 5.1929274
+save checkpoint 33000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 20]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 32, 5]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 8, 12, 10]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 12, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 6:42:46  step===33000, Epoch 204/1000, accuracy = 0.424,avg_train_cost = 4.543, lastbatch_err = 0.312, time = 175.099,lr=0.00071773
+
+cur_epoch==== 204 cur_batch---- 99 g_step**** 33147 cost 4.4394884
+cur_epoch==== 205 cur_batch---- 99 g_step**** 33309 cost 4.0626225
+cur_epoch==== 206 cur_batch---- 99 g_step**** 33471 cost 4.085883
+save checkpoint 33500
+cur_epoch==== 207 cur_batch---- 99 g_step**** 33633 cost 4.2394705
+cur_epoch==== 208 cur_batch---- 99 g_step**** 33795 cost 4.3811564
+cur_epoch==== 209 cur_batch---- 99 g_step**** 33957 cost 4.231271
+save checkpoint 34000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[48, 52, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[28, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[36, 22, 26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 32, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[31, 28, 22, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 66, 59, 48]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 10, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 13, 15]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 7:8:16  step===34000, Epoch 210/1000, accuracy = 0.394,avg_train_cost = 4.470, lastbatch_err = 0.365, time = 217.735,lr=0.00071055
+
+cur_epoch==== 210 cur_batch---- 99 g_step**** 34119 cost 4.8918757
+cur_epoch==== 211 cur_batch---- 99 g_step**** 34281 cost 4.395018
+cur_epoch==== 212 cur_batch---- 99 g_step**** 34443 cost 4.544497
+save checkpoint 34500
+cur_epoch==== 213 cur_batch---- 99 g_step**** 34605 cost 5.7069125
+cur_epoch==== 214 cur_batch---- 99 g_step**** 34767 cost 3.6948557
+cur_epoch==== 215 cur_batch---- 99 g_step**** 34929 cost 4.1620865
+save checkpoint 35000
+seq   0: origin: [11, 8, 15, 8] decoded:[11, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 63]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[62, 66, 48, 48, 63, 62]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 26, 20]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[63, 58, 55, 63, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[61, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 35, 22, 42]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 22, 28, 35, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[46, 58, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 10, 12]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 62, 13]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 7:33:45  step===35000, Epoch 217/1000, accuracy = 0.364,avg_train_cost = 4.446, lastbatch_err = 0.331, time = 12.827,lr=0.00070345
+
+cur_epoch==== 216 cur_batch---- 99 g_step**** 35091 cost 4.599371
+cur_epoch==== 217 cur_batch---- 99 g_step**** 35253 cost 4.9536967
+cur_epoch==== 218 cur_batch---- 99 g_step**** 35415 cost 3.589147
+save checkpoint 35500
+cur_epoch==== 219 cur_batch---- 99 g_step**** 35577 cost 4.633723
+cur_epoch==== 220 cur_batch---- 99 g_step**** 35739 cost 3.7662995
+cur_epoch==== 221 cur_batch---- 99 g_step**** 35901 cost 4.1662064
+save checkpoint 36000
+seq   0: origin: [11, 8, 15, 8] decoded:[8, 15, 8]
+seq   1: origin: [48, 57, 63, 48, 61] decoded:[48, 57, 63, 48, 61]
+seq   2: origin: [22, 41, 26, 37] decoded:[22, 26, 37]
+seq   3: origin: [35, 22, 18, 21, 26, 31, 24] decoded:[35, 22, 18, 21, 26, 31, 24]
+seq   4: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36, 37]
+seq   5: origin: [36, 40, 22, 22, 37, 36] decoded:[36, 22, 22, 37, 36]
+seq   6: origin: [24, 35, 22, 22, 31, 40, 26, 20, 25] decoded:[18, 26]
+seq   7: origin: [63, 58, 55, 63, 48, 46] decoded:[68, 58, 55, 54, 48, 46]
+seq   8: origin: [21, 22, 36, 36, 22, 35, 37, 36] decoded:[21, 22, 36, 36, 22, 35, 37, 36]
+seq   9: origin: [55, 52, 49, 48] decoded:[55, 52, 49, 48]
+seq  10: origin: [23, 38, 27, 26] decoded:[23, 7, 22]
+seq  11: origin: [33, 51, 58, 63, 58] decoded:[58, 51, 58, 63, 58]
+seq  12: origin: [35, 39, 20, 18] decoded:[35, 22, 28, 36, 35]
+seq  13: origin: [20, 32, 40, 33, 22] decoded:[20, 32, 40, 33, 22]
+seq  14: origin: [37, 35, 18, 39, 22, 29] decoded:[37, 35, 18, 39, 22, 29]
+seq  15: origin: [12, 12, 4, 7, 8, 11, 12, 11] decoded:[12, 12, 4, 7, 8, 12, 9]
+seq  16: origin: [7, 16, 11, 4, 62, 50] decoded:[7, 16, 11, 4, 12, 13]
+seq  17: origin: [37, 25, 18, 30, 22, 36] decoded:[37, 25, 18, 30, 22, 36]
+6/12 7:59:13  step===36000, Epoch 223/1000, accuracy = 0.424,avg_train_cost = 4.195, lastbatch_err = 0.246, time = 55.307,lr=0.00069641
+
+cur_epoch==== 222 cur_batch---- 99 g_step**** 36063 cost 3.8309836
+cur_epoch==== 223 cur_batch---- 99 g_step**** 36225 cost 4.1301265
+cur_epoch==== 224 cur_batch---- 99 g_step**** 36387 cost 4.344839
+save checkpoint 36500
+cur_epoch==== 225 cur_batch---- 99 g_step**** 36549 cost 3.821866
+cur_epoch==== 226 cur_batch---- 99 g_step**** 36711 cost 3.5069594
